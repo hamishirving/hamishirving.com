@@ -1,0 +1,46 @@
+.link {
+	font-size: em(18);
+	display: inline-block;
+}
+
+a.highlight {
+    background-image: linear-gradient(180deg, transparent 65%, $color-primary 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: all .4s ease;
+
+    &.highlight-small {
+	    transition: all .2s ease;
+    }
+
+    &:hover {
+    	background-size: 100% 100%;
+    }
+}
+
+a.highlighted {
+    background-image: linear-gradient(180deg, transparent 65%, $color-primary 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all .2s ease;
+
+    // &:hover {
+    //     background-size: 0 100%;
+    // }
+}
+
+a.link-small {
+    background-image: linear-gradient(180deg, transparent 75%, $color-primary 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: all .2s ease;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+a.link-body {
+    font-family: $font-secondary;
+    font-weight: 600;
+}

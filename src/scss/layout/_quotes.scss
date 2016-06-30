@@ -1,0 +1,64 @@
+.quotes {
+	// padding: 5% 0;
+
+	.container {
+
+		.quote {
+			@include span-columns(6);
+
+			@include media($mobile) {
+				@include span-columns(12);
+
+				&:first-child {
+					margin-bottom: 60px;
+				}
+			}
+
+			.avatar {
+				@include span-columns(1 of 6);
+
+				img {
+					max-width: 100%;
+					border-radius: 50%;
+					background: $color-lightGrey;
+				}
+			}
+
+			.quote-content {
+				@include span-columns(5 of 6);
+
+				& > p {
+					margin-top: 0;
+					padding-right: 10%;
+				}
+
+				h2 {
+					margin-bottom: 10px;
+				}
+
+				.quote-footer {
+					display: inline-block;
+
+					p, a {
+						float: left;
+						font-family: $font-primary;
+						font-weight: 400;
+						line-height: 16px;
+						font-style: italic;
+						margin-top: 0;
+					}
+
+					p.small {
+						font-size: em(16);
+						margin-right: 20px;
+						margin-bottom: 0;
+
+						@include media($mobile-sm) {
+							margin-bottom: .5em;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.work-header {
+	padding: 5% 0;
+
+	&.home, &.work {
+		margin-top: 90px;
+	}
+
+	.container {
+
+		.work-header-heading {
+			@include span-columns(10);
+			@include shift(1);
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+	}
+}

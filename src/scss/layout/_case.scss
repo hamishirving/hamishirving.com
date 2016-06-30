@@ -1,0 +1,367 @@
+.case {
+	background: $color-white;
+	overflow: hidden;
+
+	.container {
+
+		// Top header section of each case study
+		.case-header {
+			// 8 cols wide in center
+			@include span-columns(10);
+			@include shift(1);
+			margin-bottom: 5%;
+			padding-bottom: 45px;
+			position: relative;
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+
+			// Full with dark line
+			&:after {
+				content: "";
+				width: 100%;
+				height: 6px;
+				background: $color-darkGrey;
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
+
+			ul {
+				padding: 0;
+				margin: 0;
+
+				li {
+					list-style: none;
+					padding-right: 5%;
+					color: $color-darkGrey;
+					font-family: $font-primary;
+					font-size: em(18);
+					line-height: 1.5;
+					font-style: italic;
+				}
+
+				& > .services-heading {
+					font-weight: 600;
+					color: $color-black;
+					margin-bottom: em(18);
+				}
+			}
+
+			ul.services {
+				@include span-columns(5 of 10);
+				position: relative;
+
+				// Vertical line divider
+				&:after {
+					content: "";
+					width: 2px;
+					height: 100%;
+					background: $color-lightGrey;
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+				}
+			}
+
+			.dates {
+				@include span-columns(5 of 10);
+
+				ul:first-child {
+					margin-bottom: 1.5em;
+				}
+			}
+		}
+
+		// Main body copy
+		.body-copy {
+			// 6 col wide in center
+			@include span-columns(6);
+			@include shift(3);
+
+			// on tablet 12 col wide (full width)
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+
+			// Case specific type styles
+
+			// For headings within body-copy (not first)
+			h1.heading:not(:first-child) {
+				margin-top: 1.5em;
+			}
+
+			p {
+				margin: 1.5em 0;
+			}
+
+			li {
+				margin: 1em 0;
+			}
+
+			ul li span {
+				font-weight: 600;
+			}
+
+			blockquote {
+				@include span-columns(8 of 6);
+				@include shift(-1);
+
+				@include media($tablet) {
+					@include span-columns(12);
+					@include shift(0);
+				}
+			}
+
+			.img-push {
+				// img with text 2 cols wider than normal copy
+				@include span-columns(8 of 6);
+				@include shift(-1);
+
+				// on tablet same width as normal copy (full width)
+				@include media($tablet) {
+					@include span-columns(12 of 12);
+					@include shift(0);
+				}
+
+				.img-push-copy {
+					// half of the available 8 cols
+					@include span-columns(4 of 8);
+
+					// Remove top margin from first p in image-push
+					p:first-child {
+						margin-top: 0;
+					}
+
+					// half of the available 12 cols
+					@include media($tablet) {
+						@include span-columns(6 of 12);
+					}
+
+					// all of the available 12 cols
+					@include media($mobile) {
+						@include span-columns(12);
+					}
+				}
+
+				.img-push-img {
+					// half of the available 8 cols
+					@include span-columns(4 of 8);
+
+					// half of the available 12 cols
+					@include media($tablet) {
+						@include span-columns(6 of 12);
+					}
+
+					// all of the available 12 cols
+					@include media($mobile) {
+						@include span-columns(12);
+					}
+
+					img {
+						max-width: 100%;
+					}
+
+					&.img-left {
+						padding-right: 20px;
+
+						@include media($mobile) {
+							padding: 0;
+						}
+					}
+
+					&.img-right {
+						padding-left: 20px;
+
+						@include media($mobile) {
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.iphone-section-wrapper {
+			@include span-columns(8);
+			@include shift(2);
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+
+			.iphone-section {
+				text-align: center;
+				width: 100%;
+				margin: 5% 0;
+				
+				.iphone {
+					width: 100%;
+					position: relative;
+
+					.iphone-device {
+						width: 100%;
+					}
+
+					.iphone-screen {
+						position: absolute;
+						background: #272E3A;
+						width: 37.3%;
+						height: 71.4%;
+						top: 14.4%;
+						left: 31.7%;
+						overflow: visible;
+
+						.swiper-wrapper, .swiper-slide {
+							height: 100%;
+						}
+
+						.swiper-slide {
+							transform: scale(.8,.8);
+							opacity: 0.4;
+							transition: all 300ms ease;
+						}
+
+						.swiper-slide-active {
+							opacity: 1;
+							transform: scale(1,1);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Full bleed img outside container
+	.full-bleed {
+		width: 100%;
+		max-width: 1440px;
+		margin: 5% auto;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	// 10 column section on homepage
+	.full-width {
+		@include span-columns(10 of 6);
+		@include shift(-2);
+
+		@include media($tablet) {
+			@include span-columns(12);
+			@include shift(0);
+		}
+
+		> p:first-child {
+			text-align: center;
+		}
+
+		.col-1, .col-2 {
+			@include span-columns(5 of 10);
+
+			@include media($mobile) {
+				@include span-columns(12);
+				@include omega;
+				margin: 0;
+			}
+
+			li {
+				margin-top: 0;
+			}
+		}
+	}
+
+	// Image contained within container (8 cols)
+	.contained {
+		@include span-columns(8);
+		@include shift(2);
+		margin-top: 5%;
+		margin-bottom: 5%;
+
+		img {
+			width: 100%;
+		}
+
+		@include media($tablet) {
+			@include span-columns(12);
+			@include shift(0);
+		}
+	}
+
+	.swipebox {
+		display: block;
+		cursor: zoom-in;
+	}
+
+	.browser-section {
+		text-align: center;
+		width: 100%;
+		margin: 5% 0;
+
+		.browser {
+			width: 100%;
+			position: relative;
+
+			.macbook {
+				width: 100%;
+			}
+
+			.browser-window {
+				position: absolute;
+				// top: 5.4%;
+				top: 14%;
+				left: 50%;
+				// height: 82.5%;
+				height: 72%;
+				// width: 55.5%;
+				width: 44.5%;
+				transform: translateX(-50.4%);
+				background: #fafafa;
+				border-radius: 2px;
+				overflow-y: scroll;
+				overflow-x: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.watch-section {
+		text-align: center;
+		width: 100%;
+		margin: 5% 0;
+
+		.watch {
+			width: 100%;
+			position: relative;
+
+			.apple-watch {
+				width: 100%;
+			}
+
+			.watch-window {
+				position: absolute;
+			    top: 29.8%;
+			    left: 49.5%;
+			    height: 39.9%;
+			    width: 19%;
+				transform: translateX(-50.4%);
+				background: $color-black;
+				border-radius: 2px;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.hero {
+	height: calc(100% - 90px);
+	width: 100%;
+	max-width: 1440px;
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: -90px;
+
+	@include media($tablet) {
+		height: 400px;
+	}
+
+	@include media($mobile) {
+		height: 200px;
+	}
+}

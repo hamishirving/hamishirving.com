@@ -1,0 +1,50 @@
+footer {
+	@include clearfix;
+	padding: 100px 0;
+	// text-align: center;
+	background: $color-black;
+	
+	.container {
+
+		p {
+			font-family: $font-primary;
+			color: $color-darkBlueGrey;
+			// font-weight: 600;
+			font-size: em(16);
+		}
+
+		.copyright, .social, .about {
+			@include span-columns(4);
+
+			@include media($mobile) {
+				@include span-columns(12);
+				text-align: center;
+			}	
+		}
+
+		ul.social {
+			margin: 0;
+			list-style-type: none;
+			padding-left: 0;
+			
+			li {
+				color: $color-blueGrey;
+				display: inline-block;
+				list-style-type: none;
+				font-family: $font-primary;
+			}
+		}
+
+		.about {
+			text-align: right;
+
+			@include media($mobile) {
+				text-align: center;
+			}
+
+			span {
+				margin: 0 10px 0 7px;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+.navbar {
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background: $color-white;
+
+	.container {
+
+		.brand {
+			float: left;
+			height: 50px;
+			margin-top: 20px;
+
+			.logo {
+				fill: $color-black;
+			    transition: all .2s ease;
+
+				&:hover {
+					fill: $color-primary;
+				}
+			}
+		}
+
+		ul.nav-links {
+			float: right;
+			padding: 0;
+			font-size: 1em;
+			height: 40px;
+			margin: 25px 0;;
+
+			li {
+				display: inline-block;
+				margin-left: 60px;
+				font-size: 1em;
+				padding: 7.5px 0;
+
+				@include media($mobile) {
+					margin-left: 20px;
+				}
+
+				a {
+					position: relative;
+					display: block;
+
+					&.active {
+				        background-size: 100% 100%;
+					}
+				}
+			}
+		}
+	}
+}

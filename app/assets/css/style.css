@@ -1602,7 +1602,8 @@ footer {
       display: block;
       margin-right: 4.82916%;
       width: 134.94305%;
-      margin-left: -17.47153%; }
+      margin-left: -17.47153%;
+      float: none; }
       .case .container .body-copy blockquote:last-child {
         margin-right: 0; }
       @media screen and (max-width: 768px) {
@@ -1725,6 +1726,8 @@ footer {
           top: 14.4%;
           left: 31.7%;
           overflow: visible; }
+          .case .container .iphone-section-wrapper .iphone-section .iphone .iphone-screen img {
+            width: 100%; }
           .case .container .iphone-section-wrapper .iphone-section .iphone .iphone-screen .swiper-wrapper, .case .container .iphone-section-wrapper .iphone-section .iphone .iphone-screen .swiper-slide {
             height: 100%; }
           .case .container .iphone-section-wrapper .iphone-section .iphone .iphone-screen .swiper-slide {

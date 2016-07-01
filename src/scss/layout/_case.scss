@@ -111,6 +111,7 @@
 			blockquote {
 				@include span-columns(8 of 6);
 				@include shift(-1);
+				float: none;
 
 				@include media($tablet) {
 					@include span-columns(12);
@@ -217,6 +218,10 @@
 						left: 31.7%;
 						overflow: visible;
 
+						img {
+							width: 100%;
+						}
+
 						.swiper-wrapper, .swiper-slide {
 							height: 100%;
 						}
@@ -278,6 +283,7 @@
 	}
 
 	// Image contained within container (8 cols)
+	// Goes inside container, outside body-copy
 	.contained {
 		@include span-columns(8);
 		@include shift(2);

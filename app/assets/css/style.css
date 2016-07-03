@@ -1123,7 +1123,7 @@ html {
     .section {
       padding: 15% 0; } }
   .section.first-section {
-    margin-top: 100px; }
+    margin-top: 1em; }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -1328,11 +1328,10 @@ a.highlight {
   a.highlight:hover {
     background-size: 100% 100%; }
 
-a.highlighted {
+a.highlighted, span.highlighted {
   background-image: linear-gradient(180deg, transparent 65%, #00FF89 0);
   background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transition: all .2s ease; }
+  background-repeat: no-repeat; }
 
 a.link-small {
   background-image: linear-gradient(180deg, transparent 75%, #00FF89 0);
@@ -1360,9 +1359,12 @@ a.link-body {
     margin-top: 20px; }
     .navbar .container .brand .logo {
       fill: #262C30;
+      background-image: linear-gradient(180deg, transparent 65%, #00FF89 0);
+      background-size: 0 100%;
+      background-repeat: no-repeat;
       transition: all .2s ease; }
       .navbar .container .brand .logo:hover {
-        fill: #00FF89; }
+        background-size: 100% 100%; }
   .navbar .container ul.nav-links {
     float: right;
     padding: 0;
@@ -1411,14 +1413,22 @@ footer {
         footer .container .copyright:last-child, footer .container .social:last-child, footer .container .about:last-child {
           margin-right: 0; } }
   footer .container ul.social {
+    text-align: center;
     margin: 0;
     list-style-type: none;
     padding-left: 0; }
     footer .container ul.social li {
       color: #F0F4F6;
       display: inline-block;
+      vertical-align: middle;
+      margin: 16px 10px;
       list-style-type: none;
       font-family: "Source Sans Pro", sans-serif; }
+      footer .container ul.social li .svg {
+        fill: #688a9e;
+        transition: all 300ms ease; }
+        footer .container ul.social li .svg:hover {
+          fill: #F0F4F6; }
   footer .container .about {
     text-align: right; }
     @media screen and (max-width: 480px) {
@@ -1593,9 +1603,11 @@ footer {
       margin-top: 1.5em; }
     .case .container .body-copy p {
       margin: 1.5em 0; }
+    .case .container .body-copy em {
+      color: #262C30; }
     .case .container .body-copy li {
       margin: 1em 0; }
-    .case .container .body-copy ul li span {
+    .case .container .body-copy .col-1 span, .case .container .body-copy .col-2 span {
       font-weight: 600; }
     .case .container .body-copy blockquote {
       float: left;
@@ -1907,6 +1919,21 @@ footer {
         color: #575757;
         font-style: italic;
         font-weight: 400; }
+  .case-previews .container .case-preview-xs {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .case-previews .container .case-preview-xs:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 480px) {
+      .case-previews .container .case-preview-xs {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .case-previews .container .case-preview-xs:last-child {
+          margin-right: 0; } }
   .case-previews .container .case-preview-sm {
     float: left;
     display: block;

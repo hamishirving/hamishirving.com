@@ -70,6 +70,15 @@
 			}
 		}
 
+		.case-preview-xs {
+			@include span-columns(6);
+			// @include omega(2n);
+
+			@include media($mobile) {
+				@include span-columns(12);
+			}
+		}
+
 		.case-preview-sm {
 			@include span-columns(5);
 			@include omega(2n);

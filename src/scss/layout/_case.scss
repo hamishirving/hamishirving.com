@@ -100,11 +100,15 @@
 				margin: 1.5em 0;
 			}
 
+			em {
+				color: $color-black;
+			}
+
 			li {
 				margin: 1em 0;
 			}
 
-			ul li span {
+			.col-1 span, .col-2 span {
 				font-weight: 600;
 			}
 

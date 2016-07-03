@@ -29,8 +29,8 @@ $tablet			: 		new-breakpoint(max-width 768px);
 		padding: 15% 0;
 	}
 
-	// For sections without a heading beforehand
+	// For sections without a heading beforehand (Work & About pages)
 	&.first-section {
-		margin-top: 100px;
+		margin-top: 1em;
 	}
 }

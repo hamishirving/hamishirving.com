@@ -18,15 +18,10 @@ a.highlight {
     }
 }
 
-a.highlighted {
+a.highlighted, span.highlighted {
     background-image: linear-gradient(180deg, transparent 65%, $color-primary 0);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    transition: all .2s ease;
-
-    // &:hover {
-    //     background-size: 0 100%;
-    // }
 }
 
 a.link-small {

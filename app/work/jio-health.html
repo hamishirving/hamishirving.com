@@ -137,8 +137,25 @@
                 </div>
               </div>
             </div>
-            <figcaption>Users search for a park in their area, view the details and book.</figcaption>
+            <figcaption>Consumers are able to search for physicians, view their profile and book a telemedicine consultation.</figcaption>
           </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="body-copy">
+          <h1 class="heading">Web presence</h1>
+          <p>To coincide with the launch of the Jio service in Vietnam, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed a redesigned in order to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
+          <div class="img-push">
+            <div class="img-push-copy">
+              <p>Having evaluated many options, I decided to use a great little CMS called <a class="link-body highlight highlight-small" href="https://grabaperch.com/" target="_blank">Perch.</a>
+              It met all our current requirements while also being flexible enough to expand with us in the future.</p>
+              <p>Developing with Perch is great because it doesn't impose any particular conventions on how you build your front-end. It also has a really simple admin interface which makes it easy for admin users to add content.</p>
+            </div>
+            <figure class="img-push-img img-right">
+              <img src="../assets/img/jio-cms.jpg">
+              <figcaption>Buidling on top of a Content Management System made it easier to support multiple languages.</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
       <figure class="full-bleed">
@@ -150,13 +167,13 @@
           <h1 class="heading">Growing Pains</h1>
           <p>With four apps out in the wild - Consumer & Physician apps on both iOS and Android - and a growing feature set on each, maintinaing design consistency between them was becoming difficult. Jio had progressed to this point over many months and some of the older features were starting to show their age.</p>
           <p>It was time was take stock of the current situation and begin efforts to consolidate the design across the service, it was time to create a Style Guide.</p>
-          <p>There are many benefits to creating a Style Guide and I would encourage any product owner to think about this early in their evolution as it only becomes more difficult to maintain consistency as time goes on. The benefits include:</p>
+          <p>There are many benefits to creating a Style Guide and I would encourage any product owner to think about this early in their evolution as it only becomes more difficult to build as time goes on. The benefits include:</p>
           <ul>
             <li>Visual consistency helps make an interface less confusing to users. There is often a lot of inconsistency across apps due to the time spans in which they were developed.</li>
             <li>It speeds up the definition of new features. By having a library of pre-designed components, you can pick and choose which existing elements can be used to make up new screens.</li>
             <li>It speeds up development. The pre-designed components can be used by developers to prototype new features quickly without relying on completed designs to start development.</li>
             <li>When these elements are coded in a modular way, developers can easily choose from pre-developed components to build new features.</li>
-            <li>You will eventually reach a point where very little new elements need to be designed. For any new app features, the default should be to look to the Style Guide to select components from, if the element doesnt exist then it becomes a candidate for addition to the Style Guide.</li>
+            <li>You will eventually reach a point where very little new elements need to be designed. For any new app features, the default should be to look to the Style Guide to select components from, if the element doesn't exist then it becomes a candidate for addition to the Style Guide.</li>
           </ul>
         </div>
       </div>
@@ -167,29 +184,82 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Designing Design</h1>
-          <p>With a growing userbase, feedback and new feature requests started to roll in from our users. As a product team we also had our own ideas about what items should come next and our sales & marketing team was gaining some great insights out in the field.</p>
-          <p>I recognised that we needed to add some more structure to the way we prioritised features for development and started to research how other companies manage product. Thankfully, companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> do a great job of documenting some of the processes they use to develop their products and I was able to distill down our own product development process for Jio.</p>
-          <p>A simple one-page brief helped us to make clearer product decisions by:</p>
+          <p>With a growing userbase, feedback and new feature requests started to roll in from our users. As a product team we had our own ideas about what items should be on the roadmap and our sales & marketing team were generating some great insights out in the field.</p>
+          <p>Filtering through all the requests was becoming difficult and I recognised that we needed to add more structure to the way we prioritised features for development so I started to research how other companies manage product. Thankfully, companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> do a great job of documenting some of their processes and I was able to distill down our own product development guidelines for Jio.</p>
+          <p>Before any feature could be considered for inclusion, a simple one-page brief needed to be completed. It helped to:</p>
           <ul>
-            <li>Identifying if the feature was a smaller incremental change or a big game-changer which aligned with the product vision. This helped with prioritisation later.</li>
-            <li>Ensured that the team was clear <strong>why</strong> the feature was being considered. The why needed to be anchored to a user benefit and not just because an investor asked for it.. well sometimes it was because an investor asked for it.. 🙄</li>
-            <li></li>
+            <li>Identify if the feature was a smaller incremental change or a big game-changer which aligned with the product vision. This helped with prioritisation later.</li>
+            <li>Ensure that the team was clear <strong>why</strong> the feature was being considered. The why needed to be anchored to a user benefit and not just because an investor asked for it.. well sometimes it was because an investor asked for it.. 🙄</li>
+            <li>Idetify what was in scope and sometimes more importantly what was out of scope.</li>
+            <li>Define some success metrics so that the feature could be evalauted after implementation.</li>
           </ul>
+          <p>The process helped us become a lot more intentional about which features we were building. It allowed us to be proactive and make sure we were making progress towards our vision, and not just reactive to the wave of requests coming in from various sources.</p>
         </div>
         <figure class="contained">
           <img src="../assets/img/jio-product.jpg" alt="">
-          <figcaption>Physicians could then follow up with the patient via a phone call.</figcaption>
+          <figcaption>I devised a Feature Brief Template to use for all new feature requests.</figcaption>
         </figure>
+        <div class="body-copy">
+          <p>I remain in regular contact with Jio and continue to consult for them on a part-time basis providing high level strategic advice and design mentorship for their in-house designer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section case-previews case-footer">
+      <div class="container">
+        <div class="case-preview case-preview-lg">
+          <a href="medopad.html">
+            <div class="case-preview-img-wrap">
+              <div class="case-preview-img" style="background: url('../assets/img/medo-hero.jpg'); background-size: cover; background-position: center center; ">
+              </div>
+            </div>
+          </a>
+          <div class="case-preview-text">
+            <h1 class="heading"><a href="medopad.html" class="highlight">Better cancer management with connected devices</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">5 min read</p>
+          </div>
+        </div>
+        <div class="case-preview case-preview-sm">
+          <a href="real-estate-tube.html">
+            <div class="case-preview-img-wrap">
+              <div class="case-preview-img" style="background: url('../assets/img/ret-hero.jpg'); background-size: cover; background-position: center center; ">
+              </div>
+            </div>
+          </a>
+          <div class="case-preview-text">
+            <h1 class="heading"><a href="real-estate-tube.html" class="highlight">Use video to sell your property</a></h1>
+            <p class="small">Showcase</p>
+            <p class="read-time">3 min read</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <footer class="section">
       <div class="container">
+      <div class="copyright">
+        <p>&copy; Hamish Irving 2016</p>
+      </div>
         <ul class="social">
-          <li><a href="/">Icon 1</a></li>
-          <li><a href="/">Icon 2</a></li>
-          <li><a href="/">Icon 3</a></li>
+          <li><a href="https://twitter.com/HamishAIrving" target="_blank">
+            <svg class="svg" version="1.1" x="0px" y="0px" width="30px" height="24.4px" viewBox="0 0 30 24.4" style="enable-background:new 0 0 30 24.4;" xml:space="preserve">
+              <path d="M30,2.9c-1.1,0.5-2.3,0.8-3.5,1c1.3-0.8,2.2-2,2.7-3.4c-1.2,0.7-2.5,1.2-3.9,1.5C24.1,0.7,22.5,0,20.8,0c-3.4,0-6.2,2.8-6.2,6.2c0,0.5,0.1,1,0.2,1.4C9.7,7.3,5.1,4.9,2.1,1.1C1.6,2,1.3,3.1,1.3,4.2c0,2.1,1.1,4,2.7,5.1C3,9.3,2,9,1.2,8.6c0,0,0,0.1,0,0.1c0,3,2.1,5.5,4.9,6c-0.5,0.1-1.1,0.2-1.6,0.2c-0.4,0-0.8,0-1.2-0.1c0.8,2.4,3.1,4.2,5.7,4.3c-2.1,1.7-4.8,2.6-7.6,2.6c-0.5,0-1,0-1.5-0.1c2.7,1.7,6,2.8,9.4,2.8c11.3,0,17.5-9.4,17.5-17.5c0-0.3,0-0.5,0-0.8C28.1,5.2,29.2,4.1,30,2.9z"/>
+            </svg>
+          </a></li>
+          <li><a href="https://www.instagram.com/hamishirving/" target="_blank">
+            <svg class="svg" version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+            <path d="M19.3,12c0,4-3.2,7.3-7.3,7.3c-4,0-7.3-3.2-7.3-7.3c0-0.5,0-0.9,0.1-1.4H0v9.6C0,22.3,1.7,24,3.8,24h16.5
+              c2.1,0,3.8-1.7,3.8-3.8v-9.6h-4.9C19.2,11.1,19.3,11.5,19.3,12z M20.2,0H3.8C1.7,0,0,1.7,0,3.8v4.1h6.1C7.4,6,9.6,4.7,12,4.7
+              c2.4,0,4.6,1.2,5.9,3.1H24V3.8C24,1.7,22.3,0,20.2,0z M22.1,4.6c0,0.4-0.3,0.7-0.7,0.7h-2c-0.4,0-0.7-0.3-0.7-0.7v-2
+              C18.7,2.3,19,2,19.4,2h2c0.4,0,0.7,0.3,0.7,0.7V4.6z M16.5,12c0-2.5-2-4.5-4.5-4.5c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5
+              C14.5,16.5,16.5,14.5,16.5,12z"/>
+            </svg>
+          </a></li>
         </ul>
+        <div class="about">
+          <p>Built with<span>☕</span>power by me.</p>
+        </div>
       </div>
     </footer>
 

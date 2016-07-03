@@ -1,7 +1,6 @@
 footer {
 	@include clearfix;
 	padding: 100px 0;
-	// text-align: center;
 	background: $color-black;
 	
 	.container {
@@ -23,6 +22,7 @@ footer {
 		}
 
 		ul.social {
+			text-align: center;
 			margin: 0;
 			list-style-type: none;
 			padding-left: 0;
@@ -30,8 +30,19 @@ footer {
 			li {
 				color: $color-blueGrey;
 				display: inline-block;
+				vertical-align: middle;
+				margin: 16px 10px;
 				list-style-type: none;
 				font-family: $font-primary;
+
+				.svg {
+					fill: $color-darkBlueGrey;
+					transition: all 300ms ease;
+
+					&:hover {
+						fill: $color-blueGrey;
+					}
+				}
 			}
 		}
 

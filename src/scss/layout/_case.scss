@@ -66,6 +66,10 @@
 					right: 0;
 					bottom: 0;
 				}
+
+				@include media($mobile) {
+					padding: 0 5% 0 0;
+				}
 			}
 
 			.dates {
@@ -73,6 +77,10 @@
 
 				ul:first-child {
 					margin-bottom: 1.5em;
+				}
+
+				@include media($mobile) {
+					padding: 0 0 0 5%;
 				}
 			}
 		}
@@ -115,18 +123,29 @@
 			blockquote {
 				@include span-columns(8 of 6);
 				@include shift(-1);
+				margin-top: 2em;
 				float: none;
 
 				@include media($tablet) {
 					@include span-columns(12);
 					@include shift(0);
+					float: none;
+				}
+
+				p {
+					margin: .5em 0;
 				}
 			}
 
 			.img-push {
 				// img with text 2 cols wider than normal copy
-				@include span-columns(8 of 6);
-				@include shift(-1);
+				@include span-columns(12 of 6);
+				@include shift(-3);
+
+				// Adjacent sibling selector (two imgages next to each other)
+				+ .img-push {
+					margin-top: 1em;
+				}
 
 				// on tablet same width as normal copy (full width)
 				@include media($tablet) {
@@ -136,7 +155,7 @@
 
 				.img-push-copy {
 					// half of the available 8 cols
-					@include span-columns(4 of 8);
+					@include span-columns(3 of 12);
 
 					// Remove top margin from first p in image-push
 					p:first-child {
@@ -156,7 +175,7 @@
 
 				.img-push-img {
 					// half of the available 8 cols
-					@include span-columns(4 of 8);
+					@include span-columns(9 of 12);
 
 					// half of the available 12 cols
 					@include media($tablet) {
@@ -218,7 +237,7 @@
 						background: #272E3A;
 						width: 37.3%;
 						height: 71.4%;
-						top: 14.4%;
+						top: 13.7%;
 						left: 31.7%;
 						overflow: visible;
 
@@ -239,6 +258,22 @@
 						.swiper-slide-active {
 							opacity: 1;
 							transform: scale(1,1);
+						}
+					}
+
+					.swiper-pagination, .swiper-pagination-2 {
+						position: relative;
+						width: 100%;
+						text-align: center;
+						padding: 10px 0;
+						margin-bottom: 10px;
+
+						.swiper-pagination-bullet {
+							margin: 0 5px;
+						}
+
+						.swiper-pagination-bullet-active {
+							background: $color-black;
 						}
 					}
 				}
@@ -293,6 +328,7 @@
 		@include shift(2);
 		margin-top: 5%;
 		margin-bottom: 5%;
+		text-align: center;
 
 		img {
 			width: 100%;
@@ -302,11 +338,21 @@
 			@include span-columns(12);
 			@include shift(0);
 		}
-	}
 
-	.swipebox {
-		display: block;
-		cursor: zoom-in;
+		.swiper-pagination {
+			position: relative;
+			padding: 10px 0;
+			margin-bottom: 10px;
+			width: 100%;
+
+			.swiper-pagination-bullet {
+				margin: 0 5px;
+			}
+
+			.swiper-pagination-bullet-active {
+				background: $color-black;
+			}
+		}
 	}
 
 	.browser-section {

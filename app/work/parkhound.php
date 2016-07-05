@@ -39,9 +39,9 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="../about" class="link highlight highlight-small">About</a></li>
+          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -66,40 +66,50 @@
           </div>
         </div>
         <div class="body-copy">
-          <h1 class="heading">Intro</h1>
-          <p><a class="link-body highlight highlight-small" href="http://www.parkhound.com.au" target="_blank">Parkhound</a> is an online car parking Marketplace based in Australia where Sellers make extra cash by listing their spare parking spaces and Buyers find cheap parking options in and around cities and suburbs. The service launched at the end of 2013 and has gained steady traction since, providing a valuable solution to the parking crisis in Australia.</p>
+          <h1 class="heading">Introduction</h1>
+          <p><a class="link-body highlight highlight-small" href="http://www.parkhound.com.au" target="_blank">Parkhound</a> is an online car parking Marketplace based in Australia where Sellers make extra cash by listing their spare parking spaces and Buyers find cheap parking options in and around cities and suburbs.</p>
+          <div class="img-push">
+            <div class="img-push-copy">
+              <p>The service launched at the end of 2013 and has gained steady traction since, providing a valuable solution to the parking crisis in Australia.</p>
+            </div>
+            <figure class="img-push-img img-right">
+              <img src="../assets/img/ph-fine.jpg">
+              <figcaption>Finding affordable car parking can be expensive business.</figcaption>
+            </figure>
+          </div>
         </div>
-        <figure class="contained">
+<!--         <figure class="contained">
           <img src="../assets/img/ph-fine.jpg" alt="">
-          <figcaption>Finding affordable car parking can be expensive business.</figcaption>
-        </figure>
+          <figcaption>Finding affordable car parking can be an expensive business.</figcaption>
+        </figure> -->
         <div class="body-copy">
           <h1 class="heading">The Problem</h1>
           <p>Parking marketplaces already existed in Australia along with successful implementations internationally such as JustPark in the UK. Competition is always a good sign because it validates that there is a market that can sustain a business.
           <p>When creating any marketplace you are always faced with a chicken and egg scenario whereby you need content to entice buyers while at the same time needing to attract sellers with a growing userbase of buyers.</p>
           <p>We decided to focus on Sellers first, allowing them to create content while also testing our assumptions that Australia was ready for another marketplace. We created a MVP with a simple Shopify template which allowed us to upload listings, meanwhile I designed a landing page for Parkhound to explain the proposition and direct users to the Shopify site.</p>
-          <p>We also started engaging with the public through social media and through the webiste which is where the creation of the brand really helped us tell a story. One feature we explored was a place where users could tell their own parking horror stories, providing users a way to vent their frustration while resonating with the problem we were tyring to solve.</p>
+          <p>We also started engaging with the public through social media and through the webiste which is where the creation of the brand really helped us tell a story. One feature we explored was a place where users could tell their own parking horror stories, providing users a way to vent their frustration while resonating with the problem we were trying to solve.</p>
         </div>
         <div class="contained">
           <img src="../assets/img/ph-horror-stories.gif" alt="">
         </div>
         <div class="body-copy">
           <h1 class="heading">Branding</h1>
-          <p>The goal was to really stand out from the competition, to create something that was personable and that we could create a story around. The brand needed to communicate community, that we were fun and happy beacause our parking was taken care of and that we didn’t mind having a joke at the expense of those pesky parking wardens.</p>
+          <p>The goal was to really stand out from the competition, to create something that was personable, that we could create a story around. The brand needed to communicate community, that we were fun and happy beacause our parking was taken care of and that we didn’t mind having a joke at the expense of those pesky parking wardens.</p>
           <p>We also wanted to show that our service was simple, that we would do all the legwork and leave the user with one less thing to worry about.</p>
           <p>After iterating through a number of parking related symbols, I felt that they were too generic and would be difficult to create a personality around, that’s when I conceived the idea of using man’s best friend. Always dedicated to helping his master and always keen for a hunt. This symbol helped us create some branded terminology for our users, who we always welcome to the ‘pack’.</p>
         </div>
         <div class="contained">
           <img src="../assets/img/ph-tweet.png" alt="">
         </div>
+      </div>
+      <figure class="full-bleed">
+        <img src="../assets/img/ph-brand.jpg" alt="">
+        <figcaption>Some of the elements from the Parkhound Brand Guidelines.</figcaption>
+      </figure>
+      <div class="container">
         <div class="body-copy">
-          <h1 class="heading">Price negotiation</h1>
-          <p>Early on we realised that the ability to negotiate on the price of a booking would be important to Buyers. The functionality was de-scoped from earlier versions of the product due to complexity, soin the interim we tried to focus on helping sellers set realistic prices for their parking spaces. We found data which gave us a good indication of parking prices based on a users postcode and were able to present this back to Sellers in the form of suggested prices when they were listing their space. (show create listing screen)</p>
-          <p>Now Sellers can enable Price Negotiation through their dashboard which populates a ‘Make Offer’ button on their listing, this way Buyers who aren’t happy with the advertised price can make an offer. We provide quick options enabling the Buyer to select a percentage amount, or they can enter their own absolute figure based on the booking dates they have selected. The new feature has duel benefits, as it allows Buyers to negotiate a fairer price, while it also allows Sellers to test the market and really develop pricing which matches demand for their spaces.</p>
-          <blockquote>
-            <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
-            <cite>Michael Nuciforo - Co Founder</cite>
-          </blockquote>
+          <h1 class="heading">Responsive Design</h1>
+          <p>We knew the web app needed to be designed responsively so that it worked seamlessly on all devices. Booking parking spaces for long periods ahead of time translated well to desktop however we wanted to encourage the behaviour of finding parking spaces in real time when on the move. This required a solution that worked equally as well on mobile.</p>
         </div>
       </div>
       <figure class="full-bleed">
@@ -108,31 +118,56 @@
       </figure>
       <div class="container">
         <div class="body-copy">
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p>Back in New Zealand, the national sport is unboubtedly Rugby Union. I was brought up to love the game and lucky enough to play it from time to time.</p>
-              <p>I currently play semi-professionally for a club here in the UK called Bishops Stortford.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="../assets/img/ret-sketch.jpg">
-              <figcaption>They aint pretty, but they help my process big time.</figcaption>
-            </figure>
-          </div>
-          <h1 class="heading">Mapping the streets</h1>
-          <p>An exciting new feature to Parkhound is the ability to view Street Parking information in select cities, where you can look up the parking restrictions for specific parking signs ahead of time. This is an unprecedented feature which hasn’t been done anywhere else and gives users some excellent insights into when certain streets might be available to park for free, where disabled parking is located and the cost of parking at metered spots.</p>
-          <p>Being a new feature, educating the user around the new capabilities was important. When the user first enables the functionality on the Search Results map, a popup with a slider is displayed showing the user how to interact with the new functionality (show screenshot of slide).</p>
+          <p>Early on this meant that I designed all screens at Desktop, Tablet and Mobile screen sizes, making sure that content was shifted and prioritised to meet the needs of the user on that device. However I recognised that this wasn't a very efficient way of communicating designs to our developers. We needed to start creating a set of re-usable components, we needed to create a Style Guide.</p>
+          <p>The Style Guide would be a living document, whose HTML structure, class naming conventions and css(sass) styles would be used to define the front-end of the app. It would be a single source of truth where developers could come to pick and choose individual elements to make up the app flows, meaning they could worry less about the design and more about the complex functionality.</p>
         </div>
         <figure class="contained">
-          <img src="../assets/img/ph-demo-slides.jpg" alt="">
-          <figcaption>Screenshot of intoduction slide.</figcaption>
+          <img src="../assets/img/ph-style-guide.jpg" alt="">
+          <figcaption>I started developing a Living Style Guide.</figcaption>
+        </figure>
+      </div>
+      <!--
+      <div class="container">
+        <div class="body-copy">
+          <h1 class="heading">Price negotiation</h1>
+          <p>Early on we realised that the ability to negotiate on the price of a booking would be important to Buyers. The functionality was de-scoped from earlier versions of the product due to complexity, so in the interim we tried to focus on helping sellers set realistic prices for their parking spaces. We found data which gave us a good indication of parking prices based on a users postcode and were able to present this back to Sellers in the form of suggested prices when they were listing their space. (show create listing screen)</p>
+          <p>Now Sellers can enable Price Negotiation through their dashboard which populates a ‘Make Offer’ button on their listing, this way Buyers who aren’t happy with the advertised price can make an offer. We provide quick options enabling the Buyer to select a percentage amount, or they can enter their own absolute figure based on the booking dates they have selected. The new feature has duel benefits, as it allows Buyers to negotiate a fairer price, while it also allows Sellers to test the market and really develop pricing which matches demand for their spaces.</p>
+          <blockquote>
+            <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
+            <cite>Michael Nuciforo - Co Founder</cite>
+          </blockquote>
+        </div>
+      </div>
+      -->
+      <div class="container">
+        <div class="body-copy">
+          <h1 class="heading">Mapping the streets</h1>
+          <p>An unprecidented feature to Parkhound is the ability to view Street Parking information in select cities, where you can look up the parking restrictions for specific parking signs ahead of time. This gives users some excellent insights into when certain streets might be available to park for free, where disabled parking is located and the cost of parking at metered spots.</p>
+          <p>Being a new feature, educating the user around the new capabilities was important. When the user first enables the functionality on the Search Results map, a popup with a slider is displayed showing the user how to interact with the new functionality.</p>
+        </div>
+        <figure class="contained">
+          <div class="swiper-container swiper-contained">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-contained-slide">
+                <img src="../assets/img/ph-demo-slides.jpg" alt="">
+              </div>
+              <div class="swiper-slide swiper-contained-slide">
+                <img src="../assets/img/ph-demo-slides-2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <figcaption>Introduction slides explaining the new functionality.</figcaption>
         </figure>
         <div class="body-copy">
+          <!--
           <h1 class="heading">Mapping the streets cont...</h1>
           <p>Presenting the parking information on the already crowded map was a challenge, so I designed a toggle which allows users to choose which information is overlaid on the screen and ensures that the experience is seamless whether on desktop, tablet or mobile.</p>
           <p>We are currently working on the ability to crowdsource this information by allowing users to upload sign information themselves via their mobile. This presents a whole new challenge around trying to make the process of capturing complicated data as easy as possible in order to ensure that the user stays motivated and to ensure the quality of data being inputted into the system.</p>
           <h1 class="heading">Layaway</h1>
           <p>A lot of the bookings made through Parkhound are for longer periods of time, sometimes up to year in advance and the price of these can be quite a shock to Buyers. The founders decided to introduce Payment Plans as a means to spread the cost of a booking over individual monthly payments. This was provided as an option alongside making full payment and we wanted to be really clear with the user about the expectations of the payment plan. </p>
           <p>This proved to be a difficult design challenge as we needed to show a lot of information for each stage of the plan dynamically based on the dates of the booking and whether or not a bond was included. Presenting all of this information in an expandable table allows users to minimise the information if required, making a potentially long page easier to navigate (especially on mobile).</p>
+          -->
           <h1 class="heading">Going native</h1>
           <p>It became important early on that we had a presence in the app store and that we could provide a native Parkhound experience to our users. Because the website had been designed to be responsive, we were able to take a hybrid approach with the early version of the app and provide some native functionality while we developed a more robust set of api’s on the back-end. This way any features that we hadn’t yet developed for iOS, we could call a web view in the app without degrading the user experience.</p>
         </div>
@@ -149,12 +184,13 @@
                   <div class="swiper-slide" style="background:url('../assets/img/ph-enquiry-success.jpg') no-repeat; background-size: contain;"></div>
                 </div>
               </div>
+              <div class="swiper-pagination-2"></div>
             </div>
             <figcaption>Users search for a park in their area, view the details and book.</figcaption>
           </figure>
         </div>
         <div class="body-copy">
-          <p>The app is constantly receiving updates and becoming closer to feature parity with the website. The app was featured in the Australian App Store and has received more than 7,000 downloads, proving that the hybrid approach was a viable option to </p>
+          <p>The app is constantly receiving updates and becoming closer to feature parity with the website. The app was featured in the Australian App Store and has received more than 7,000 downloads.</p>
         </div>
         <figure class="contained">
           <img src="../assets/img/ph-featured.jpg" alt="">
@@ -166,29 +202,29 @@
     <section class="section case-previews">
       <div class="container">
         <div class="case-preview case-preview-sm">
-          <a href="real-estate-tube.html">
+          <a href="real-estate-tube">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/ret-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="real-estate-tube.html" class="highlight">Use video to sell your property</a></h1>
-            <p class="small">Showcase</p>
-            <p class="read-time">3 min read</p>
+            <h1 class="heading"><a href="real-estate-tube" class="highlight">Use video to sell your property</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">4 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-lg">
-          <a href="medopad.html">
+          <a href="medopad">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/medo-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="medopad.html" class="highlight">Better cancer management with connected devices</a></h1>
+            <h1 class="heading"><a href="medopad" class="highlight">Better cancer management with connected devices</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">3 min read</p>
           </div>
         </div>
       </div>
@@ -228,6 +264,17 @@
     <script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 20,
+      grabCursor: true,
+      slideToClickedSlide: true,
+      pagination: '.swiper-pagination-2'
+    });
+    </script>
+    <script>
+    var swiper = new Swiper('.swiper-contained', {
+      speed: 700,
+      grabCursor: true,
+      autoplay: 3000,
+      pagination: '.swiper-pagination'
     });
     </script>
 

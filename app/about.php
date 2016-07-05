@@ -36,77 +36,73 @@
               <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
             </g>
             </svg>
-            <!-- <img src="assets/img/logo.svg" height="40px" width="30px" alt="Logo"> -->
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="about" class="link highlight highlight-small">About</a></li>
+          <li><a href="contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
-
-    <section class="work-header work">
+    
+    <section class="section case first-section">
       <div class="container">
-        <div class="work-header-heading">
-          <h1 class="heading">Recent partnerships I've had with founders.</h1>
-        </div>
-      </div>
-    </section>
-
-    <section class="section case-previews">
-      <div class="container">
-        <div class="case-preview case-preview-lg">
-          <a href="work/jio-health.html">
-            <div class="case-preview-img-wrap">
-              <div class="case-preview-img" style="background: url('assets/img/jio-hero.jpg'); background-size: cover; background-position: center center; ">
-              </div>
+        <div class="body-copy">
+          <h1 class="heading">About</h1>
+          <p>I've worked with many startups & founders just like you to bring their ideas to life. You may not have had a lot of experience building products before, that's where I can help.</p>
+          <div class="img-push">
+            <div class="img-push-copy">
+              <p>Being a designer means that I will always be a voice for the user and consider their perspectives first. This will help you achieve two things:
+              <ul>
+                <li>Create a product that users love and want to tell their friends about.</li>
+                <li>Build a sustainable business so you can continue to create a product that users love.</li>
+              </ul>
             </div>
-          </a>
-          <div class="case-preview-text">
-            <h1 class="heading"><a href="work/jio-health.html" class="highlight">Connecting physicians and patients for better health</a></h1>
-            <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <figure class="img-push-img img-right">
+              <img src="assets/img/me.jpg">
+              <figcaption>Concentration face.</figcaption>
+            </figure>
           </div>
         </div>
-        <div class="case-preview case-preview-sm">
-          <a href="work/real-estate-tube.html">
-            <div class="case-preview-img-wrap">
-              <div class="case-preview-img" style="background: url('assets/img/ret-hero.jpg'); background-size: cover; background-position: center center; ">
-              </div>
-            </div>
-          </a>
-          <div class="case-preview-text">
-            <h1 class="heading"><a href="work/real-estate-tube.html" class="highlight">Use video to sell your property</a></h1>
-            <p class="small">Showcase</p>
-            <p class="read-time">3 min read</p>
-          </div>
+        <div class="body-copy">
+          <h1 class="heading">My Values</h1>
+          <!-- <p>I like to talk to users and business stakeholder to understand what it is that should be built.  --></p>
+          <ul>
+            <li>I believe in the intersection of user needs and business case. Good design not only solves a users' problem, it creates a sustainable business as well.</li>
+            <li>I believe in starting narrow first. It is a lot easier to define a solution for a narrowly defined audience, then look to broaden after gaining initial traction.</li>
+            <li>I believe in making educated assumptions, arriving at the quickest way to test that assumption then validating that idea through talking to real users.</li>
+            <li>I believe in constant iteration and that design is never finished.</li>
+            <li>I believe that true failure only manifests if you fail and don't learn anything from it.</li>
+            <li>I believe that design is a continual learning process. Learning about the problems users face, learning new techniques to arrive at better outcomes, learning new tools to communicate design intentions, always learning.</li>
+          </ul>
+<!--           <blockquote>
+            <p>"I'm a Product Designer who works with founders & businesses to take their vision from a simple idea, through to a successful product which helps their business grow."</p>
+            <cite>Steve Markis - Co Founder</cite>
+          </blockquote> -->
         </div>
-        <div class="case-preview case-preview-sm">
-          <a href="work/parkhound.html">
-            <div class="case-preview-img-wrap">
-              <div class="case-preview-img" style="background: url('assets/img/ph-hero.jpg'); background-size: cover; background-position: center center; ">
-              </div>
+        <div class="body-copy">
+          <h1 class="heading">Personal</h1>
+          <p>Originally from New Zealand, I moved to the UK with the intention of staying for two years. Seven years later and I am happily settled in Cambridge with my wife and child on the way.</p>
+          <div class="img-push">
+            <div class="img-push-copy">
+              <p>Back in New Zealand, the national sport is undoubtedly Rugby Union. I was brought up to love the game and am lucky enough to play it from time to time.</p>
+              <p>I currently play semi-professionally for a club in Bishops Stortford. It's a fun way to keep fit & healthy and a good way to let off steam after a long day.</p>
             </div>
-          </a>
-          <div class="case-preview-text">
-            <h1 class="heading"><a href="work/parkhound.html" class="highlight">Solving the parking crisis</a></h1>
-            <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <figure class="img-push-img img-right">
+              <img src="assets/img/rugby.jpg">
+              <figcaption>Colour coordination is ALWAYS important.</figcaption>
+            </figure>
           </div>
-        </div>
-        <div class="case-preview case-preview-lg">
-          <a href="work/medopad.html">
-            <div class="case-preview-img-wrap">
-              <div class="case-preview-img" style="background: url('assets/img/medo-hero.jpg'); background-size: cover; background-position: center center; ">
-              </div>
+          <div class="img-push">
+            <figure class="img-push-img img-left">
+              <img src="assets/img/clover.jpg">
+              <figcaption>It's my birthday.</figcaption>
+            </figure>
+            <div class="img-push-copy">
+              <p>In between Skype meetings and chat threads, working from home can sometimes get a little lonely. Thankfully I have a trusty work colleague in Clover, our Miniature Schnauzer.</p>
+              <p>Clover is great at making sure I don't work too hard by getting me out of my chair - as long as it results in food or walkies. This is Clover on her 2nd birthday. She got a cake with dog treats. A little bit ridiculous I know...</p>
             </div>
-          </a>
-          <div class="case-preview-text">
-            <h1 class="heading"><a href="work/medopad.html" class="highlight">Better cancer management with connected devices</a></h1>
-            <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
           </div>
         </div>
       </div>
@@ -139,7 +135,7 @@
       </div>
     </footer>
 
-    <script src="assets/components/jquery/jquery.min.js"></script>
+    <script src="/assets/components/jquery/jquery.min.js"></script>
     <script src="/assets/js/scripts.min.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

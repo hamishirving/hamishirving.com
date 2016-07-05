@@ -10,12 +10,12 @@
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
-    <link href="assets/css/style.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
 
-    <script src="assets/components/modernizr/modernizr.js"></script>
+    <script src="../assets/components/modernizr/modernizr.js"></script>
   </head>
   <body>
 
@@ -40,27 +40,73 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="../about" class="link highlight highlight-small">About</a></li>
+          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <section class="section case first-section">
+    <section class="work-header work">
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Contact</h1>
-          <div class="img-push">
-            <figure class="img-push-img">
-              <img src="assets/img/window.jpg">
-              <figcaption>It's my birthday.</figcaption>
-            </figure>
-            <div class="img-push-copy">
-              <p>Think you'd like to talk? Great, you can email me <a class="link-body highlight highlight-small" href="mailto:hello@hamishirving.com">here.</a></p>
-              <p>If I'm lucky I'll be here at my favourite spot where I do my best thinking. That means I'll be able to get back to you quickly.</p>
+        <div class="work-header-heading">
+          <h1 class="heading">Recent partnerships I've had with founders.</h1>
+        </div>
+      </div>
+    </section>
 
+    <section class="section case-previews">
+      <div class="container">
+        <div class="case-preview case-preview-lg">
+          <a href="jio-health">
+            <div class="case-preview-img-wrap">
+              <div class="case-preview-img" style="background: url('../assets/img/jio-hero.jpg'); background-size: cover; background-position: center center; ">
+              </div>
             </div>
+          </a>
+          <div class="case-preview-text">
+            <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">7 min read</p>
+          </div>
+        </div>
+        <div class="case-preview case-preview-sm">
+          <a href="real-estate-tube">
+            <div class="case-preview-img-wrap">
+              <div class="case-preview-img" style="background: url('../assets/img/ret-hero.jpg'); background-size: cover; background-position: center center; ">
+              </div>
+            </div>
+          </a>
+          <div class="case-preview-text">
+            <h1 class="heading"><a href="real-estate-tube" class="highlight">Use video to sell your property</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">4 min read</p>
+          </div>
+        </div>
+        <div class="case-preview case-preview-sm">
+          <a href="parkhound">
+            <div class="case-preview-img-wrap">
+              <div class="case-preview-img" style="background: url('../assets/img/ph-hero.jpg'); background-size: cover; background-position: center center; ">
+              </div>
+            </div>
+          </a>
+          <div class="case-preview-text">
+            <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">5 min read</p>
+          </div>
+        </div>
+        <div class="case-preview case-preview-lg">
+          <a href="medopad">
+            <div class="case-preview-img-wrap">
+              <div class="case-preview-img" style="background: url('../assets/img/medo-hero.jpg'); background-size: cover; background-position: center center; ">
+              </div>
+            </div>
+          </a>
+          <div class="case-preview-text">
+            <h1 class="heading"><a href="medopad" class="highlight">Better cancer management through connected devices</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">3 min read</p>
           </div>
         </div>
       </div>
@@ -93,8 +139,8 @@
       </div>
     </footer>
 
-    <script src="assets/components/jquery/jquery.min.js"></script>
-    <script src="/assets/js/scripts.min.js"></script>
+    <script src="../assets/components/jquery/jquery.min.js"></script>
+    <script src="../assets/js/scripts.min.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

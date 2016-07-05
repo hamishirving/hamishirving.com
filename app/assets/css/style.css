@@ -1351,6 +1351,7 @@ a.link-body {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 100;
   background: #ffffff; }
   .navbar .container .brand {
@@ -1452,62 +1453,84 @@ footer {
     .hero {
       height: 200px; } }
 
-.quotes .container .quote {
+.quotes .container .quote, .quotes .container .quote-mobile {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
-  .quotes .container .quote:last-child {
+  .quotes .container .quote:last-child, .quotes .container .quote-mobile:last-child {
     margin-right: 0; }
+  .quotes .container .quote:nth-child(2n), .quotes .container .quote-mobile:nth-child(2n) {
+    margin-right: 0; }
+  .quotes .container .quote:nth-child(2n+1), .quotes .container .quote-mobile:nth-child(2n+1) {
+    clear: left; }
   @media screen and (max-width: 480px) {
-    .quotes .container .quote {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .quotes .container .quote:last-child {
-        margin-right: 0; }
-      .quotes .container .quote:first-child {
+    .quotes .container .quote, .quotes .container .quote-mobile {
+      display: none; }
+      .quotes .container .quote:first-child, .quotes .container .quote-mobile:first-child {
         margin-bottom: 60px; } }
-  .quotes .container .quote .avatar {
+  .quotes .container .quote .avatar, .quotes .container .quote-mobile .avatar {
     float: left;
     display: block;
     margin-right: 4.82916%;
     width: 12.64237%; }
-    .quotes .container .quote .avatar:last-child {
+    .quotes .container .quote .avatar:last-child, .quotes .container .quote-mobile .avatar:last-child {
       margin-right: 0; }
-    .quotes .container .quote .avatar img {
+    .quotes .container .quote .avatar img, .quotes .container .quote-mobile .avatar img {
       max-width: 100%;
       border-radius: 50%;
       background: #DCDCDC; }
-  .quotes .container .quote .quote-content {
+  .quotes .container .quote .quote-content, .quotes .container .quote-mobile .quote-content {
     float: left;
     display: block;
     margin-right: 4.82916%;
     width: 82.52847%; }
-    .quotes .container .quote .quote-content:last-child {
+    .quotes .container .quote .quote-content:last-child, .quotes .container .quote-mobile .quote-content:last-child {
       margin-right: 0; }
-    .quotes .container .quote .quote-content > p {
+    .quotes .container .quote .quote-content > p, .quotes .container .quote-mobile .quote-content > p {
       margin-top: 0;
       padding-right: 10%; }
-    .quotes .container .quote .quote-content h2 {
+    .quotes .container .quote .quote-content h2, .quotes .container .quote-mobile .quote-content h2 {
       margin-bottom: 10px; }
-    .quotes .container .quote .quote-content .quote-footer {
+    .quotes .container .quote .quote-content .quote-footer, .quotes .container .quote-mobile .quote-content .quote-footer {
       display: inline-block; }
-      .quotes .container .quote .quote-content .quote-footer p, .quotes .container .quote .quote-content .quote-footer a {
+      .quotes .container .quote .quote-content .quote-footer p, .quotes .container .quote .quote-content .quote-footer a, .quotes .container .quote-mobile .quote-content .quote-footer p, .quotes .container .quote-mobile .quote-content .quote-footer a {
         float: left;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 400;
         line-height: 16px;
         font-style: italic;
         margin-top: 0; }
-      .quotes .container .quote .quote-content .quote-footer p.small {
+      .quotes .container .quote .quote-content .quote-footer p.small, .quotes .container .quote-mobile .quote-content .quote-footer p.small {
         font-size: 1em;
         margin-right: 20px;
         margin-bottom: 0; }
         @media screen and (max-width: 320px) {
-          .quotes .container .quote .quote-content .quote-footer p.small {
+          .quotes .container .quote .quote-content .quote-footer p.small, .quotes .container .quote-mobile .quote-content .quote-footer p.small {
             margin-bottom: .5em; } }
+
+.quotes .container .quote-mobile {
+  display: none; }
+  @media screen and (max-width: 480px) {
+    .quotes .container .quote-mobile {
+      display: block;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .quotes .container .quote-mobile:last-child {
+        margin-right: 0; }
+      .quotes .container .quote-mobile .swiper-slider {
+        margin: 0 auto; }
+      .quotes .container .quote-mobile .swiper-pagination {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 10px; }
+        .quotes .container .quote-mobile .swiper-pagination .swiper-pagination-bullet {
+          margin: 0 5px; }
+        .quotes .container .quote-mobile .swiper-pagination .swiper-pagination-bullet-active {
+          background: #262C30; } }
 
 .case {
   background: #ffffff;
@@ -1573,6 +1596,9 @@ footer {
         top: 0;
         right: 0;
         bottom: 0; }
+      @media screen and (max-width: 480px) {
+        .case .container .case-header ul.services {
+          padding: 0 5% 0 0; } }
     .case .container .case-header .dates {
       float: left;
       display: block;
@@ -1582,6 +1608,9 @@ footer {
         margin-right: 0; }
       .case .container .case-header .dates ul:first-child {
         margin-bottom: 1.5em; }
+      @media screen and (max-width: 480px) {
+        .case .container .case-header .dates {
+          padding: 0 0 0 5%; } }
   .case .container .body-copy {
     float: left;
     display: block;
@@ -1615,6 +1644,7 @@ footer {
       margin-right: 4.82916%;
       width: 134.94305%;
       margin-left: -17.47153%;
+      margin-top: 2em;
       float: none; }
       .case .container .body-copy blockquote:last-child {
         margin-right: 0; }
@@ -1624,17 +1654,22 @@ footer {
           display: block;
           margin-right: 2.35765%;
           width: 100%;
-          margin-left: 0%; }
+          margin-left: 0%;
+          float: none; }
           .case .container .body-copy blockquote:last-child {
             margin-right: 0; } }
+      .case .container .body-copy blockquote p {
+        margin: .5em 0; }
     .case .container .body-copy .img-push {
       float: left;
       display: block;
       margin-right: 4.82916%;
-      width: 134.94305%;
-      margin-left: -17.47153%; }
+      width: 204.82916%;
+      margin-left: -52.41458%; }
       .case .container .body-copy .img-push:last-child {
         margin-right: 0; }
+      .case .container .body-copy .img-push + .img-push {
+        margin-top: 1em; }
       @media screen and (max-width: 768px) {
         .case .container .body-copy .img-push {
           float: left;
@@ -1647,8 +1682,8 @@ footer {
       .case .container .body-copy .img-push .img-push-copy {
         float: left;
         display: block;
-        margin-right: 3.57866%;
-        width: 48.21067%; }
+        margin-right: 2.35765%;
+        width: 23.23176%; }
         .case .container .body-copy .img-push .img-push-copy:last-child {
           margin-right: 0; }
         .case .container .body-copy .img-push .img-push-copy p:first-child {
@@ -1672,8 +1707,8 @@ footer {
       .case .container .body-copy .img-push .img-push-img {
         float: left;
         display: block;
-        margin-right: 3.57866%;
-        width: 48.21067%; }
+        margin-right: 2.35765%;
+        width: 74.41059%; }
         .case .container .body-copy .img-push .img-push-img:last-child {
           margin-right: 0; }
         @media screen and (max-width: 768px) {
@@ -1735,7 +1770,7 @@ footer {
           background: #272E3A;
           width: 37.3%;
           height: 71.4%;
-          top: 14.4%;
+          top: 13.7%;
           left: 31.7%;
           overflow: visible; }
           .case .container .iphone-section-wrapper .iphone-section .iphone .iphone-screen img {
@@ -1753,6 +1788,16 @@ footer {
             -webkit-transform: scale(1, 1);
                 -ms-transform: scale(1, 1);
                     transform: scale(1, 1); }
+        .case .container .iphone-section-wrapper .iphone-section .iphone .swiper-pagination, .case .container .iphone-section-wrapper .iphone-section .iphone .swiper-pagination-2 {
+          position: relative;
+          width: 100%;
+          text-align: center;
+          padding: 10px 0;
+          margin-bottom: 10px; }
+          .case .container .iphone-section-wrapper .iphone-section .iphone .swiper-pagination .swiper-pagination-bullet, .case .container .iphone-section-wrapper .iphone-section .iphone .swiper-pagination-2 .swiper-pagination-bullet {
+            margin: 0 5px; }
+          .case .container .iphone-section-wrapper .iphone-section .iphone .swiper-pagination .swiper-pagination-bullet-active, .case .container .iphone-section-wrapper .iphone-section .iphone .swiper-pagination-2 .swiper-pagination-bullet-active {
+            background: #262C30; }
   .case .full-bleed {
     width: 100%;
     max-width: 1440px;
@@ -1804,7 +1849,8 @@ footer {
     width: 65.88078%;
     margin-left: 17.05961%;
     margin-top: 5%;
-    margin-bottom: 5%; }
+    margin-bottom: 5%;
+    text-align: center; }
     .case .contained:last-child {
       margin-right: 0; }
     .case .contained img {
@@ -1818,10 +1864,15 @@ footer {
         margin-left: 0%; }
         .case .contained:last-child {
           margin-right: 0; } }
-  .case .swipebox {
-    display: block;
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in; }
+    .case .contained .swiper-pagination {
+      position: relative;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      width: 100%; }
+      .case .contained .swiper-pagination .swiper-pagination-bullet {
+        margin: 0 5px; }
+      .case .contained .swiper-pagination .swiper-pagination-bullet-active {
+        background: #262C30; }
   .case .browser-section {
     text-align: center;
     width: 100%;

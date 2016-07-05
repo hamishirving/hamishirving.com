@@ -39,9 +39,9 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="../about" class="link highlight highlight-small">About</a></li>
+          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -73,8 +73,8 @@
           <p>The ability to effectively manage cancer treatment relies heavily on strict drug regimens. These drugs can often cause adverse side-effects which result in the patient not adhering to their schedules and missing much needed medication.</p>
           <p>For patients, communicating these side-effects to doctors is a pain and unless a patient has a direct line of communication to their physician, the lapses in drug adherence can go unnoticed until the next hospital visit.</p>
           <h1 class="heading">Research</h1>
-          <p>I use both iOS and Android devices in the my day to day and I rely on that familarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each patform.</p>
-          <p>Apple Watch was a completely new device, introducing new ways to interact along with new opportunites to capture information from the user. It was also pre-release so there was no way to get my hands on a device to get familiar with it.</p>
+          <p>I use both iOS and Android devices in my day to day and I rely on that familiarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each platform.</p>
+          <p>Apple Watch was a completely new device, introducing new ways to interact along with new opportunities to capture information from the user. It was also pre-release so there was no way to get my hands on a device to get familiar with it.</p>
           <div class="img-push">
             <div class="img-push-copy">
               <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new gestures and the digital crown.</p>
@@ -85,7 +85,7 @@
               <figcaption>The Apple documentation allowed me to get up to speed with the new technology.</figcaption>
             </figure>
           </div>
-          <p>Having becoming familar with the documentation I worked with Medopad alongside their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
+          <p>Having become familiar with the documentation I worked with Medopad alongside their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
           <ul>
             <li>Receive real-time alerts to remind patients which medication to take at what time and at what dosage.</li>
             <li>Mark a medication as taken so their adherence can be measured and reported back to physicians.</li>
@@ -95,9 +95,7 @@
         </div>
       </div>
       <figure class="contained">
-        <a href="../assets/img/medo-flow.jpg" class="swipebox2">
-          <img src="../assets/img/medo-flow.jpg" alt="">
-        </a>
+        <img src="../assets/img/medo-flow.jpg" alt="">
         <figcaption>Illustrating the main Watch app flow.</figcaption>
       </figure>
       <div class="container">
@@ -105,18 +103,16 @@
           <h1 class="heading">Notifications</h1>
           <p>Notifications are a powerful feature on the Apple Watch. They allow information to be presented to the user right where they need it.</p>
           <p>The user initially receives a vibration to alert them they have received a notification. They can then decide if they want to act on it by raising their wrist to view the Short Look which tells the user what the notification is about and which app it is from.</p>
-          <p>If they decide they want to know more, the user can keep their wrist raised and the notification turns into a Long Look which presents further information and allows them to interact with the notification for example by marking a medication as taken.</p>
+          <p>If they decide they want to know more, the user can keep their wrist raised and the notification turns into a Long Look which presents further information and allows them to interact with the notification, for example by marking a medication as taken.</p>
         </div>
       </div>
       <figure class="contained">
-        <a href="../assets/img/medo-flow2.jpg" class="swipebox">
-          <img src="../assets/img/medo-flow2.jpg" alt="">
-        </a>
+        <img src="../assets/img/medo-flow2.jpg" alt="">
         <figcaption>The flow for a user receiving a medication reminder.</figcaption>
       </figure>
       <div class="container">
         <div class="body-copy">
-          <h1 class="heading">Reporting symptoms</h1>
+          <h1 class="heading">Reporting Symptoms</h1>
           <p>The ability to report any symptoms experienced after taking medication is an important feature of the app. The design allowed for consumers to select from a list of potential symptoms and submit them to their doctor.</p>
           <p>I conceived a design that allowed for three different states:</p>
           <ul>
@@ -136,10 +132,20 @@
       </div>
       <div class="container">
         <div class="body-copy">
-          <h1 class="heading">The results</h1>
-          <p>The app launch received some very positive feedback from both patients and doctors. The product continues to be developed and now has an companion iPhone app that mirrors a lot of the Watch apps' functionality.</p>
+          <h1 class="heading">The Results</h1>
+          <p>The app launch received some very positive feedback from both patients and doctors and was featured on a BBC news report (video length - 6:53 min).</p>
+        </div>
+        <div class="contained">
+          <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cfkqd4AJ1ms" frameborder="0" allowfullscreen></iframe>
+            <figcaption>Medopad Watch App on BBC World News.<a class="highlight highlight-small" href="https://www.youtube.com/watch?v=Cfkqd4AJ1ms" target="_blank"> Source</a></figcaption>
+          </figure>
+        </div>
+        <div class="body-copy">
+          <p>The product continues to be developed and now has an companion iPhone app that mirrors a lot of the Watch apps' functionality.</p>
           <p>This initial engagement led to an offer to go full-time with Medopad in a Product Management & Design role which I respectfully declined.</p>
         </div>
+        <!-- </div> -->
       </div>
       <figure class="full-bleed">
         <img src="../assets/img/medo-watches.jpg" alt="">
@@ -150,29 +156,29 @@
     <section class="section case-previews">
       <div class="container">
         <div class="case-preview case-preview-sm">
-          <a href="parkhound.html">
+          <a href="parkhound">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/ph-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="parkhound.html" class="highlight">Solving the parking crisis</a></h1>
+            <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
             <p class="small">Case Study</p>
             <p class="read-time">5 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-lg">
-          <a href="jio-health.html">
+          <a href="jio-health">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/jio-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="jio-health.html" class="highlight">Connecting physicians and patients for better health</a></h1>
+            <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">7 min read</p>
           </div>
         </div>
       </div>
@@ -206,16 +212,8 @@
     </footer>
 
     <script src="../assets/components/jquery/jquery.min.js"></script>
-    <script src="../assets/js/jquery.swipebox.min.js"></script>
     <script src="../assets/js/swiper.jquery.min.js"></script>
     <script src="../assets/js/scripts.min.js"></script>
-
-    <script type="text/javascript">
-      ;( function( $ ) {
-        $( '.swipebox').swipebox();
-        $( '.swipebox2').swipebox();
-      } )( jQuery );
-    </script>
 
     <script>
     var swiper = new Swiper('.swiper-container', {

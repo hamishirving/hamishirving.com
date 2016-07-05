@@ -36,69 +36,31 @@
               <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
             </g>
             </svg>
+            <!-- <img src="assets/img/logo.svg" height="40px" width="30px" alt="Logo"> -->
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="about" class="link highlight highlight-small">About</a></li>
+          <li><a href="contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
-    
+
     <section class="section case first-section">
       <div class="container">
         <div class="body-copy">
-          <h1 class="heading">About</h1>
-          <p>I've worked with many startups and founders just like you to bring their ideas to life. You may not have had a lot of experience building products before, thats where I can help.</p>
+          <h1 class="heading">Contact</h1>
+          <p>Think you'd like to talk? Great, <a class="link-body highlight highlight-small" href="mailto:hello@hamishirving.com">send me an email.</a></p>
           <div class="img-push">
             <div class="img-push-copy">
-              <p>Being a designer means that I will always be a voice for the user and consider their perspectives first. This not only results in a product your users love but just as importantly, revenue which enables you to continue making things users love.</p>
+              <p>My clients love working remotely with me, it means I can be more flexible with my time and more responsive to my clients needs. I understand the importance of communication, especially when working with someone potentially on the other side of the world.</p>
+              <p>That's why I'll always get back to you within a few hours, even if only to say I've received your message and will respond in more detail when able.</p>
             </div>
             <figure class="img-push-img img-right">
-              <img src="assets/img/me.jpg">
-              <figcaption>Color coordination is ALWAYS important.</figcaption>
+              <img src="assets/img/window.jpg">
+              <figcaption>Where I do my best thinking.</figcaption>
             </figure>
-          </div>
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">My Values</h1>
-          <p>I like to talk to users and business stakeholder to understand what it is that should be built. </p>
-          <ul>
-            <li>I believe in the intersection of user needs and business case. Good design not only solves a users' problem, it creates a sustainable business as well.</li>
-            <li>I believe in starting narrow first. It is a lot easier to define a solution for a narrowly defined audience, then look to broaden after gaining initial traction.</li>
-            <li>I believe in making educated assumptions, arriving at the quickest way to test that assumption then validating that idea through talking to real users.</li>
-            <li>I believe in constant iteration and that design is never finished.</li>
-            <li>I believe that true failure only manifests if you fail and dont learn anything from it.</li>
-            <li>I beleive that design is a continual learning process. Learning about the problems users face, learning new techniques to arrive at better outcomes, learning new tools to communicate design intentions, always learning.</li>
-          </ul>
-          <blockquote>
-            <p>"I'm a Product Designer who works with founders & businesses to take their vision from a simple idea, through to a successful product which helps their business grow."</p>
-            <cite>Steve Markis - Co Founder</cite>
-          </blockquote>
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">Personal</h1>
-          <p>Originaly from New Zealand, I moved to the UK with the intention of staying for two years. Seven years later and I am happily settled in Cambridge with my wife and child on the way.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p>Back in New Zealand, the national sport is unboubtedly Rugby Union. I was brought up to love the game and am lucky enough to play it from time to time.</p>
-              <p>I currently play semi-professionally for a club called Bishops Stortford.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="assets/img/rugby.jpg">
-              <figcaption>Color coordination is ALWAYS important.</figcaption>
-            </figure>
-          </div>
-          <div class="img-push">
-            <figure class="img-push-img img-left">
-              <img src="assets/img/clover.jpg">
-              <figcaption>It's my birthday.</figcaption>
-            </figure>
-            <div class="img-push-copy">
-              <p>In between Skype meetings and chat threads, working from home can sometimes get a little lonely. Thankfully I have a a trusty work colleague in Clover, our Miniature Schnauzer.</p>
-              <p>Clover is great at making sure I don't work too hard by getting me out of my chair - as long as it results in food or walkies. This is Clover on her 2nd birthday. She got a cake with dog treats. A little bit ridiculous I know...</p>
-            </div>
           </div>
         </div>
       </div>
@@ -131,7 +93,7 @@
       </div>
     </footer>
 
-    <script src="assets/components/jquery/jquery.min.js"></script>
+    <script src="/assets/components/jquery/jquery.min.js"></script>
     <script src="/assets/js/scripts.min.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

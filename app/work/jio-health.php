@@ -39,9 +39,9 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="../about" class="link highlight highlight-small">About</a></li>
+          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -69,59 +69,23 @@
         <div class="body-copy">
           <h1 class="heading">Introduction</h1>
           <p>Healthcare is most certainly broken. In this technological age, patient records are still mostly paper based and difficult to share, patient data still widely belongs in the hands of large medical institutions rather than the patients themselves and in many countries (particularly in the US) healthcare is becoming more and more inaccessible to those outside of corporate sponsored health plans and private insurance policies.</p>
-          <p>The industry is not only ripe for, but in desperate need of disruption and one company that looks to shake things up in the space is a startup based out of California called <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">Jio Health.</a></p>
+          <p>The industry is not only ripe for, but in desperate need of disruption and one company that looks to shake things up is a startup based out of California called <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">Jio Health.</a></p>
           <p>Their founder and CEO approached me early 2013 with a vision to allow people to take back control of their health and I was immediately interested.</p>
+          <p>Jio has evolved many times over the past 3 years - the following will focus on my most recent contributions to the company.</p>
           <blockquote>
             <p>"We believe in life's unlimited potential and are committed to inspiring this generation to lead more healthy and enriched lives."</p>
             <cite>Raghu Rai - CEO & Founder</cite>
           </blockquote>
-          <h1 class="heading">Stunted growth</h1>
-          <p>Jio has evolved several times over the past three years. Initially they were heavily tied to large Care Provider Networks, building technology solutions which allowed them to connect their physicians directly to their patient populations in order to better manage various chronic diseases.
-          <p>We worked with a large Care Provider in california to develop a physician dashboard that would present information submitted by patients in real-time.</p>
-          <p>It allowed physicians to track patients vital information remotely and would present alerts to physicians if vitals readings fell outside of a healthy range, this would prompt the physician to reach out to the patient and prevent any further worsening of their condition.</p>
-        </div>
-        <figure class="contained">
-          <a href="../assets/img/jio-patient-alerts.jpg" class="swipebox2">
-            <img src="../assets/img/jio-patient-alerts.jpg" alt="">
-          </a>
-          <figcaption>The main dashboard where a physician could view all patient alerts.</figcaption>
-        </figure>
-        <figure class="contained">
-          <a href="../assets/img/jio-patient-alerts.jpg" class="swipebox2">
-            <img src="../assets/img/jio-action-alert.jpg" alt="">
-          </a>
-          <figcaption>Physicians could then follow up with the patient via a phone call.</figcaption>
-        </figure>
-        <div class="body-copy">
-          <p>However large institutions move slowly and Jio soon realised that in order to fulfil its vision to reach more people, it would have to break free of any established organisations and go it alone.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p>Back in New Zealand, the national sport is unboubtedly Rugby Union. I was brought up to love the game and lucky enough to play it from time to time.</p>
-              <p>I currently play semi-professionally for a club here in the UK called Bishops Stortford.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="../assets/img/ret-sketch.jpg">
-              <figcaption>They aint pretty, but they help my process big time.</figcaption>
-            </figure>
-          </div>
-          <h1 class="heading">My Halo</h1>
-          <p>In order to encourage the virality of the app and so that users could share their progress with family members and others close to them, we introduced a feature called Halo. This provided two benefits:</p>
+          <h1 class="heading">End to End Experience</h1>
+          <p>Jio was initially a consumer facing proposition, we allowed consumers to track vital metrics & nutrition, manage medication and share their progress with close friends and relatives.</p>
+          <p>Jio's ability to empower an individual to take back control of their health however, really lay in the ability to connect a consumer directly with a physician. It was once this connection was made that we could start to bring back some of the benefits of a real doctor-patient relationship.</p>
+          <p>To facilitate this connection and to ensure that the experience was as seamless as our standards required, we decided to start work on the Jio Physician app.</p>
+          <h3>For Consumers</h3>
           <ul>
-            <li>It provided a form of accountability by allowing you to share your progress with family and friends.</li>
-            <li>It gave less able users the ability to nominate someone to act in a caregiver role and use the app on their behalf.</li>
+            <li>Consumers can search a directory of physicians based on preferences like location or specialty and filter by price or rating.</li>
+            <li>Consumers can book an appointment with a physician either in person or via telemedicine (video call).</li>
+            <li>Consumers can share their health profile with physicians so that they are better informed about their needs.</li>
           </ul>
-          <p>Halo became a network of people close to you who share in your progress and encourage you to reach your goals for better health.</p>
-        </div>
-        <div class="iphone-section-wrapper">
-          <figure class="iphone-section">
-            <div class="iphone">
-              <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
-              <div class="iphone-screen">
-                <img src="../assets/img/jio-add-note.gif" alt="">
-              </div>
-            </div>
-            <figcaption>Users search for a park in their area, view the details and book.</figcaption>
-          </figure>
         </div>
         <div class="iphone-section-wrapper">
           <figure class="iphone-section">
@@ -129,22 +93,49 @@
               <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
               <div class="swiper-container iphone-screen">
                 <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-video.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-home.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-results.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-profile.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-card.jpg') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-video.jpg') no-repeat; background-size: contain;"></div>
                 </div>
               </div>
+              <div class="swiper-pagination"></div>
             </div>
             <figcaption>Consumers are able to search for physicians, view their profile and book a telemedicine consultation.</figcaption>
+          </figure>
+        </div>
+        <div class="body-copy">
+          <h3>For Physicians</h3>
+          <ul>
+            <li>Physicians can create direct consumer relationships with a larger patient population.</li>
+            <li>Physicians can deliver better care by having access to patient health profile, clinical notes and history.</li>
+            <li>Physicians can earn more income by providing remote services such as telemedicine.</li>
+          </ul>
+        </div>
+        <div class="iphone-section-wrapper">
+          <figure class="iphone-section">
+            <div class="iphone">
+              <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
+              <div class="swiper-container-2 iphone-screen">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-video.jpg') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-patients.jpg') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-profile.jpg') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-practices.jpg') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-note.jpg') no-repeat; background-size: contain;"></div>
+                </div>
+              </div>
+              <div class="swiper-pagination-2"></div>
+            </div>
+            <figcaption>Physicians can connect with patients, access their health profile and consult with them via telemedicine.</figcaption>
           </figure>
         </div>
       </div>
       <div class="container">
         <div class="body-copy">
-          <h1 class="heading">Web presence</h1>
-          <p>To coincide with the launch of the Jio service in Vietnam, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed a redesigned in order to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
+          <h1 class="heading">Web Presence</h1>
+          <p>To coincide with the launch of the Jio Physician service in Vietnam, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed to be redesigned in order to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
           <div class="img-push">
             <div class="img-push-copy">
               <p>Having evaluated many options, I decided to use a great little CMS called <a class="link-body highlight highlight-small" href="https://grabaperch.com/" target="_blank">Perch.</a>
@@ -165,8 +156,8 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Growing Pains</h1>
-          <p>With four apps out in the wild - Consumer & Physician apps on both iOS and Android - and a growing feature set on each, maintinaing design consistency between them was becoming difficult. Jio had progressed to this point over many months and some of the older features were starting to show their age.</p>
-          <p>It was time was take stock of the current situation and begin efforts to consolidate the design across the service, it was time to create a Style Guide.</p>
+          <p>With four apps out in the wild - Consumer & Physician apps on both iOS and Android - and a growing feature set on each, maintaining design consistency between them was becoming difficult. Jio had progressed to this point over many months and some of the older features were starting to show their age.</p>
+          <p>It was time to take stock of the current situation and begin efforts to consolidate the design across the service, it was time to create a Style Guide.</p>
           <p>There are many benefits to creating a Style Guide and I would encourage any product owner to think about this early in their evolution as it only becomes more difficult to build as time goes on. The benefits include:</p>
           <ul>
             <li>Visual consistency helps make an interface less confusing to users. There is often a lot of inconsistency across apps due to the time spans in which they were developed.</li>
@@ -183,6 +174,21 @@
       </figure>
       <div class="container">
         <div class="body-copy">
+          <h1 class="heading">Discussing the Future</h1>
+          <div class="img-push">
+            <figure class="img-push-img img-left">
+              <img src="../assets/img/jio-roadmap.jpg">
+              <figcaption>One of my roadmap brainstorms.</figcaption>
+            </figure>
+            <div class="img-push-copy">
+              <p>Watching the industry evolve over an extended period of time gave me some great insight into how users see technology playing a role in their health. These insights would lead to ideas and these ideas to potential features we could add to Jio.</p>
+              <p>I would have regular discussions with Raghu the CEO & founder about the direction of the product. These discussions would result in a list of prioritised features which would become candidates for further testing and refinement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="body-copy">
           <h1 class="heading">Designing Design</h1>
           <p>With a growing userbase, feedback and new feature requests started to roll in from our users. As a product team we had our own ideas about what items should be on the roadmap and our sales & marketing team were generating some great insights out in the field.</p>
           <p>Filtering through all the requests was becoming difficult and I recognised that we needed to add more structure to the way we prioritised features for development so I started to research how other companies manage product. Thankfully, companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> do a great job of documenting some of their processes and I was able to distill down our own product development guidelines for Jio.</p>
@@ -190,8 +196,8 @@
           <ul>
             <li>Identify if the feature was a smaller incremental change or a big game-changer which aligned with the product vision. This helped with prioritisation later.</li>
             <li>Ensure that the team was clear <strong>why</strong> the feature was being considered. The why needed to be anchored to a user benefit and not just because an investor asked for it.. well sometimes it was because an investor asked for it.. 🙄</li>
-            <li>Idetify what was in scope and sometimes more importantly what was out of scope.</li>
-            <li>Define some success metrics so that the feature could be evalauted after implementation.</li>
+            <li>Identify what was in scope and sometimes more importantly what was out of scope.</li>
+            <li>Define some success metrics so that the feature could be evaluated after implementation.</li>
           </ul>
           <p>The process helped us become a lot more intentional about which features we were building. It allowed us to be proactive and make sure we were making progress towards our vision, and not just reactive to the wave of requests coming in from various sources.</p>
         </div>
@@ -200,7 +206,7 @@
           <figcaption>I devised a Feature Brief Template to use for all new feature requests.</figcaption>
         </figure>
         <div class="body-copy">
-          <p>I remain in regular contact with Jio and continue to consult for them on a part-time basis providing high level strategic advice and design mentorship for their in-house designer.</p>
+          <p>I remain in regular contact with Jio and continue to consult for them on a part-time basis providing high level strategic advice and design mentorship to their in-house designer.</p>
         </div>
       </div>
     </section>
@@ -208,29 +214,29 @@
     <section class="section case-previews case-footer">
       <div class="container">
         <div class="case-preview case-preview-lg">
-          <a href="medopad.html">
+          <a href="medopad">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/medo-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="medopad.html" class="highlight">Better cancer management with connected devices</a></h1>
+            <h1 class="heading"><a href="medopad" class="highlight">Better cancer management with connected devices</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">3 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
-          <a href="real-estate-tube.html">
+          <a href="real-estate-tube">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/ret-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="real-estate-tube.html" class="highlight">Use video to sell your property</a></h1>
-            <p class="small">Showcase</p>
-            <p class="read-time">3 min read</p>
+            <h1 class="heading"><a href="real-estate-tube" class="highlight">Use video to sell your property</a></h1>
+            <p class="small">Case Study</p>
+            <p class="read-time">4 min read</p>
           </div>
         </div>
       </div>
@@ -270,6 +276,18 @@
     <script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 20,
+      grabCursor: true,
+      slideToClickedSlide: true,
+      pagination: '.swiper-pagination'
+    });
+    </script>
+
+    <script>
+    var swiper = new Swiper('.swiper-container-2', {
+      spaceBetween: 20,
+      grabCursor: true,
+      slideToClickedSlide: true,
+      pagination: '.swiper-pagination-2'
     });
     </script>
 

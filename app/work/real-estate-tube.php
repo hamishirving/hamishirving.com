@@ -39,9 +39,9 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work.html" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about.html" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact.html" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
+          <li><a href="../about" class="link highlight highlight-small">About</a></li>
+          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -67,7 +67,7 @@
       </div>
       <div class="container">
         <div class="body-copy">
-          <h1 class="heading">Intro</h1>
+          <h1 class="heading">Introduction</h1>
           <p><a class="link-body highlight highlight-small" href="http://www.realestatetube.com" target="_blank">Real Estate Tube</a> is a service that makes it really easy to create engaging videos to advertise your property for sale or to find new housemates. I was contacted by Steven the Co-Founder after being recommended by some developers who I had worked with in the past.</p>
         </div>
       </div>
@@ -78,7 +78,7 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">The Problem</h1>
-          <p>RET already had an app in the app store but it was in need of a little design love. Having downloaded the app and played with its functionally I identified the following areas for improvement:</p>
+          <p>RET already had an app in the app store but it was in need of a little design love. Having downloaded the app and played with its functionality I identified the following areas for improvement:</p>
           <ul>
             <li>The brand colour was overused </li>
             <li>There was no clear hierarchy of content</li>
@@ -99,10 +99,8 @@
         </div>
       </div>
       <figure class="full-bleed">
-        <a href="../assets/img/ret-research.jpg" class="swipebox">
-          <img src="../assets/img/ret-research.jpg" alt="">
-        </a>
-        <figcaption>Reseraching flows from YouTube, Vimeo, iMovie and Instagram.</figcaption>
+        <img src="../assets/img/ret-research.jpg" alt="">
+        <figcaption>Researching flows from YouTube, Vimeo, iMovie and Instagram.</figcaption>
       </figure>
       <div class="container">
         <div class="body-copy">
@@ -113,7 +111,7 @@
             </div>
             <figure class="img-push-img img-right">
               <img src="../assets/img/ret-sketch.jpg">
-              <figcaption>They aint pretty, but they help my process big time.</figcaption>
+              <figcaption>They ain't pretty, but they help my process big time.</figcaption>
             </figure>
           </div>
         </div>
@@ -121,7 +119,7 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Design</h1>
-          <p>The brand color was very strong so I wanted to use it sparingly to call out important features and for the primary call to actions. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
+          <p>The brand colour was very strong so I wanted to use it sparingly to call out important features and for the primary call to actions. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
           <p>Where there were previously tabs at the bottom of the screen to switch between Residential, Business & Commercial properties for sale, I instead added a filter option to the home screen and displayed all listings in one feed. This would ensure that first time users would always see some content on the screen.</p>
         </div>
         <div class="iphone-section-wrapper">
@@ -130,13 +128,14 @@
               <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
               <div class="swiper-container iphone-screen">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-new-1.png') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/ret-new-2.png') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/ret-new-3.png') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/ret-new-1.png') no-repeat; background-size: contain;"></div>
                 </div>
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <figcaption>The sign in screen along with the feed of listings in list view and map view.</figcaption>
+            <figcaption>Feed of properties in list view and map view, along with sign in screen.</figcaption>
           </figure>
         </div>
       </div>
@@ -147,7 +146,7 @@
           <ul>
             <li>Add/edit each segment which makes up a video</li>
             <li>Rearrange segments within the video to change the order of when they are played</li>
-            <li>Have a simplified view of the content of each sgement by viewing the thumbnail stills</li>
+            <li>Have a simplified view of the content of each segment by viewing the thumbnail stills</li>
             <li>Trim segments, add overlay text and define the transitions between segments</li>
             <li>Quickly preview the entire video so the user can see how it all comes together</li>
           </ul>
@@ -157,13 +156,14 @@
           <figure class="iphone-section">
             <div class="iphone">
               <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
-              <div class="swiper-container iphone-screen">
+              <div class="swiper-container-2 iphone-screen">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide" style="background:url('../assets/img/ret-video-1.png') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/ret-video-2.png') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/ret-video-3.png') no-repeat; background-size: contain;"></div>
                 </div>
               </div>
+              <div class="swiper-pagination-2"></div>
             </div>
             <figcaption>Flow for creating a video.</figcaption>
           </figure>
@@ -193,27 +193,27 @@
     <section class="section case-previews">
       <div class="container">
         <div class="case-preview case-preview-lg">
-          <a href="medopad.html">
+          <a href="jio-health">
             <div class="case-preview-img-wrap">
-              <div class="case-preview-img" style="background: url('../assets/img/medo-hero.jpg'); background-size: cover; background-position: center center; ">
+              <div class="case-preview-img" style="background: url('../assets/img/jio-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="medopad.html" class="highlight">Better cancer management with connected devices</a></h1>
+            <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">7 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
-          <a href="parkhound.html">
+          <a href="parkhound">
             <div class="case-preview-img-wrap">
               <div class="case-preview-img" style="background: url('../assets/img/ph-hero.jpg'); background-size: cover; background-position: center center; ">
               </div>
             </div>
           </a>
           <div class="case-preview-text">
-            <h1 class="heading"><a href="parkhound.html" class="highlight">Solving the parking crisis</a></h1>
+            <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
             <p class="small">Case Study</p>
             <p class="read-time">5 min read</p>
           </div>
@@ -249,13 +249,24 @@
     </footer>
 
     <script src="../assets/components/jquery/jquery.min.js"></script>
-    <script src="../assets/js/jquery.swipebox.min.js"></script>
     <script src="../assets/js/swiper.jquery.min.js"></script>
     <script src="../assets/js/scripts.min.js"></script>
 
     <script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 20,
+      grabCursor: true,
+      slideToClickedSlide: true,
+      pagination: '.swiper-pagination'
+    });
+    </script>
+
+    <script>
+    var swiper = new Swiper('.swiper-container-2', {
+      spaceBetween: 20,
+      grabCursor: true,
+      slideToClickedSlide: true,
+      pagination: '.swiper-pagination-2'
     });
     </script>
 

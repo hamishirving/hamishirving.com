@@ -3,11 +3,12 @@
 
 	.container {
 
-		.quote {
+		.quote, .quote-mobile {
 			@include span-columns(6);
+			@include omega(2n);
 
 			@include media($mobile) {
-				@include span-columns(12);
+				display: none;
 
 				&:first-child {
 					margin-bottom: 60px;
@@ -56,6 +57,34 @@
 						@include media($mobile-sm) {
 							margin-bottom: .5em;
 						}
+					}
+				}
+			}
+		}
+
+		.quote-mobile {
+			display: none;
+
+			@include media($mobile) {
+				display: block;
+				@include span-columns(12);
+
+				.swiper-slider {
+					margin: 0 auto;
+				}
+
+				.swiper-pagination {
+					text-align: center;
+					width: 100%;
+					padding: 10px 0;
+					margin-bottom: 10px;
+
+					.swiper-pagination-bullet {
+						margin: 0 5px;
+					}
+
+					.swiper-pagination-bullet-active {
+						background: $color-black;
 					}
 				}
 			}

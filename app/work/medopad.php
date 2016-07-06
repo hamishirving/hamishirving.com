@@ -75,16 +75,12 @@
           <h1 class="heading">Research</h1>
           <p>I use both iOS and Android devices in my day to day and I rely on that familiarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each platform.</p>
           <p>Apple Watch was a completely new device, introducing new ways to interact along with new opportunities to capture information from the user. It was also pre-release so there was no way to get my hands on a device to get familiar with it.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new gestures and the digital crown.</p>
-              <p>I learned about the different ways to access app content through notifications, glances and the watch apps themselves.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="../assets/img/medo-apple.jpg">
-              <figcaption>The Apple documentation allowed me to get up to speed with the new technology.</figcaption>
-            </figure>
-          </div>
+          <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new gestures and the digital crown.</p>
+          <p>I learned about the different ways to access app content through notifications, glances and the watch apps themselves.</p>
+          <figure class="figure9-3">
+            <img src="../assets/img/medo-apple.jpg">
+            <figcaption>The Apple documentation allowed me to get up to speed with the new technology.</figcaption>
+          </figure>
           <p>Having become familiar with the documentation I worked with Medopad alongside their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
           <ul>
             <li>Receive real-time alerts to remind patients which medication to take at what time and at what dosage.</li>
@@ -144,13 +140,16 @@
         <div class="body-copy">
           <p>The product continues to be developed and now has an companion iPhone app that mirrors a lot of the Watch apps' functionality.</p>
           <p>This initial engagement led to an offer to go full-time with Medopad in a Product Management & Design role which I respectfully declined.</p>
+          <div class="figure6-6">
+            <figure>
+              <img src="../assets/img/medo-watches-1.jpg" alt="">  
+            </figure>
+            <figure>
+              <img src="../assets/img/medo-watches-2.jpg" alt="">  
+            </figure>
+          </div>
         </div>
-        <!-- </div> -->
       </div>
-      <figure class="full-bleed">
-        <img src="../assets/img/medo-watches.jpg" alt="">
-        <!-- <figcaption>The new screens are a lot better.</figcaption> -->
-      </figure>
     </section>
 
     <section class="section case-previews">

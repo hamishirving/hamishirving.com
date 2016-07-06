@@ -89,13 +89,8 @@
             <li>Creating a video was confusing with ambiguous buttons and labels</li>
           </ul>
           <h1 class="heading">Research</h1>
-          <p>Creating and editing a video is a complicated task made even more challenging by the limited screen space available on a mobile phone. It was imperative that this process was stripped down to the core features and allowed a user to get an engaging video online quickly.</p>
-          <p>The first step was to research the raft of existing apps on the app store that provided video creation capabilities. Some of the more well known apps included YouTube, Vimeo, even iMovie on iOS along with some lesser known ones. They all took a slightly different approach to the task.</p>
-          <p>It was important to identify the best parts from each and combine them into a more coherent experience that allowed the user to create a video that really helped showcase their property and their personality.</p>
-          <blockquote>
-            <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
-            <cite>Steve Makris - Co Founder</cite>
-          </blockquote>
+          <p>Creating and editing a video is a complicated task made even more challenging by the limited screen space available on a mobile device. It was imperative that the process was stripped down to the core features that allowed a user to get an engaging video online quickly.</p>
+          <p>The first step was to research the raft of apps on the app store that provided video creation capabilities. They included YouTube, Vimeo, iMovie, Instagram, Videolicious and InstaVideo and all took a slightly different approach to the task.</p>
         </div>
       </div>
       <figure class="full-bleed">
@@ -104,12 +99,20 @@
       </figure>
       <div class="container">
         <div class="body-copy">
-          <div class="img-push">
-            <div class="img-push-copy">
+          <blockquote>
+            <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
+            <cite>Steve Makris - Co Founder</cite>
+          </blockquote>
+        </div>
+      </div>
+      <div class="container">
+        <div class="body-copy">
+          <div class="copy-figure4-4">
+            <div class="copy">
               <p>The next step was to dive into my sketch book and start playing around with some ideas. Sketching is a very low-cost way to try many different solutions to see which one might work.</p> 
               <p>For me this process is very messy but it allows me to get thoughts out of my head and onto paper and to start piecing together the various elements which make up the functionality.</p>
             </div>
-            <figure class="img-push-img img-right">
+            <figure>
               <img src="../assets/img/ret-sketch.jpg">
               <figcaption>They ain't pretty, but they help my process big time.</figcaption>
             </figure>
@@ -120,7 +123,6 @@
         <div class="body-copy">
           <h1 class="heading">Design</h1>
           <p>The brand colour was very strong so I wanted to use it sparingly to call out important features and for the primary call to actions. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
-          <p>Where there were previously tabs at the bottom of the screen to switch between Residential, Business & Commercial properties for sale, I instead added a filter option to the home screen and displayed all listings in one feed. This would ensure that first time users would always see some content on the screen.</p>
         </div>
         <div class="iphone-section-wrapper">
           <figure class="iphone-section">
@@ -142,15 +144,6 @@
       <div class="container">
         <div class="body-copy">
           <p>I wanted to create a different look & feel for the video creation screens. Rather than the light aesthetic, I went for a dark design similar to what you might experience if you were in a darkroom developing film. It helped to create a clear distinction between the content creation experience and the content consumption screens.</p>
-          <p>The new design allowed the user to:</p>
-          <ul>
-            <li>Add/edit each segment which makes up a video</li>
-            <li>Rearrange segments within the video to change the order of when they are played</li>
-            <li>Have a simplified view of the content of each segment by viewing the thumbnail stills</li>
-            <li>Trim segments, add overlay text and define the transitions between segments</li>
-            <li>Quickly preview the entire video so the user can see how it all comes together</li>
-          </ul>
-          <p>The edit segment screen also allowed for additional features to be added in the future such as the ability to add fun effects and personalise your videos.</p>
         </div>
         <div class="iphone-section-wrapper">
           <figure class="iphone-section">
@@ -254,6 +247,7 @@
 
     <script>
     var swiper = new Swiper('.swiper-container', {
+      initialSlide: 1,
       spaceBetween: 20,
       grabCursor: true,
       slideToClickedSlide: true,
@@ -263,6 +257,7 @@
 
     <script>
     var swiper = new Swiper('.swiper-container-2', {
+      initialSlide: 1,
       spaceBetween: 20,
       grabCursor: true,
       slideToClickedSlide: true,

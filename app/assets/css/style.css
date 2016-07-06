@@ -1234,8 +1234,8 @@ blockquote {
   text-align: center; }
 
 blockquote > p {
-  font-size: 2em;
-  line-height: 1.25;
+  font-size: 3.25em;
+  line-height: 1.2;
   font-family: "Source Serif Pro", serif;
   color: #262C30; }
   @media screen and (max-width: 768px) {
@@ -1246,7 +1246,6 @@ blockquote > p {
       font-size: 1.625em; } }
 
 blockquote > cite {
-  padding-left: 5px;
   font-size: 14px;
   color: #969696; }
 
@@ -1616,6 +1615,7 @@ footer {
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
+    margin-right: 0;
     margin-left: 25.58941%; }
     .case .container .body-copy:last-child {
       margin-right: 0; }
@@ -1635,16 +1635,16 @@ footer {
     .case .container .body-copy em {
       color: #262C30; }
     .case .container .body-copy li {
-      margin: 1em 0; }
+      margin: .5em 0; }
     .case .container .body-copy .col-1 span, .case .container .body-copy .col-2 span {
       font-weight: 600; }
     .case .container .body-copy blockquote {
       float: left;
       display: block;
       margin-right: 4.82916%;
-      width: 134.94305%;
-      margin-left: -17.47153%;
-      margin-top: 2em;
+      width: 204.82916%;
+      margin-left: -52.41458%;
+      margin-top: 10%;
       float: none; }
       .case .container .body-copy blockquote:last-child {
         margin-right: 0; }
@@ -1660,6 +1660,179 @@ footer {
             margin-right: 0; } }
       .case .container .body-copy blockquote p {
         margin: .5em 0; }
+    .case .container .body-copy .copy-figure4-4 {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 134.94305%;
+      margin-left: -17.47153%; }
+      .case .container .body-copy .copy-figure4-4:last-child {
+        margin-right: 0; }
+      .case .container .body-copy .copy-figure4-4 .copy p:first-child {
+        margin-top: 0; }
+      @media screen and (max-width: 768px) {
+        .case .container .body-copy .copy-figure4-4 {
+          float: left;
+          display: block;
+          margin-right: 4.82916%;
+          width: 100%;
+          margin-left: 0%; }
+          .case .container .body-copy .copy-figure4-4:last-child {
+            margin-right: 0; } }
+      .case .container .body-copy .copy-figure4-4 .copy {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 48.21067%; }
+        .case .container .body-copy .copy-figure4-4 .copy:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 768px) {
+          .case .container .body-copy .copy-figure4-4 .copy {
+            float: left;
+            display: block;
+            margin-right: 4.82916%;
+            width: 47.58542%; }
+            .case .container .body-copy .copy-figure4-4 .copy:last-child {
+              margin-right: 0; } }
+        @media screen and (max-width: 480px) {
+          .case .container .body-copy .copy-figure4-4 .copy {
+            float: left;
+            display: block;
+            margin-right: 4.82916%;
+            width: 100%; }
+            .case .container .body-copy .copy-figure4-4 .copy:last-child {
+              margin-right: 0; } }
+      .case .container .body-copy .copy-figure4-4 figure {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 48.21067%;
+        padding-top: 6px; }
+        .case .container .body-copy .copy-figure4-4 figure:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 768px) {
+          .case .container .body-copy .copy-figure4-4 figure {
+            float: left;
+            display: block;
+            margin-right: 4.82916%;
+            width: 47.58542%; }
+            .case .container .body-copy .copy-figure4-4 figure:last-child {
+              margin-right: 0; } }
+        @media screen and (max-width: 480px) {
+          .case .container .body-copy .copy-figure4-4 figure {
+            float: left;
+            display: block;
+            margin-right: 4.82916%;
+            width: 100%;
+            padding-top: 0; }
+            .case .container .body-copy .copy-figure4-4 figure:last-child {
+              margin-right: 0; } }
+        .case .container .body-copy .copy-figure4-4 figure img {
+          width: 100%; }
+    .case .container .body-copy .figure6-6 {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 204.82916%;
+      margin-left: -52.41458%;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+      .case .container .body-copy .figure6-6:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 768px) {
+        .case .container .body-copy .figure6-6 {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          margin-left: 0%; }
+          .case .container .body-copy .figure6-6:last-child {
+            margin-right: 0; } }
+      .case .container .body-copy .figure6-6 figure {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .case .container .body-copy .figure6-6 figure:last-child {
+          margin-right: 0; }
+        .case .container .body-copy .figure6-6 figure:nth-child(2n) {
+          margin-right: 0; }
+        .case .container .body-copy .figure6-6 figure:nth-child(2n+1) {
+          clear: left; }
+        @media screen and (max-width: 480px) {
+          .case .container .body-copy .figure6-6 figure {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%; }
+            .case .container .body-copy .figure6-6 figure:last-child {
+              margin-right: 0; } }
+        .case .container .body-copy .figure6-6 figure img {
+          width: 100%; }
+    .case .container .body-copy .figure9-3 {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 204.82916%;
+      margin-left: -52.41458%; }
+      .case .container .body-copy .figure9-3:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 768px) {
+        .case .container .body-copy .figure9-3 {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          margin-left: 0%; }
+          .case .container .body-copy .figure9-3:last-child {
+            margin-right: 0; } }
+      .case .container .body-copy .figure9-3 img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 74.41059%; }
+        .case .container .body-copy .figure9-3 img:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 480px) {
+          .case .container .body-copy .figure9-3 img {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%; }
+            .case .container .body-copy .figure9-3 img:last-child {
+              margin-right: 0; } }
+      .case .container .body-copy .figure9-3 figcaption {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        text-align: left;
+        position: relative;
+        margin-top: 0;
+        padding-top: 15px; }
+        .case .container .body-copy .figure9-3 figcaption:last-child {
+          margin-right: 0; }
+        .case .container .body-copy .figure9-3 figcaption:before {
+          content: "";
+          position: absolute;
+          border-top: 1px solid #DCDCDC;
+          top: 0;
+          left: 0;
+          width: 100%; }
+          @media screen and (max-width: 480px) {
+            .case .container .body-copy .figure9-3 figcaption:before {
+              display: none; } }
+        @media screen and (max-width: 480px) {
+          .case .container .body-copy .figure9-3 figcaption {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            text-align: center; }
+            .case .container .body-copy .figure9-3 figcaption:last-child {
+              margin-right: 0; } }
+      .case .container .body-copy .figure9-3 + p {
+        display: inline-block; }
     .case .container .body-copy .img-push {
       float: left;
       display: block;
@@ -1769,7 +1942,7 @@ footer {
           position: absolute;
           background: #272E3A;
           width: 37.3%;
-          height: 71.4%;
+          height: 67.6%;
           top: 13.7%;
           left: 31.7%;
           overflow: visible; }

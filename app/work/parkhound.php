@@ -68,23 +68,15 @@
         <div class="body-copy">
           <h1 class="heading">Introduction</h1>
           <p><a class="link-body highlight highlight-small" href="http://www.parkhound.com.au" target="_blank">Parkhound</a> is an online car parking Marketplace based in Australia where Sellers make extra cash by listing their spare parking spaces and Buyers find cheap parking options in and around cities and suburbs.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p>The service launched at the end of 2013 and has gained steady traction since, providing a valuable solution to the parking crisis in Australia.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="../assets/img/ph-fine.jpg">
-              <figcaption>Finding affordable car parking can be expensive business.</figcaption>
-            </figure>
-          </div>
+          <p>The service launched at the end of 2013 and has gained steady traction since, providing a valuable solution to the parking crisis in Australia.</p>
+          <figure class="figure9-3">
+            <img src="../assets/img/ph-fine.jpg">
+            <figcaption class="img-push-copy">Finding affordable car parking can be expensive business.</figcaption>
+          </figure>
         </div>
-<!--         <figure class="contained">
-          <img src="../assets/img/ph-fine.jpg" alt="">
-          <figcaption>Finding affordable car parking can be an expensive business.</figcaption>
-        </figure> -->
         <div class="body-copy">
           <h1 class="heading">The Problem</h1>
-          <p>Parking marketplaces already existed in Australia along with successful implementations internationally such as JustPark in the UK. Competition is always a good sign because it validates that there is a market that can sustain a business.
+          <p>Parking marketplaces already existed in Australia along with successful implementations internationally such as JustPark in the UK. Competition is always a good sign because it validates that there is a market that can sustain a business.</p>
           <p>When creating any marketplace you are always faced with a chicken and egg scenario whereby you need content to entice buyers while at the same time needing to attract sellers with a growing userbase of buyers.</p>
           <p>We decided to focus on Sellers first, allowing them to create content while also testing our assumptions that Australia was ready for another marketplace. We created a MVP with a simple Shopify template which allowed us to upload listings, meanwhile I designed a landing page for Parkhound to explain the proposition and direct users to the Shopify site.</p>
           <p>We also started engaging with the public through social media and through the webiste which is where the creation of the brand really helped us tell a story. One feature we explored was a place where users could tell their own parking horror stories, providing users a way to vent their frustration while resonating with the problem we were trying to solve.</p>
@@ -110,6 +102,10 @@
         <div class="body-copy">
           <h1 class="heading">Responsive Design</h1>
           <p>We knew the web app needed to be designed responsively so that it worked seamlessly on all devices. Booking parking spaces for long periods ahead of time translated well to desktop however we wanted to encourage the behaviour of finding parking spaces in real time when on the move. This required a solution that worked equally as well on mobile.</p>
+          <figure class="figure9-3">
+            <img src="../assets/img/ph-in-situ.jpg" alt="">
+            <figcaption>It was essential that the service worked seamlessly on mobile.</figcaption>
+          </figure>
         </div>
       </div>
       <figure class="full-bleed">
@@ -126,19 +122,6 @@
           <figcaption>I started developing a Living Style Guide.</figcaption>
         </figure>
       </div>
-      <!--
-      <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Price negotiation</h1>
-          <p>Early on we realised that the ability to negotiate on the price of a booking would be important to Buyers. The functionality was de-scoped from earlier versions of the product due to complexity, so in the interim we tried to focus on helping sellers set realistic prices for their parking spaces. We found data which gave us a good indication of parking prices based on a users postcode and were able to present this back to Sellers in the form of suggested prices when they were listing their space. (show create listing screen)</p>
-          <p>Now Sellers can enable Price Negotiation through their dashboard which populates a ‘Make Offer’ button on their listing, this way Buyers who aren’t happy with the advertised price can make an offer. We provide quick options enabling the Buyer to select a percentage amount, or they can enter their own absolute figure based on the booking dates they have selected. The new feature has duel benefits, as it allows Buyers to negotiate a fairer price, while it also allows Sellers to test the market and really develop pricing which matches demand for their spaces.</p>
-          <blockquote>
-            <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
-            <cite>Michael Nuciforo - Co Founder</cite>
-          </blockquote>
-        </div>
-      </div>
-      -->
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Mapping the streets</h1>
@@ -160,14 +143,6 @@
           <figcaption>Introduction slides explaining the new functionality.</figcaption>
         </figure>
         <div class="body-copy">
-          <!--
-          <h1 class="heading">Mapping the streets cont...</h1>
-          <p>Presenting the parking information on the already crowded map was a challenge, so I designed a toggle which allows users to choose which information is overlaid on the screen and ensures that the experience is seamless whether on desktop, tablet or mobile.</p>
-          <p>We are currently working on the ability to crowdsource this information by allowing users to upload sign information themselves via their mobile. This presents a whole new challenge around trying to make the process of capturing complicated data as easy as possible in order to ensure that the user stays motivated and to ensure the quality of data being inputted into the system.</p>
-          <h1 class="heading">Layaway</h1>
-          <p>A lot of the bookings made through Parkhound are for longer periods of time, sometimes up to year in advance and the price of these can be quite a shock to Buyers. The founders decided to introduce Payment Plans as a means to spread the cost of a booking over individual monthly payments. This was provided as an option alongside making full payment and we wanted to be really clear with the user about the expectations of the payment plan. </p>
-          <p>This proved to be a difficult design challenge as we needed to show a lot of information for each stage of the plan dynamically based on the dates of the booking and whether or not a bond was included. Presenting all of this information in an expandable table allows users to minimise the information if required, making a potentially long page easier to navigate (especially on mobile).</p>
-          -->
           <h1 class="heading">Going native</h1>
           <p>It became important early on that we had a presence in the app store and that we could provide a native Parkhound experience to our users. Because the website had been designed to be responsive, we were able to take a hybrid approach with the early version of the app and provide some native functionality while we developed a more robust set of api’s on the back-end. This way any features that we hadn’t yet developed for iOS, we could call a web view in the app without degrading the user experience.</p>
         </div>
@@ -263,6 +238,7 @@
 
     <script>
     var swiper = new Swiper('.swiper-container', {
+      initialSlide: 2,
       spaceBetween: 20,
       grabCursor: true,
       slideToClickedSlide: true,

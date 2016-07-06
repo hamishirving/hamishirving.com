@@ -52,14 +52,22 @@
         <div class="body-copy">
           <h1 class="heading">Contact</h1>
           <p>Think you'd like to talk? Great, <a class="link-body highlight highlight-small" href="mailto:hello@hamishirving.com">send me an email.</a></p>
-          <div class="img-push">
-            <div class="img-push-copy">
+          <div class="copy-figure4-4">
+            <div class="copy">
               <p>My clients love working remotely with me, it means I can be more flexible with my time and more responsive to my clients needs. I understand the importance of communication, especially when working with someone potentially on the other side of the world.</p>
               <p>That's why I'll always get back to you within a few hours, even if only to say I've received your message and will respond in more detail when able.</p>
             </div>
-            <figure class="img-push-img img-right">
+            <figure>
               <img src="assets/img/window.jpg">
               <figcaption>Where I do my best thinking.</figcaption>
+            </figure>
+          </div>
+          <div class="img-push">
+            <div class="img-push-copy">
+
+            </div>
+            <figure class="img-push-img img-right">
+
             </figure>
           </div>
         </div>

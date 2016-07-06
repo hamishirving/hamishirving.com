@@ -149,8 +149,8 @@ blockquote {
 }
 
 blockquote > p {
-	font-size: em(32);
-	line-height: 1.25;
+	font-size: em(52);
+	line-height: 1.2;
 	font-family: $font-secondary;
 	color: $color-black;
 
@@ -164,7 +164,7 @@ blockquote > p {
 }
 
 blockquote > cite {
-	padding-left: 5px;
+	// padding-left: 5px;
 	font-size: 14px;
 	color: $color-mediumGrey;
 }

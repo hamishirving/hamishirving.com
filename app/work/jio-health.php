@@ -68,18 +68,15 @@
         </div>
         <div class="body-copy">
           <h1 class="heading">Introduction</h1>
-          <p>Healthcare is most certainly broken. In this technological age, patient records are still mostly paper based and difficult to share, patient data still widely belongs in the hands of large medical institutions rather than the patients themselves and in many countries (particularly in the US) healthcare is becoming more and more inaccessible to those outside of corporate sponsored health plans and private insurance policies.</p>
-          <p>The industry is not only ripe for, but in desperate need of disruption and one company that looks to shake things up is a startup based out of California called <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">Jio Health.</a></p>
-          <p>Their founder and CEO approached me early 2013 with a vision to allow people to take back control of their health and I was immediately interested.</p>
+          <p>Healthcare is most certainly broken. In this technological age, patient records are still mostly paper based and difficult to share, patient data still widely belongs in the hands of large medical institutions rather than the patients themselves. In many countries (particularly in the US) healthcare is becoming more and more inaccessible to those outside of corporate sponsored health plans and private insurance policies.</p>
+          <p>One company that looks to address these issues is <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">Jio Health.</a> Their founder and CEO approached me early 2013 with a vision to allow people to take back control of their health and I was immediately interested.</p>
           <p>Jio has evolved many times over the past 3 years - the following will focus on my most recent contributions to the company.</p>
           <blockquote>
             <p>"We believe in life's unlimited potential and are committed to inspiring this generation to lead more healthy and enriched lives."</p>
             <cite>Raghu Rai - CEO & Founder</cite>
           </blockquote>
           <h1 class="heading">End to End Experience</h1>
-          <p>Jio was initially a consumer facing proposition, we allowed consumers to track vital metrics & nutrition, manage medication and share their progress with close friends and relatives.</p>
-          <p>Jio's ability to empower an individual to take back control of their health however, really lay in the ability to connect a consumer directly with a physician. It was once this connection was made that we could start to bring back some of the benefits of a real doctor-patient relationship.</p>
-          <p>To facilitate this connection and to ensure that the experience was as seamless as our standards required, we decided to start work on the Jio Physician app.</p>
+          <p>Jio was initially a consumer facing proposition, we allowed consumers to track vital metrics & nutrition, manage medication and share their progress with close friends and family.</p>
           <h3>For Consumers</h3>
           <ul>
             <li>Consumers can search a directory of physicians based on preferences like location or specialty and filter by price or rating.</li>
@@ -93,9 +90,9 @@
               <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
               <div class="swiper-container iphone-screen">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-video.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-home.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-results.jpg') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-video.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-profile.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-consumer-card.jpg') no-repeat; background-size: contain;"></div>
                 </div>
@@ -104,6 +101,19 @@
             </div>
             <figcaption>Consumers are able to search for physicians, view their profile and book a telemedicine consultation.</figcaption>
           </figure>
+        </div>
+        <div class="body-copy">
+          <div class="copy-figure4-4">
+            <div class="copy">
+              <p>Jio's capacity to empower an individual to take back control of their health however, really lay in the ability to connect a consumer directly with a physician.</p>
+              <p>It was once this connection was made that we could start to bring back some of the benefits of a more traditional doctor-patient relationship.</p>
+            </div>
+            <figure>
+              <img src="../assets/img/jio-home-visit.jpg">
+              <figcaption>Jio looks to bring back some of the benefits of a more traditional doctor-patient relationship.</figcaption>
+            </figure>
+          </div>
+          <p>To facilitate this connection and to ensure that the experience was as seamless as our standards required, we decided to start work on the Jio Physician app.</p>
         </div>
         <div class="body-copy">
           <h3>For Physicians</h3>
@@ -119,9 +129,9 @@
               <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
               <div class="swiper-container-2 iphone-screen">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-video.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-physician-patients.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-physician-profile.jpg') no-repeat; background-size: contain;"></div>
+                  <div class="swiper-slide" style="background:url('../assets/img/jio-physician-video.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-physician-practices.jpg') no-repeat; background-size: contain;"></div>
                   <div class="swiper-slide" style="background:url('../assets/img/jio-physician-note.jpg') no-repeat; background-size: contain;"></div>
                 </div>
@@ -135,24 +145,24 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Web Presence</h1>
-          <p>To coincide with the launch of the Jio Physician service in Vietnam, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed to be redesigned in order to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
+          <p>To coincide with the launch of the Jio Physician service in Vietnam, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed to be redesigned to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
+          <div class="copy-figure4-4">
+            <div class="copy">
               <p>Having evaluated many options, I decided to use a great little CMS called <a class="link-body highlight highlight-small" href="https://grabaperch.com/" target="_blank">Perch.</a>
               It met all our current requirements while also being flexible enough to expand with us in the future.</p>
-              <p>Developing with Perch is great because it doesn't impose any particular conventions on how you build your front-end. It also has a really simple admin interface which makes it easy for admin users to add content.</p>
+              <p>Developing with Perch is nice because it doesn't impose any particular conventions on how you build your front-end. It also has a really simple admin interface which makes it easy for admin users to add content.</p>
             </div>
-            <figure class="img-push-img img-right">
-              <img src="../assets/img/jio-cms.jpg">
+            <figure>
+              <img src="../assets/img/jio-cms.jpg" alt="">
               <figcaption>Buidling on top of a Content Management System made it easier to support multiple languages.</figcaption>
             </figure>
           </div>
+          <figure class="figure9-3">
+            <img src="../assets/img/jio-responsive-situ.jpg">
+            <figcaption>All pages were designed & developed for mobile, tablet and desktop.</figcaption>
+          </figure>
         </div>
       </div>
-      <figure class="full-bleed">
-        <img src="../assets/img/jio-dev.jpg" alt="">
-        <figcaption>All pages were designed & developed for mobile, tablet and desktop.</figcaption>
-      </figure>
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Growing Pains</h1>
@@ -164,7 +174,7 @@
             <li>It speeds up the definition of new features. By having a library of pre-designed components, you can pick and choose which existing elements can be used to make up new screens.</li>
             <li>It speeds up development. The pre-designed components can be used by developers to prototype new features quickly without relying on completed designs to start development.</li>
             <li>When these elements are coded in a modular way, developers can easily choose from pre-developed components to build new features.</li>
-            <li>You will eventually reach a point where very little new elements need to be designed. For any new app features, the default should be to look to the Style Guide to select components from, if the element doesn't exist then it becomes a candidate for addition to the Style Guide.</li>
+            <li>Eventually you will reach a point where very little new elements need to be designed. For any new app features, the default should be to select components from the Style Guide, if the element doesn't exist then it becomes a candidate for addition.</li>
           </ul>
         </div>
       </div>
@@ -175,15 +185,15 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Discussing the Future</h1>
-          <div class="img-push">
-            <figure class="img-push-img img-left">
+          <div class="copy-figure4-4">
+            <div class="copy">
+              <p>Watching the industry evolve over an extended period of time gave me some great insight into how users see technology playing a role in their health. These insights would lead to ideas and these ideas to potential features we could add to Jio.</p>
+              <p>I would have regular discussions with Raghu the CEO & founder about the direction of the product. These discussions would result in a list of prioritised features which would become candidates for further refinement.</p>
+            </div>
+            <figure>
               <img src="../assets/img/jio-roadmap.jpg">
               <figcaption>One of my roadmap brainstorms.</figcaption>
             </figure>
-            <div class="img-push-copy">
-              <p>Watching the industry evolve over an extended period of time gave me some great insight into how users see technology playing a role in their health. These insights would lead to ideas and these ideas to potential features we could add to Jio.</p>
-              <p>I would have regular discussions with Raghu the CEO & founder about the direction of the product. These discussions would result in a list of prioritised features which would become candidates for further testing and refinement.</p>
-            </div>
           </div>
         </div>
       </div>
@@ -191,7 +201,7 @@
         <div class="body-copy">
           <h1 class="heading">Designing Design</h1>
           <p>With a growing userbase, feedback and new feature requests started to roll in from our users. As a product team we had our own ideas about what items should be on the roadmap and our sales & marketing team were generating some great insights out in the field.</p>
-          <p>Filtering through all the requests was becoming difficult and I recognised that we needed to add more structure to the way we prioritised features for development so I started to research how other companies manage product. Thankfully, companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> do a great job of documenting some of their processes and I was able to distill down our own product development guidelines for Jio.</p>
+          <p>Filtering through all the requests was becoming difficult and I recognised that we needed to add more structure to the way we prioritised features for development. After researching companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> I was able to distill down Jio's our own product development guidelines.</p>
           <p>Before any feature could be considered for inclusion, a simple one-page brief needed to be completed. It helped to:</p>
           <ul>
             <li>Identify if the feature was a smaller incremental change or a big game-changer which aligned with the product vision. This helped with prioritisation later.</li>
@@ -199,13 +209,25 @@
             <li>Identify what was in scope and sometimes more importantly what was out of scope.</li>
             <li>Define some success metrics so that the feature could be evaluated after implementation.</li>
           </ul>
+          <figure class="figure9-3">
+            <img src="../assets/img/jio-product.jpg" alt="">
+            <figcaption>I devised a Feature Brief Template to use for all new feature requests.</figcaption>
+          </figure>
           <p>The process helped us become a lot more intentional about which features we were building. It allowed us to be proactive and make sure we were making progress towards our vision, and not just reactive to the wave of requests coming in from various sources.</p>
-        </div>
-        <figure class="contained">
-          <img src="../assets/img/jio-product.jpg" alt="">
-          <figcaption>I devised a Feature Brief Template to use for all new feature requests.</figcaption>
-        </figure>
-        <div class="body-copy">
+          <div class="figure6-6">
+            <figure>
+              <img src="../assets/img/jio-trello.jpg" alt="">
+              <figcaption>I used Trello to move features along the Product Development path.</figcaption>
+            </figure>
+            <figure>
+              <img src="../assets/img/jio-powerpoint.jpg" alt="">
+              <figcaption>A presentation used to communicate the process.</figcaption>
+            </figure>
+          </div>
+          <div class="copy-figure4-4">
+            <div class="copy">
+            </div>
+          </div>
           <p>I remain in regular contact with Jio and continue to consult for them on a part-time basis providing high level strategic advice and design mentorship to their in-house designer.</p>
         </div>
       </div>
@@ -275,6 +297,7 @@
 
     <script>
     var swiper = new Swiper('.swiper-container', {
+      initialSlide: 2,
       spaceBetween: 20,
       grabCursor: true,
       slideToClickedSlide: true,
@@ -284,6 +307,7 @@
 
     <script>
     var swiper = new Swiper('.swiper-container-2', {
+      initialSlide: 2,
       spaceBetween: 20,
       grabCursor: true,
       slideToClickedSlide: true,

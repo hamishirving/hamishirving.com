@@ -51,15 +51,15 @@
         <div class="body-copy">
           <h1 class="heading">About</h1>
           <p>I've worked with many startups & founders just like you to bring their ideas to life. You may not have had a lot of experience building products before, that's where I can help.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
+          <div class="copy-figure4-4">
+            <div class="copy">
               <p>Being a designer means that I will always be a voice for the user and consider their perspectives first. This will help you achieve two things:
               <ul>
                 <li>Create a product that users love and want to tell their friends about.</li>
                 <li>Build a sustainable business so you can continue to create a product that users love.</li>
               </ul>
             </div>
-            <figure class="img-push-img img-right">
+            <figure>
               <img src="assets/img/me.jpg">
               <figcaption>Concentration face.</figcaption>
             </figure>
@@ -67,7 +67,6 @@
         </div>
         <div class="body-copy">
           <h1 class="heading">My Values</h1>
-          <!-- <p>I like to talk to users and business stakeholder to understand what it is that should be built.  --></p>
           <ul>
             <li>I believe in the intersection of user needs and business case. Good design not only solves a users' problem, it creates a sustainable business as well.</li>
             <li>I believe in starting narrow first. It is a lot easier to define a solution for a narrowly defined audience, then look to broaden after gaining initial traction.</li>
@@ -76,30 +75,28 @@
             <li>I believe that true failure only manifests if you fail and don't learn anything from it.</li>
             <li>I believe that design is a continual learning process. Learning about the problems users face, learning new techniques to arrive at better outcomes, learning new tools to communicate design intentions, always learning.</li>
           </ul>
-<!--           <blockquote>
-            <p>"I'm a Product Designer who works with founders & businesses to take their vision from a simple idea, through to a successful product which helps their business grow."</p>
-            <cite>Steve Markis - Co Founder</cite>
-          </blockquote> -->
         </div>
         <div class="body-copy">
           <h1 class="heading">Personal</h1>
           <p>Originally from New Zealand, I moved to the UK with the intention of staying for two years. Seven years later and I am happily settled in Cambridge with my wife and child on the way.</p>
-          <div class="img-push">
-            <div class="img-push-copy">
+          <div class="copy-figure4-4">
+            <div class="copy">
               <p>Back in New Zealand, the national sport is undoubtedly Rugby Union. I was brought up to love the game and am lucky enough to play it from time to time.</p>
               <p>I currently play semi-professionally for a club in Bishops Stortford. It's a fun way to keep fit & healthy and a good way to let off steam after a long day.</p>
             </div>
-            <figure class="img-push-img img-right">
+            <figure>
               <img src="assets/img/rugby.jpg">
               <figcaption>Colour coordination is ALWAYS important.</figcaption>
             </figure>
           </div>
-          <div class="img-push">
-            <figure class="img-push-img img-left">
+        </div>
+        <div class="body-copy">
+          <div class="copy-figure4-4">
+            <figure>
               <img src="assets/img/clover.jpg">
               <figcaption>It's my birthday.</figcaption>
             </figure>
-            <div class="img-push-copy">
+            <div class="copy">
               <p>In between Skype meetings and chat threads, working from home can sometimes get a little lonely. Thankfully I have a trusty work colleague in Clover, our Miniature Schnauzer.</p>
               <p>Clover is great at making sure I don't work too hard by getting me out of my chair - as long as it results in food or walkies. This is Clover on her 2nd birthday. She got a cake with dog treats. A little bit ridiculous I know...</p>
             </div>

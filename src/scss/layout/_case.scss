@@ -89,6 +89,7 @@
 		.body-copy {
 			// 6 col wide in center
 			@include span-columns(6);
+			@include omega;
 			@include shift(3);
 
 			// on tablet 12 col wide (full width)
@@ -113,7 +114,7 @@
 			}
 
 			li {
-				margin: 1em 0;
+				margin: .5em 0;
 			}
 
 			.col-1 span, .col-2 span {
@@ -121,9 +122,9 @@
 			}
 
 			blockquote {
-				@include span-columns(8 of 6);
-				@include shift(-1);
-				margin-top: 2em;
+				@include span-columns(12 of 6);
+				@include shift(-3);
+				margin-top: 10%;
 				float: none;
 
 				@include media($tablet) {
@@ -134,6 +135,126 @@
 
 				p {
 					margin: .5em 0;
+				}
+			}
+
+			.copy-figure4-4 {
+				@include span-columns(8 of 6);
+				@include shift(-1);
+
+				.copy p:first-child {
+					margin-top: 0;
+				}
+
+				
+				@include media($tablet) {
+					@include span-columns(6 of 6);
+					@include shift(0);
+				}
+
+				.copy {
+					@include span-columns(4 of 8);
+
+					@include media($tablet) {
+						@include span-columns(3 of 6);
+					}
+
+					@include media($mobile) {
+						@include span-columns(6 of 6);
+					}
+				}
+
+				figure {
+					@include span-columns(4 of 8);
+					padding-top: 6px;
+
+					@include media($tablet) {
+						@include span-columns(3 of 6);
+					}
+
+					@include media($mobile) {
+						@include span-columns(6 of 6);
+						padding-top: 0;
+					}
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+
+			.figure6-6 {
+				@include span-columns(12 of 6);
+				@include shift(-3);
+				margin-top: 5%;
+				margin-bottom: 5%;
+
+				@include media($tablet) {
+					@include span-columns(12 of 12);
+					@include shift(0);
+				}
+
+				figure {
+					@include span-columns(6 of 12);
+					@include omega(2n);
+
+					@include media($mobile) {
+						@include span-columns(12)
+					}
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+
+			.figure9-3 {
+				@include span-columns(12 of 6);
+				@include shift(-3);
+
+				@include media($tablet) {
+					@include span-columns(12 of 12)
+					@include shift(0);
+				}
+
+				img {
+					@include span-columns(9 of 12);
+
+					@include media($mobile) {
+						@include span-columns(12);
+					}
+				} 
+
+				figcaption {
+					@include span-columns(3 of 12);
+					text-align: left;
+					position: relative;
+					margin-top: 0;
+					padding-top: 15px;
+					
+					&:before {
+						content: "";
+						position: absolute;
+						border-top: 1px solid $color-lightGrey;
+						top: 0;
+						left: 0;
+						width: 100%;
+
+						@include media($mobile) {
+							display: none;
+						}
+					}
+
+					@include media($mobile) {
+						@include span-columns(12);
+						text-align: center;
+					}
+
+				}
+
+				// Clear float on p after figure
+				+ p {
+					display: inline-block;
 				}
 			}
 
@@ -236,7 +357,7 @@
 						position: absolute;
 						background: #272E3A;
 						width: 37.3%;
-						height: 71.4%;
+						height: 67.6%;
 						top: 13.7%;
 						left: 31.7%;
 						overflow: visible;

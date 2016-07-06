@@ -69,14 +69,23 @@
         <div class="body-copy">
           <h1 class="heading">Introduction</h1>
           <p>Healthcare is most certainly broken. In this technological age, patient records are still mostly paper based and difficult to share, patient data still widely belongs in the hands of large medical institutions rather than the patients themselves. In many countries (particularly in the US) healthcare is becoming more and more inaccessible to those outside of corporate sponsored health plans and private insurance policies.</p>
-          <p>One company that looks to address these issues is <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">Jio Health.</a> Their founder and CEO approached me early 2013 with a vision to allow people to take back control of their health and I was immediately interested.</p>
-          <p>Jio has evolved many times over the past 3 years - the following will focus on my most recent contributions to the company.</p>
+          <div class="copy-figure4-4">
+            <div class="copy">
+              <p>One company that looks to address these issues is <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">Jio Health.</a> Their founder & CEO approached me early 2013 with a vision which immediately piqued my interest.</p>
+              <p>Jio has evolved many times over the past 3 years - the following will focus on my recent contributions to the company.</p>
+            </div>
+            <figure>
+              <img src="../assets/img/jio-wait.jpg" alt="">
+            </figure>
+          </div>
           <blockquote>
             <p>"We believe in life's unlimited potential and are committed to inspiring this generation to lead more healthy and enriched lives."</p>
             <cite>Raghu Rai - CEO & Founder</cite>
           </blockquote>
           <h1 class="heading">End to End Experience</h1>
           <p>Jio was initially a consumer facing proposition, we allowed consumers to track vital metrics & nutrition, manage medication and share their progress with close friends and family.</p>
+          <p>Jio's capacity to empower an individual to take back control of their health however, really lay in the ability to connect a consumer directly with a physician.</p>
+          <p>To facilitate this connection and to ensure that the experience was as seamless as our standards required, we decided to start work on the Jio Physician app.</p>
           <h3>For Consumers</h3>
           <ul>
             <li>Consumers can search a directory of physicians based on preferences like location or specialty and filter by price or rating.</li>
@@ -101,19 +110,6 @@
             </div>
             <figcaption>Consumers are able to search for physicians, view their profile and book a telemedicine consultation.</figcaption>
           </figure>
-        </div>
-        <div class="body-copy">
-          <div class="copy-figure4-4">
-            <div class="copy">
-              <p>Jio's capacity to empower an individual to take back control of their health however, really lay in the ability to connect a consumer directly with a physician.</p>
-              <p>It was once this connection was made that we could start to bring back some of the benefits of a more traditional doctor-patient relationship.</p>
-            </div>
-            <figure>
-              <img src="../assets/img/jio-home-visit.jpg">
-              <figcaption>Jio looks to bring back some of the benefits of a more traditional doctor-patient relationship.</figcaption>
-            </figure>
-          </div>
-          <p>To facilitate this connection and to ensure that the experience was as seamless as our standards required, we decided to start work on the Jio Physician app.</p>
         </div>
         <div class="body-copy">
           <h3>For Physicians</h3>
@@ -145,10 +141,10 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Web Presence</h1>
-          <p>To coincide with the launch of the Jio Physician service in Vietnam, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed to be redesigned to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
+          <p>To coincide with the launch of the Jio Physician service, <a class="link-body highlight highlight-small" href="http://www.jiohealth.com" target="_black">jiohealth.com</a> needed to be redesigned to better communicate the benefits of the platform. The site needed to be available in both English and Vietnamese, so I decided it was time to integrate a Content Management System.</p>
           <div class="copy-figure4-4">
             <div class="copy">
-              <p>Having evaluated many options, I decided to use a great little CMS called <a class="link-body highlight highlight-small" href="https://grabaperch.com/" target="_blank">Perch.</a>
+              <p>Having evaluated many options, I chose to use a great little CMS called <a class="link-body highlight highlight-small" href="https://grabaperch.com/" target="_blank">Perch.</a>
               It met all our current requirements while also being flexible enough to expand with us in the future.</p>
               <p>Developing with Perch is nice because it doesn't impose any particular conventions on how you build your front-end. It also has a really simple admin interface which makes it easy for admin users to add content.</p>
             </div>
@@ -167,8 +163,17 @@
         <div class="body-copy">
           <h1 class="heading">Growing Pains</h1>
           <p>With four apps out in the wild - Consumer & Physician apps on both iOS and Android - and a growing feature set on each, maintaining design consistency between them was becoming difficult. Jio had progressed to this point over many months and some of the older features were starting to show their age.</p>
-          <p>It was time to take stock of the current situation and begin efforts to consolidate the design across the service, it was time to create a Style Guide.</p>
-          <p>There are many benefits to creating a Style Guide and I would encourage any product owner to think about this early in their evolution as it only becomes more difficult to build as time goes on. The benefits include:</p>
+          <div class="copy-figure4-4">
+            <div class="copy">
+              <p>It was time to take stock of the current situation and begin efforts to consolidate the design across the service, it was time to create a Style Guide.</p>
+              <p>There are many benefits to creating a Style Guide and I would encourage any product owner to think about this early in their evolution as it only becomes more difficult to build as time goes on.</p> 
+            </div>
+            <figure>
+              <img src="../assets/img/jio-airbnb.jpg" alt="">
+              <figcaption>Design driven comapnies like AirBnb have adopted Style Guides into their process. <a href="http://airbnb.design/building-a-visual-language/" target="_blank">Source</a></figcaption>
+            </figure>
+          </div>
+          <p>The benefits include:</p>
           <ul>
             <li>Visual consistency helps make an interface less confusing to users. There is often a lot of inconsistency across apps due to the time spans in which they were developed.</li>
             <li>It speeds up the definition of new features. By having a library of pre-designed components, you can pick and choose which existing elements can be used to make up new screens.</li>
@@ -188,7 +193,7 @@
           <div class="copy-figure4-4">
             <div class="copy">
               <p>Watching the industry evolve over an extended period of time gave me some great insight into how users see technology playing a role in their health. These insights would lead to ideas and these ideas to potential features we could add to Jio.</p>
-              <p>I would have regular discussions with Raghu the CEO & founder about the direction of the product. These discussions would result in a list of prioritised features which would become candidates for further refinement.</p>
+              <p>I would have regular discussions with Raghu the CEO & founder about the direction of the product. These coversations would result in a list of prioritised features which would become candidates for further refinement.</p>
             </div>
             <figure>
               <img src="../assets/img/jio-roadmap.jpg">
@@ -201,8 +206,8 @@
         <div class="body-copy">
           <h1 class="heading">Designing Design</h1>
           <p>With a growing userbase, feedback and new feature requests started to roll in from our users. As a product team we had our own ideas about what items should be on the roadmap and our sales & marketing team were generating some great insights out in the field.</p>
-          <p>Filtering through all the requests was becoming difficult and I recognised that we needed to add more structure to the way we prioritised features for development. After researching companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> I was able to distill down Jio's our own product development guidelines.</p>
-          <p>Before any feature could be considered for inclusion, a simple one-page brief needed to be completed. It helped to:</p>
+          <p>Filtering through all the requests was becoming difficult and I recognised we needed a more structured way to prioritise features for development. After researching companies such as <a class="link-body highlight highlight-small" href="https://www.intercom.io/" target="_blank">Intercom</a> and <a class="link-body highlight highlight-small" href="https://www.uservoice.com/" target="_blank">UserVoice</a> I was able to distill down Jio's own product development guidelines.</p>
+          <p>Before any feature could be considered for inclusion, a one-page brief had to be completed. It helped to:</p>
           <ul>
             <li>Identify if the feature was a smaller incremental change or a big game-changer which aligned with the product vision. This helped with prioritisation later.</li>
             <li>Ensure that the team was clear <strong>why</strong> the feature was being considered. The why needed to be anchored to a user benefit and not just because an investor asked for it.. well sometimes it was because an investor asked for it.. 🙄</li>
@@ -258,7 +263,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="real-estate-tube" class="highlight">Use video to sell your property</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">4 min read</p>
+            <p class="read-time">3 min read</p>
           </div>
         </div>
       </div>

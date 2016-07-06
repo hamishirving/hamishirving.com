@@ -68,7 +68,7 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">Introduction</h1>
-          <p><a class="link-body highlight highlight-small" href="http://www.realestatetube.com" target="_blank">Real Estate Tube</a> is a service that makes it really easy to create engaging videos to advertise your property for sale or to find new housemates. I was contacted by Steven the Co-Founder after being recommended by some developers who I had worked with in the past.</p>
+          <p><a class="link-body highlight highlight-small" href="http://www.realestatetube.com" target="_blank">Real Estate Tube</a> is a service that makes it really easy to create engaging videos to advertise your property for sale or to find new housemates. I was contacted by Steven the Co-Founder after being recommended by some developers I had worked with in the past.</p>
         </div>
       </div>
       <figure class="full-bleed">
@@ -78,7 +78,7 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">The Problem</h1>
-          <p>RET already had an app in the app store but it was in need of a little design love. Having downloaded the app and played with its functionality I identified the following areas for improvement:</p>
+          <p>RET had an existing app in the app store but it was in need of some attention. I identified the following areas for improvement:</p>
           <ul>
             <li>The brand colour was overused </li>
             <li>There was no clear hierarchy of content</li>
@@ -103,10 +103,6 @@
             <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
             <cite>Steve Makris - Co Founder</cite>
           </blockquote>
-        </div>
-      </div>
-      <div class="container">
-        <div class="body-copy">
           <div class="copy-figure4-4">
             <div class="copy">
               <p>The next step was to dive into my sketch book and start playing around with some ideas. Sketching is a very low-cost way to try many different solutions to see which one might work.</p> 
@@ -117,12 +113,8 @@
               <figcaption>They ain't pretty, but they help my process big time.</figcaption>
             </figure>
           </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="body-copy">
           <h1 class="heading">Design</h1>
-          <p>The brand colour was very strong so I wanted to use it sparingly to call out important features and for the primary call to actions. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
+          <p>The brand colour was very strong so I wanted to use it sparingly to call out important features and for the primary calls to action. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
         </div>
         <div class="iphone-section-wrapper">
           <figure class="iphone-section">
@@ -195,7 +187,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">7 min read</p>
+            <p class="read-time">6 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
@@ -208,7 +200,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">4 min read</p>
           </div>
         </div>
       </div>

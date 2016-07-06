@@ -73,15 +73,13 @@
           <p>The ability to effectively manage cancer treatment relies heavily on strict drug regimens. These drugs can often cause adverse side-effects which result in the patient not adhering to their schedules and missing much needed medication.</p>
           <p>For patients, communicating these side-effects to doctors is a pain and unless a patient has a direct line of communication to their physician, the lapses in drug adherence can go unnoticed until the next hospital visit.</p>
           <h1 class="heading">Research</h1>
-          <p>I use both iOS and Android devices in my day to day and I rely on that familiarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each platform.</p>
-          <p>Apple Watch was a completely new device, introducing new ways to interact along with new opportunities to capture information from the user. It was also pre-release so there was no way to get my hands on a device to get familiar with it.</p>
-          <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new gestures and the digital crown.</p>
-          <p>I learned about the different ways to access app content through notifications, glances and the watch apps themselves.</p>
+          <p>I use both iOS and Android devices in my day to day and I rely on that familiarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each platform. However Apple Watch was a completely new device with no way to get my hands on one pre-release.</p>
+          <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new features and design patterns.</p>
           <figure class="figure9-3">
             <img src="../assets/img/medo-apple.jpg">
             <figcaption>The Apple documentation allowed me to get up to speed with the new technology.</figcaption>
           </figure>
-          <p>Having become familiar with the documentation I worked with Medopad alongside their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
+          <p>Having got up to speed, I worked with Medopad and their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
           <ul>
             <li>Receive real-time alerts to remind patients which medication to take at what time and at what dosage.</li>
             <li>Mark a medication as taken so their adherence can be measured and reported back to physicians.</li>
@@ -98,8 +96,11 @@
         <div class="body-copy">
           <h1 class="heading">Notifications</h1>
           <p>Notifications are a powerful feature on the Apple Watch. They allow information to be presented to the user right where they need it.</p>
-          <p>The user initially receives a vibration to alert them they have received a notification. They can then decide if they want to act on it by raising their wrist to view the Short Look which tells the user what the notification is about and which app it is from.</p>
-          <p>If they decide they want to know more, the user can keep their wrist raised and the notification turns into a Long Look which presents further information and allows them to interact with the notification, for example by marking a medication as taken.</p>
+          <figure class="figure9-3">
+            <img src="../assets/img/medo-in-situ.jpg" alt="">
+            <figcaption>Notifications are a powerful feature on the Apple Watch.</figcaption>
+          </figure>
+          <p>The user initially receives a vibration to alert them they have a notification. They raise their wrist to view the Short Look and if they keep their wrist raised the notification turns into a Long Look which allows them to interact with it, for example by marking a medication as taken.</p>
         </div>
       </div>
       <figure class="contained">
@@ -110,24 +111,26 @@
         <div class="body-copy">
           <h1 class="heading">Reporting Symptoms</h1>
           <p>The ability to report any symptoms experienced after taking medication is an important feature of the app. The design allowed for consumers to select from a list of potential symptoms and submit them to their doctor.</p>
-          <p>I conceived a design that allowed for three different states:</p>
-          <ul>
-            <li>Initial state which allowed the user to select the symptom.</li>
-            <li>Selected state which asked the user to confirm and submit to their doctor.</li>
-            <li>Confirmed state which showed the user that they had already selected that symptom.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="watch-section">
-        <div class="watch">
-          <img class="apple-watch" src="../assets/img/watch-front.jpg" alt="">
-          <div class="watch-window">
-            <img src="../assets/img/symptoms.gif" alt="">
+          <div class="copy-figure4-4">
+            <div class="copy">
+              <p>I conceived a design that allowed for three different states:</p>
+              <ul>
+                <li>Initial state which allowed the user to select the symptom.</li>
+                <li>Selected state which asked the user to confirm and submit to their doctor.</li>
+                <li>Confirmed state which showed the user that they had already selected that symptom.</li>
+              </ul>
+            </div>
+            <figure>
+              <div class="watch-section">
+                <div class="watch">
+                  <img class="apple-watch" src="../assets/img/watch-front.jpg" alt="">
+                  <div class="watch-window">
+                    <img src="../assets/img/symptoms.gif" alt="">
+                  </div>
+                </div>
+              </div>
+            </figure>
           </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="body-copy">
           <h1 class="heading">The Results</h1>
           <p>The app launch received some very positive feedback from both patients and doctors and was featured on a BBC news report (video length - 6:53 min).</p>
         </div>
@@ -164,7 +167,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">4 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-lg">
@@ -177,7 +180,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">7 min read</p>
+            <p class="read-time">6 min read</p>
           </div>
         </div>
       </div>

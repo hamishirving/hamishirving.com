@@ -100,6 +100,21 @@
 
 			// Case specific type styles
 
+			h1.heading {
+				display: inline-block;
+				margin-bottom: 0;
+
+				// For list directly after heading
+				+ ul li {
+					margin-top: 1.5em;
+				}
+
+				// For copy-figure4-4 directly after heading
+				+ .copy-figure4-4 {
+					margin-top: 1.5em;
+				}
+			}
+
 			// For headings within body-copy (not first)
 			h1.heading:not(:first-child) {
 				margin-top: 1.5em;
@@ -117,15 +132,12 @@
 				margin: .5em 0;
 			}
 
-			.col-1 span, .col-2 span {
-				font-weight: 600;
-			}
-
 			blockquote {
 				@include span-columns(12 of 6);
 				@include shift(-3);
-				margin-top: 10%;
-				float: none;
+				margin-top: 5%;
+				margin-bottom: 10%;
+				// float: none;
 
 				@include media($tablet) {
 					@include span-columns(12);
@@ -138,9 +150,11 @@
 				}
 			}
 
+			// Copy with image inline 4 cols each
 			.copy-figure4-4 {
 				@include span-columns(8 of 6);
 				@include shift(-1);
+				@include omega;
 
 				.copy p:first-child {
 					margin-top: 0;
@@ -166,6 +180,7 @@
 
 				figure {
 					@include span-columns(4 of 8);
+					// @include omega;
 					padding-top: 6px;
 
 					@include media($tablet) {
@@ -183,6 +198,7 @@
 				}
 			}
 
+			// Two figure images side by side
 			.figure6-6 {
 				@include span-columns(12 of 6);
 				@include shift(-3);
@@ -208,6 +224,8 @@
 				}
 			}
 
+
+			// Large 9 col image with 3 col caption to side
 			.figure9-3 {
 				@include span-columns(12 of 6);
 				@include shift(-3);
@@ -255,78 +273,7 @@
 				// Clear float on p after figure
 				+ p {
 					display: inline-block;
-				}
-			}
-
-			.img-push {
-				// img with text 2 cols wider than normal copy
-				@include span-columns(12 of 6);
-				@include shift(-3);
-
-				// Adjacent sibling selector (two imgages next to each other)
-				+ .img-push {
-					margin-top: 1em;
-				}
-
-				// on tablet same width as normal copy (full width)
-				@include media($tablet) {
-					@include span-columns(12 of 12);
-					@include shift(0);
-				}
-
-				.img-push-copy {
-					// half of the available 8 cols
-					@include span-columns(3 of 12);
-
-					// Remove top margin from first p in image-push
-					p:first-child {
-						margin-top: 0;
-					}
-
-					// half of the available 12 cols
-					@include media($tablet) {
-						@include span-columns(6 of 12);
-					}
-
-					// all of the available 12 cols
-					@include media($mobile) {
-						@include span-columns(12);
-					}
-				}
-
-				.img-push-img {
-					// half of the available 8 cols
-					@include span-columns(9 of 12);
-
-					// half of the available 12 cols
-					@include media($tablet) {
-						@include span-columns(6 of 12);
-					}
-
-					// all of the available 12 cols
-					@include media($mobile) {
-						@include span-columns(12);
-					}
-
-					img {
-						max-width: 100%;
-					}
-
-					&.img-left {
-						padding-right: 20px;
-
-						@include media($mobile) {
-							padding: 0;
-						}
-					}
-
-					&.img-right {
-						padding-left: 20px;
-
-						@include media($mobile) {
-							padding: 0;
-						}
-					}
+					margin-bottom: 0;
 				}
 			}
 		}
@@ -406,39 +353,10 @@
 	.full-bleed {
 		width: 100%;
 		max-width: 1440px;
-		margin: 5% auto;
+		margin: 2% auto;
 
 		img {
 			width: 100%;
-		}
-	}
-
-	// 10 column section on homepage
-	.full-width {
-		@include span-columns(10 of 6);
-		@include shift(-2);
-
-		@include media($tablet) {
-			@include span-columns(12);
-			@include shift(0);
-		}
-
-		> p:first-child {
-			text-align: center;
-		}
-
-		.col-1, .col-2 {
-			@include span-columns(5 of 10);
-
-			@include media($mobile) {
-				@include span-columns(12);
-				@include omega;
-				margin: 0;
-			}
-
-			li {
-				margin-top: 0;
-			}
 		}
 	}
 
@@ -451,8 +369,8 @@
 		margin-bottom: 5%;
 		text-align: center;
 
-		img {
-			width: 100%;
+		img, iframe {
+			max-width: 100%;
 		}
 
 		@include media($tablet) {
@@ -479,7 +397,7 @@
 	.browser-section {
 		text-align: center;
 		width: 100%;
-		margin: 5% 0;
+		margin: 0 0 5% 0;
 
 		.browser {
 			width: 100%;
@@ -491,12 +409,9 @@
 
 			.browser-window {
 				position: absolute;
-				// top: 5.4%;
-				top: 14%;
+				top: 13.9%;
 				left: 50%;
-				// height: 82.5%;
 				height: 72%;
-				// width: 55.5%;
 				width: 44.5%;
 				transform: translateX(-50.4%);
 				background: #fafafa;
@@ -514,7 +429,7 @@
 	.watch-section {
 		text-align: center;
 		width: 100%;
-		margin: 5% 0;
+		// margin: 5% 0;
 
 		.watch {
 			width: 100%;
@@ -526,11 +441,16 @@
 
 			.watch-window {
 				position: absolute;
-			    top: 29.8%;
-			    left: 49.5%;
-			    height: 39.9%;
-			    width: 19%;
-				transform: translateX(-50.4%);
+			    // top: 29.8%;
+			    top: 27.2%;
+			    // left: 49.5%;
+			    left: 48.7%;
+			    // height: 39.9%;
+			    height: 44.3%;
+			    // width: 19%;
+			    width: 30.3%;
+				// transform: translateX(-50.4%);
+				transform: translateX(-50%);
 				background: $color-black;
 				border-radius: 2px;
 				overflow: hidden;

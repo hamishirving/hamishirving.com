@@ -1628,6 +1628,13 @@ footer {
         margin-left: 0%; }
         .case .container .body-copy:last-child {
           margin-right: 0; } }
+    .case .container .body-copy h1.heading {
+      display: inline-block;
+      margin-bottom: 0; }
+      .case .container .body-copy h1.heading + ul li {
+        margin-top: 1.5em; }
+      .case .container .body-copy h1.heading + .copy-figure4-4 {
+        margin-top: 1.5em; }
     .case .container .body-copy h1.heading:not(:first-child) {
       margin-top: 1.5em; }
     .case .container .body-copy p {
@@ -1636,16 +1643,14 @@ footer {
       color: #262C30; }
     .case .container .body-copy li {
       margin: .5em 0; }
-    .case .container .body-copy .col-1 span, .case .container .body-copy .col-2 span {
-      font-weight: 600; }
     .case .container .body-copy blockquote {
       float: left;
       display: block;
       margin-right: 4.82916%;
       width: 204.82916%;
       margin-left: -52.41458%;
-      margin-top: 10%;
-      float: none; }
+      margin-top: 5%;
+      margin-bottom: 10%; }
       .case .container .body-copy blockquote:last-child {
         margin-right: 0; }
       @media screen and (max-width: 768px) {
@@ -1665,7 +1670,8 @@ footer {
       display: block;
       margin-right: 4.82916%;
       width: 134.94305%;
-      margin-left: -17.47153%; }
+      margin-left: -17.47153%;
+      margin-right: 0; }
       .case .container .body-copy .copy-figure4-4:last-child {
         margin-right: 0; }
       .case .container .body-copy .copy-figure4-4 .copy p:first-child {
@@ -1832,86 +1838,8 @@ footer {
             .case .container .body-copy .figure9-3 figcaption:last-child {
               margin-right: 0; } }
       .case .container .body-copy .figure9-3 + p {
-        display: inline-block; }
-    .case .container .body-copy .img-push {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 204.82916%;
-      margin-left: -52.41458%; }
-      .case .container .body-copy .img-push:last-child {
-        margin-right: 0; }
-      .case .container .body-copy .img-push + .img-push {
-        margin-top: 1em; }
-      @media screen and (max-width: 768px) {
-        .case .container .body-copy .img-push {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%;
-          margin-left: 0%; }
-          .case .container .body-copy .img-push:last-child {
-            margin-right: 0; } }
-      .case .container .body-copy .img-push .img-push-copy {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 23.23176%; }
-        .case .container .body-copy .img-push .img-push-copy:last-child {
-          margin-right: 0; }
-        .case .container .body-copy .img-push .img-push-copy p:first-child {
-          margin-top: 0; }
-        @media screen and (max-width: 768px) {
-          .case .container .body-copy .img-push .img-push-copy {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 48.82117%; }
-            .case .container .body-copy .img-push .img-push-copy:last-child {
-              margin-right: 0; } }
-        @media screen and (max-width: 480px) {
-          .case .container .body-copy .img-push .img-push-copy {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 100%; }
-            .case .container .body-copy .img-push .img-push-copy:last-child {
-              margin-right: 0; } }
-      .case .container .body-copy .img-push .img-push-img {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 74.41059%; }
-        .case .container .body-copy .img-push .img-push-img:last-child {
-          margin-right: 0; }
-        @media screen and (max-width: 768px) {
-          .case .container .body-copy .img-push .img-push-img {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 48.82117%; }
-            .case .container .body-copy .img-push .img-push-img:last-child {
-              margin-right: 0; } }
-        @media screen and (max-width: 480px) {
-          .case .container .body-copy .img-push .img-push-img {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 100%; }
-            .case .container .body-copy .img-push .img-push-img:last-child {
-              margin-right: 0; } }
-        .case .container .body-copy .img-push .img-push-img img {
-          max-width: 100%; }
-        .case .container .body-copy .img-push .img-push-img.img-left {
-          padding-right: 20px; }
-          @media screen and (max-width: 480px) {
-            .case .container .body-copy .img-push .img-push-img.img-left {
-              padding: 0; } }
-        .case .container .body-copy .img-push .img-push-img.img-right {
-          padding-left: 20px; }
-          @media screen and (max-width: 480px) {
-            .case .container .body-copy .img-push .img-push-img.img-right {
-              padding: 0; } }
+        display: inline-block;
+        margin-bottom: 0; }
   .case .container .iphone-section-wrapper {
     float: left;
     display: block;
@@ -1974,47 +1902,9 @@ footer {
   .case .full-bleed {
     width: 100%;
     max-width: 1440px;
-    margin: 5% auto; }
+    margin: 2% auto; }
     .case .full-bleed img {
       width: 100%; }
-  .case .full-width {
-    float: left;
-    display: block;
-    margin-right: 4.82916%;
-    width: 169.88611%;
-    margin-left: -34.94305%; }
-    .case .full-width:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 768px) {
-      .case .full-width {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin-left: 0%; }
-        .case .full-width:last-child {
-          margin-right: 0; } }
-    .case .full-width > p:first-child {
-      text-align: center; }
-    .case .full-width .col-1, .case .full-width .col-2 {
-      float: left;
-      display: block;
-      margin-right: 2.84259%;
-      width: 48.57871%; }
-      .case .full-width .col-1:last-child, .case .full-width .col-2:last-child {
-        margin-right: 0; }
-      @media screen and (max-width: 480px) {
-        .case .full-width .col-1, .case .full-width .col-2 {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%;
-          margin-right: 0;
-          margin: 0; }
-          .case .full-width .col-1:last-child, .case .full-width .col-2:last-child {
-            margin-right: 0; } }
-      .case .full-width .col-1 li, .case .full-width .col-2 li {
-        margin-top: 0; }
   .case .contained {
     float: left;
     display: block;
@@ -2026,8 +1916,8 @@ footer {
     text-align: center; }
     .case .contained:last-child {
       margin-right: 0; }
-    .case .contained img {
-      width: 100%; }
+    .case .contained img, .case .contained iframe {
+      max-width: 100%; }
     @media screen and (max-width: 768px) {
       .case .contained {
         float: left;
@@ -2049,7 +1939,7 @@ footer {
   .case .browser-section {
     text-align: center;
     width: 100%;
-    margin: 5% 0; }
+    margin: 0 0 5% 0; }
     .case .browser-section .browser {
       width: 100%;
       position: relative; }
@@ -2057,7 +1947,7 @@ footer {
         width: 100%; }
       .case .browser-section .browser .browser-window {
         position: absolute;
-        top: 14%;
+        top: 13.9%;
         left: 50%;
         height: 72%;
         width: 44.5%;
@@ -2072,8 +1962,7 @@ footer {
           width: 100%; }
   .case .watch-section {
     text-align: center;
-    width: 100%;
-    margin: 5% 0; }
+    width: 100%; }
     .case .watch-section .watch {
       width: 100%;
       position: relative; }
@@ -2081,13 +1970,13 @@ footer {
         width: 100%; }
       .case .watch-section .watch .watch-window {
         position: absolute;
-        top: 29.8%;
-        left: 49.5%;
-        height: 39.9%;
-        width: 19%;
-        -webkit-transform: translateX(-50.4%);
-            -ms-transform: translateX(-50.4%);
-                transform: translateX(-50.4%);
+        top: 27.2%;
+        left: 48.7%;
+        height: 44.3%;
+        width: 30.3%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
         background: #262C30;
         border-radius: 2px;
         overflow: hidden; }

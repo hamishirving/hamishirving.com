@@ -69,7 +69,7 @@
           <h1 class="heading">My Values</h1>
           <ul>
             <li>I believe in the intersection of user needs and business case. Good design not only solves a users' problem, it creates a sustainable business as well.</li>
-            <li>I believe in starting narrow first. It is a lot easier to define a solution for a narrowly defined audience, then look to broaden after gaining initial traction.</li>
+            <li>I believe in starting narrow first. It is a lot easier to explore a solution for a narrowly defined audience, then broaden after gaining initial traction.</li>
             <li>I believe in making educated assumptions, arriving at the quickest way to test that assumption then validating that idea through talking to real users.</li>
             <li>I believe in constant iteration and that design is never finished.</li>
             <li>I believe that true failure only manifests if you fail and don't learn anything from it.</li>

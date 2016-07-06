@@ -132,7 +132,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">7 min read</p>
+            <p class="read-time">6 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
@@ -145,7 +145,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/real-estate-tube" class="highlight">Use video to sell your property</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">4 min read</p>
+            <p class="read-time">3 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
@@ -158,7 +158,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/parkhound" class="highlight">Solving the parking crisis</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">4 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-lg">
@@ -181,32 +181,24 @@
       <div class="container">
         <div class="body-copy">
           <h1 class="heading">What's in a name?</h1>
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p>Our industry has so many titles and roles, it can make it very difficult when looking for a partner to lead design on your project. TLDR - <a class="link-body highlight highlight-small" href="#productDesigner" id="productDesignerLink">Skip to my definition of Product Design.</a></p>
-              <p>It took me a while to get my head around the terminology, however I am now very intentional about the title I use. Let me break down the various roles:</p>
-              <p><em>Graphic Design:</em> Often a catch-all, it is a form of visual communication which leverages images and other visual elements to convey ideas. It usually focuses on designs meant for print rather than digital. They will produce artefacts such as brand identities, marketing materials, product packaging & illustrations.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="assets/img/ux-design.jpg">
-              <figcaption>It can be a complicated field. <a class="highlight highlight-small" href="http://visual.ly/disciplines-user-experience-design" target="_blank">Source</a></figcaption>
-            </figure>
-          </div>
+          <p>Our industry has so many titles and roles, it can make it very difficult when looking for a partner to lead design on your project. TLDR - <a class="link-body highlight highlight-small" href="#productDesigner" id="productDesignerLink">Skip to my definition of Product Design.</a></p>
+          <p>It took me a while to get my head around the terminology, however I am now very intentional about the title I use. Let me break down the various roles:</p>
+          <figure class="figure9-3">
+            <img src="assets/img/ux-design.jpg">
+            <figcaption>It can be a complicated field. <a class="highlight highlight-small" href="http://visual.ly/disciplines-user-experience-design" target="_blank">Source</a></figcaption>
+          </figure>
+          <p><em>Graphic Design:</em> Often a catch-all, it is a form of visual communication which leverages images and other visual elements to convey ideas. It usually focuses on designs meant for print rather than digital. They will produce artefacts such as brand identities, marketing materials, product packaging & illustrations.</p>
           <p><em>Visual Design:</em> Concerned with how a product looks rather than how screens might link together or how someone interacts with the product. They will produce artefacts such as screen designs, icons and controls in tools like Sketch and Photoshop.</p>
           <p><em>User Interface (UI) Design:</em> Has some overlap with Visual Design in that it defines the look & feel of your product by focusing on layout, colour, typography, imagery, white space & texture while also being concerned about how flows come together. They will produce artefacts such as design comps in Photoshop or Sketch.</p>
           <p><em>Interaction (IxD) Design:</em> Focuses on the interaction between the user and the product often in very fine detail by defining aspects such as the transition between screens or the animation of an icon when tapped. They will produce things like HTML 5 prototypes or animations using the various prototyping tools available.</p>
           <p><em>User Experience (UX) Design:</em> Encapsulates elements from the above by exploring the experience people have using a digital product while ensuring it is easy to use. Their decisions are always rooted in their understanding of a users needs which often comes from research. They will produce artefacts such as user research documents, personas, user journeys and wireframes.</p>
           <h1 id="productDesigner" class="heading">That's great.. but what about Product Design?</h1>
-          <div class="img-push">
-            <div class="img-push-copy">
-              <p><em>Product Design</em> covers all of the above and more. A Product Designer is equally at ease defining high level product strategy as they are in the details of pushing pixels or writing code.</p>
-              <p>They also have a view across the design spectrum which enables them to define systems and processes which lead to better design outcomes.</p>
-            </div>
-            <figure class="img-push-img img-right">
-              <img src="assets/img/product-design.jpg">
-              <figcaption>The many layers of Product Design. <a class="highlight highlight-small" href="https://medium.com/intro-to-digital-product-design/lecture-1-what-is-product-design-c290bfe799a9#.mfuahl3ul" target="_blank">Source</a> (Original source unknown)</figcaption>
-            </figure>
-          </div>
+          <p><em>Product Design</em> covers all of the above and more. A Product Designer is equally at ease defining high level product strategy as they are in the details of pushing pixels or writing code.</p>
+          <p>They also have a view across the design spectrum which enables them to define systems and processes which lead to better design outcomes.</p>
+          <figure class="figure9-3">
+            <img src="assets/img/product-design.jpg">
+            <figcaption>The many layers of Product Design. <a class="highlight highlight-small" href="https://medium.com/intro-to-digital-product-design/lecture-1-what-is-product-design-c290bfe799a9#.mfuahl3ul" target="_blank">Source</a> (Original source unknown)</figcaption>
+          </figure>
           <p>A <em>good</em> product designer has some skills in all areas of design, usually with a deep interest in one or two. A <em>great</em> product designer can identify the areas where he is weak and seek advice and support, sometimes helping to build a team to make sure the gaps are covered.</p>
           <p>If you'd like to learn more about my Product Design experience, check out <a class="link-body highlight highlight-small" href="work">my case studies.</a></p>
         </div>

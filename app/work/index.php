@@ -67,7 +67,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">7 min read</p>
+            <p class="read-time">6 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
@@ -80,7 +80,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="real-estate-tube" class="highlight">Use video to sell your property</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">4 min read</p>
+            <p class="read-time">3 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-sm">
@@ -93,7 +93,7 @@
           <div class="case-preview-text">
             <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
             <p class="small">Case Study</p>
-            <p class="read-time">5 min read</p>
+            <p class="read-time">4 min read</p>
           </div>
         </div>
         <div class="case-preview case-preview-lg">

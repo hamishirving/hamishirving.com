@@ -54,8 +54,8 @@
           <p>Think you'd like to talk? Great, <a class="link-body highlight highlight-small" href="mailto:hello@hamishirving.com">send me an email.</a></p>
           <div class="copy-figure4-4">
             <div class="copy">
-              <p>My clients love working remotely with me, it means I can be more flexible with my time and more responsive to my clients needs. I understand the importance of communication, especially when working with someone potentially on the other side of the world.</p>
-              <p>That's why I'll always get back to you within a few hours, even if only to say I've received your message and will respond in more detail when able.</p>
+              <p>My clients love working remotely with me, it means I can be more flexible with my time and more responsive to my clients needs.</p>
+              <p>I understand the importance of communication, that's why I'll always get back to you within a few hours, even if only to say I received your message and will respond in more detail when able.</p>
             </div>
             <figure>
               <img src="assets/img/window.jpg">

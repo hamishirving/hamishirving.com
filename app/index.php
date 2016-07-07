@@ -63,7 +63,7 @@
             <img src="assets/img/raghu.jpg" alt="">
           </div>
           <div class="quote-content">
-            <p>&ldquo;Testimonial still to come.. Hamish is passionate about putting the customer first and also ensuring the most efficient and effective tools are put in place between requirements, design and build.&rdquo;</p>
+            <p>&ldquo;Not only is Hamish a great designer, his ability to think strategically about the direction of the product is excellent. Our discussions really shaped the direction of the company.&rdquo;</p>
             <h2 class="heading">Raghu Rai</h2>
             <div class="quote-footer">
               <p class="small">CEO & Founder</p>

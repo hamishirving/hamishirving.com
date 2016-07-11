@@ -13,7 +13,7 @@
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro:400,600|Oswald" rel="stylesheet">
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -23,26 +23,21 @@
       <div class="container">
         <div class="brand">
           <a href="/">
-            <svg version="1.1"
-               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-               x="0px" y="0px" width="40px" height="50px" viewBox="0 0 40 50" style="enable-background:new 0 0 40 50;" class="logo" xml:space="preserve">
-            <g>
-              <defs>
-                <path id="SVGID_1_" d="M14.9,19.9h10.2v9.9H14.9V19.9z M25.1,5H35v40h-9.9V5z M5,5h9.9v40H5V5z"/>
-              </defs>
-              <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-              </clipPath>
-              <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
-            </g>
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="nav" transform="translate(-77.000000, -25.000000)" fill="#262C30">
+                        <g id="Combined-Shape">
+                            <path d="M117,70.0018309 C123.072234,65.4407993 127,58.1790892 127,50 C127,36.1928813 115.807119,25 102,25 C88.1928813,25 77,36.1928813 77,50 C77,58.1790892 80.9277665,65.4407993 87,70.0018309 L87,35 L97,35 L97,74.4999094 C98.6155497,74.8278487 100.287671,75 102,75 C103.712329,75 105.38445,74.8278487 107,74.4999094 L107,50 L117,50 L117,70.0018309 Z M97,50 L107,50 L107,60 L97,60 L97,50 Z M107,35 L117,35 L117,45 L107,45 L107,35 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </svg>
-            <!-- <img src="assets/img/logo.svg" height="40px" width="30px" alt="Logo"> -->
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="work" class="link highlight highlight-small">Work</a></li>
-          <li><a href="about" class="link highlight highlight-small">About</a></li>
-          <li><a href="contact" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="work" class="link">Work</a></li>
+          <li><a href="about" class="link">About</a></li>
+          <li><a href="contact" class="link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -63,7 +58,7 @@
             <img src="assets/img/raghu.jpg" alt="">
           </div>
           <div class="quote-content">
-            <p>&ldquo;Not only is Hamish a great designer, his ability to think strategically about the direction of the product is excellent. Our discussions really shaped the direction of the company.&rdquo;</p>
+            <p>&ldquo;Hamish has an innate ability to translate our business model, user needs and vision into a simple, coherent design language. Our discussions go beyond UI/UX and examine how the fundamentals of our business work.&rdquo;</p>
             <h2 class="heading">Raghu Rai</h2>
             <div class="quote-footer">
               <p class="small">CEO & Founder</p>
@@ -76,7 +71,7 @@
             <img src="assets/img/michael.jpg" alt="">
           </div>
           <div class="quote-content">
-            <p>&ldquo;Hamish is passionate about putting the customer first and also ensuring the most efficient and effective tools are put in place between requirements, design and build.</p>
+            <p>&ldquo;Hamish is passionate about putting the customer first and also ensuring the most efficient and effective tools are put in place between requirements, design and build.&rdquo;</p>
             <h2 class="heading">Michael Nuciforo</h2>
             <div class="quote-footer">
               <p class="small">Co-Founder</p>
@@ -92,7 +87,7 @@
                   <img src="assets/img/raghu.jpg" alt="">
                 </div>
                 <div class="quote-content">
-                  <p>Testimonial still to come.. Hamish is passionate about putting the customer first and also ensuring the most efficient and effective tools are put in place between requirements, design and build.</p>
+                  <p>&ldquo;Hamish has an innate ability to translate our business model, user needs and vision into a simple, coherent design language. Our discussions go beyond UI/UX and examine how the fundamentals of our business work.&rdquo;</p>
                   <h2 class="heading">Raghu Rai</h2>
                   <div class="quote-footer">
                     <p class="small">CEO & Founder</p>
@@ -105,7 +100,7 @@
                   <img src="assets/img/michael.jpg" alt="">
                 </div>
                 <div class="quote-content">
-                  <p>Hamish is passionate about putting the customer first and also ensuring the most efficient and effective tools are put in place between requirements, design and build.</p>
+                  <p>&ldquo;Hamish is passionate about putting the customer first and also ensuring the most efficient and effective tools are put in place between requirements, design and build.&rdquo;</p>
                   <h2 class="heading">Michael Nuciforo</h2>
                   <div class="quote-footer">
                     <p class="small">Co-Founder</p>
@@ -131,7 +126,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">6 min read</p>
           </div>
         </div>
@@ -144,7 +139,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/real-estate-tube" class="highlight">Use video to sell your property</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">3 min read</p>
           </div>
         </div>
@@ -157,7 +152,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/parkhound" class="highlight">Solving the parking crisis</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">4 min read</p>
           </div>
         </div>
@@ -170,37 +165,72 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="work/medopad" class="highlight">Better cancer management through connected devices</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">3 min read</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="productDesign" class="section case product-design">
+    <section id="productDesign" class="section case first-section product-design">
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">What's in a name?</h1>
-          <p>Our industry has so many titles and roles, it can make it very difficult when looking for a partner to lead design on your project. TLDR - <a class="link-body highlight highlight-small" href="#productDesigner" id="productDesignerLink">Skip to my definition of Product Design.</a></p>
-          <p>It took me a while to get my head around the terminology, however I am now very intentional about the title I use. Let me break down the various roles:</p>
-          <figure class="figure9-3">
-            <img src="assets/img/ux-design.jpg">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">What's in a name?</h3>
+          </div>
+          <div class="content">
+            <p>Our industry has so many titles and roles, it can make it very difficult when looking for a partner to lead design on your project. TLDR - <a class="link-body highlight highlight-small" href="#productDesigner" id="productDesignerLink">Skip to my definition of Product Design.</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="figure-img">
+          <figure>
             <figcaption>It can be a complicated field. <a class="highlight highlight-small" href="http://visual.ly/disciplines-user-experience-design" target="_blank">Source</a></figcaption>
+            <img src="assets/img/ux-design.jpg" alt="">
           </figure>
-          <p><em>Graphic Design:</em> Often a catch-all, it is a form of visual communication which leverages images and other visual elements to convey ideas. It usually focuses on designs meant for print rather than digital. They will produce artefacts such as brand identities, marketing materials, product packaging & illustrations.</p>
-          <p><em>Visual Design:</em> Concerned with how a product looks rather than how screens might link together or how someone interacts with the product. They will produce artefacts such as screen designs, icons and controls in tools like Sketch and Photoshop.</p>
-          <p><em>User Interface (UI) Design:</em> Has some overlap with Visual Design in that it defines the look & feel of your product by focusing on layout, colour, typography, imagery, white space & texture while also being concerned about how flows come together. They will produce artefacts such as design comps in Photoshop or Sketch.</p>
-          <p><em>Interaction (IxD) Design:</em> Focuses on the interaction between the user and the product often in very fine detail by defining aspects such as the transition between screens or the animation of an icon when tapped. They will produce things like HTML 5 prototypes or animations using the various prototyping tools available.</p>
-          <p><em>User Experience (UX) Design:</em> Encapsulates elements from the above by exploring the experience people have using a digital product while ensuring it is easy to use. Their decisions are always rooted in their understanding of a users needs which often comes from research. They will produce artefacts such as user research documents, personas, user journeys and wireframes.</p>
-          <h1 id="productDesigner" class="heading">That's great.. but what about Product Design?</h1>
-          <p><em>Product Design</em> covers all of the above and more. A Product Designer is equally at ease defining high level product strategy as they are in the details of pushing pixels or writing code.</p>
-          <p>They also have a view across the design spectrum which enables them to define systems and processes which lead to better design outcomes.</p>
-          <figure class="figure9-3">
-            <img src="assets/img/product-design.jpg">
-            <figcaption>The many layers of Product Design. <a class="highlight highlight-small" href="https://medium.com/intro-to-digital-product-design/lecture-1-what-is-product-design-c290bfe799a9#.mfuahl3ul" target="_blank">Source</a> (Original source unknown)</figcaption>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Design Roles</h3>
+          </div>
+          <div class="content">
+            <p>It took me a while to get my head around the terminology, however I am now very intentional about the title I use. Let me break down the various roles:</p>
+            <p><em>Graphic Design:</em> Often a catch-all, it is a form of visual communication which leverages images and other visual elements to convey ideas. It usually focuses on designs meant for print rather than digital. They will produce artefacts such as brand identities, marketing materials, product packaging & illustrations.</p>
+            <p><em>Visual Design:</em> Concerned with how a product looks rather than how screens might link together or how someone interacts with the product. They will produce artefacts such as screen designs, icons and controls in tools like Sketch and Photoshop.</p>
+            <p><em>User Interface (UI) Design:</em> Has some overlap with Visual Design in that it defines the look & feel of your product by focusing on layout, colour, typography, imagery, white space & texture while also being concerned about how flows come together. They will produce artefacts such as design comps in Photoshop or Sketch.</p>
+            <p><em>Interaction (IxD) Design:</em> Focuses on the interaction between the user and the product often in very fine detail by defining aspects such as the transition between screens or the animation of an icon when tapped. They will produce things like HTML 5 prototypes or animations using the various prototyping tools available.</p>
+            <p><em>User Experience (UX) Design:</em> Encapsulates elements from the above by exploring the experience people have using a digital product while ensuring it is easy to use. Their decisions are always rooted in their understanding of a users needs which often comes from research. They will produce artefacts such as user research documents, personas, user journeys and wireframes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Product Design?</h3>
+          </div>
+          <div class="content">
+            <p><em>Product Design</em> covers all of the above and more. A Product Designer is equally at ease defining high level product strategy as they are in the details of pushing pixels or writing code.</p>
+            <p>They also have a view across the design spectrum which enables them to define systems and processes which lead to better design outcomes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="figure-img">
+          <figure>
+            <figcaption>The many layers of Product Design. </br></br><a class="highlight highlight-small" href="https://medium.com/intro-to-digital-product-design/lecture-1-what-is-product-design-c290bfe799a9#.mfuahl3ul" target="_blank">Source</a> (Original source unknown)</figcaption>
+            <img src="assets/img/product-design.jpg" alt="">
           </figure>
-          <p>A <em>good</em> product designer has some skills in all areas of design, usually with a deep interest in one or two. A <em>great</em> product designer can identify the areas where he is weak and seek advice and support, sometimes helping to build a team to make sure the gaps are covered.</p>
-          <p>If you'd like to learn more about my Product Design experience, check out <a class="link-body highlight highlight-small" href="work">my case studies.</a></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten no-aside">
+          <div class="content">
+            <p>A <em>good</em> product designer has some skills in all areas of design, usually with a deep interest in one or two. A <em>great</em> product designer can identify the areas where he is weak and seek advice and support, sometimes helping to build a team to make sure the gaps are covered.</p>
+            <p>If you'd like to learn more about my Product Design experience, check out <a class="link-body highlight highlight-small" href="work">my case studies.</a></p>
+          </div>
         </div>
       </div>
     </section>

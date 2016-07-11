@@ -13,7 +13,7 @@
     <link href="../assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro:400,600|Oswald" rel="stylesheet">
 
     <script src="../assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -23,25 +23,21 @@
       <div class="container">
         <div class="brand">
           <a href="/">
-            <svg version="1.1"
-               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-               x="0px" y="0px" width="40px" height="50px" viewBox="0 0 40 50" style="enable-background:new 0 0 40 50;" class="logo" xml:space="preserve">
-            <g>
-              <defs>
-                <path id="SVGID_1_" d="M14.9,19.9h10.2v9.9H14.9V19.9z M25.1,5H35v40h-9.9V5z M5,5h9.9v40H5V5z"/>
-              </defs>
-              <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-              </clipPath>
-              <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
-            </g>
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="nav" transform="translate(-77.000000, -25.000000)" fill="#262C30">
+                        <g id="Combined-Shape">
+                            <path d="M117,70.0018309 C123.072234,65.4407993 127,58.1790892 127,50 C127,36.1928813 115.807119,25 102,25 C88.1928813,25 77,36.1928813 77,50 C77,58.1790892 80.9277665,65.4407993 87,70.0018309 L87,35 L97,35 L97,74.4999094 C98.6155497,74.8278487 100.287671,75 102,75 C103.712329,75 105.38445,74.8278487 107,74.4999094 L107,50 L117,50 L117,70.0018309 Z M97,50 L107,50 L107,60 L97,60 L97,50 Z M107,35 L117,35 L117,45 L107,45 L107,35 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </svg>
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link">Work</a></li>
+          <li><a href="../about" class="link">About</a></li>
+          <li><a href="../contact" class="link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -50,126 +46,191 @@
 
     <section class="section case">
       <div class="container">
-        <div class="case-header">
+        <div class="ten case-header">
           <h1 class="huge">Use video to showcase your property & your personality</h1>
           <ul class="services">
-            <li class="services-heading">Services</li>
+            <li class="byline">Services</li>
             <li class="small">Mobile Design</li>
             <li class="small">Web Design</li>
           </ul>
-          <div class="dates">
-            <ul>
-              <li class="services-heading">Dates</li>
-              <li class="date">OCT 2015 - DEC 2015</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Introduction</h1>
-          <p><a class="link-body highlight highlight-small" href="http://www.realestatetube.com" target="_blank">Real Estate Tube</a> is a service that makes it really easy to create engaging videos to advertise your property for sale or to find new housemates. I was contacted by Steven the Co-Founder after being recommended by some developers I had worked with in the past.</p>
-        </div>
-      </div>
-      <figure class="full-bleed">
-        <img src="../assets/img/ret-old.jpg" alt="">
-        <figcaption>The existing design had some room for improvement.</figcaption>
-      </figure>
-      <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">The Problem</h1>
-          <p>RET had an existing app in the app store but it was in need of some attention. I identified the following areas for improvement:</p>
-          <ul>
-            <li>The brand colour was overused </li>
-            <li>There was no clear hierarchy of content</li>
-            <li>The navigation was confusing with no distinction between primary and secondary calls to action</li>
-            <li>There were missed opportunities to use empty states to present useful information to the user</li>
-            <li>Some of the icons were ambiguous and left me guessing at their functionality</li>
-            <li>Creating a listing was daunting as it presented long screens with many form fields to complete</li>
-            <li>Creating a video was confusing with ambiguous buttons and labels</li>
+          <ul class="dates">
+            <li class="byline">Dates</li>
+            <li class="small">OCT 2015 - DEC 2015</li>
           </ul>
-          <h1 class="heading">Research</h1>
-          <p>Creating and editing a video is a complicated task made even more challenging by the limited screen space available on a mobile device. It was imperative that the process was stripped down to the core features that allowed a user to get an engaging video online quickly.</p>
-          <p>The first step was to research the raft of apps on the app store that provided video creation capabilities. They included YouTube, Vimeo, iMovie, Instagram, Videolicious and InstaVideo and all took a slightly different approach to the task.</p>
         </div>
       </div>
-      <figure class="full-bleed">
-        <img src="../assets/img/ret-research.jpg" alt="">
-        <figcaption>Researching flows from YouTube, Vimeo, iMovie and Instagram.</figcaption>
-      </figure>
       <div class="container">
-        <div class="body-copy">
-          <blockquote>
-            <p>"You clearly researched, studied and understood our brief and delivered exactly what we asked for."</p>
-            <cite>Steve Makris - Co Founder</cite>
-          </blockquote>
-          <div class="copy-figure4-4">
-            <div class="copy">
-              <p>The next step was to dive into my sketch book and start playing around with some ideas. Sketching is a very low-cost way to try many different solutions to see which one might work.</p> 
-              <p>For me this process is very messy but it allows me to get thoughts out of my head and onto paper and to start piecing together the various elements which make up the functionality.</p>
-            </div>
-            <figure>
-              <img src="../assets/img/ret-sketch.jpg">
-              <figcaption>They ain't pretty, but they help my process big time.</figcaption>
-            </figure>
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">The Challenge</h3>
           </div>
-          <h1 class="heading">Design</h1>
-          <p>The brand colour was very strong so I wanted to use it sparingly to call out important features and for the primary calls to action. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
+          <div class="content">
+            <p><a class="link-body highlight highlight-small" href="http://www.realestatetube.com" target="_blank">Real Estate Tube</a> is a service that makes it really easy to create engaging videos to advertise your property for sale or to find new housemates. I was contacted by Steven the Co-Founder after being recommended by some developers I had worked with in the past.</p>
+          </div>
         </div>
-        <div class="iphone-section-wrapper">
-          <figure class="iphone-section">
-            <div class="iphone">
-              <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
-              <div class="swiper-container iphone-screen">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-new-2.png') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-new-3.png') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-new-1.png') no-repeat; background-size: contain;"></div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-            <figcaption>Feed of properties in list view and map view, along with sign in screen.</figcaption>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ret-old.jpg" alt="">
+            <figcaption>The existing design had some room for improvement.</figcaption>
           </figure>
         </div>
       </div>
       <div class="container">
-        <div class="body-copy">
-          <p>I wanted to create a different look & feel for the video creation screens. Rather than the light aesthetic, I went for a dark design similar to what you might experience if you were in a darkroom developing film. It helped to create a clear distinction between the content creation experience and the content consumption screens.</p>
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">The Problem</h3>
+          </div>
+          <div class="content">
+            <p>RET had an existing app in the app store but it was in need of some attention. I identified some areas for improvement and started researching common design patterns for similar apps.</p>
+          </div>
         </div>
-        <div class="iphone-section-wrapper">
-          <figure class="iphone-section">
-            <div class="iphone">
-              <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
-              <div class="swiper-container-2 iphone-screen">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-video-1.png') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-video-2.png') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ret-video-3.png') no-repeat; background-size: contain;"></div>
-                </div>
-              </div>
-              <div class="swiper-pagination-2"></div>
-            </div>
-            <figcaption>Flow for creating a video.</figcaption>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ret-feedback.jpg" alt="">
           </figure>
         </div>
       </div>
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Landing page</h1>
-          <p>With the new app designs complete and in development, the focus shifted to a web landing page that would help to explain the benefits of the app and showcase its features.</p>
-          <p>I wanted the language of the page to reflect the dual benefits of the app. Not only could you create high quality videos to show off your property, but it also gave you an opportunity to express your personality which is important when looking for someone to share your home.</p>
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Research</h3>
+          </div>
+          <div class="content">
+            <p>Creating and editing a video is a complicated task made even more challenging by the limited screen space available on a mobile device. It was imperative that the process was stripped down to the core features that allowed a user to get an engaging video online quickly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ret-research.jpg" alt="">
+            <figcaption>Researching flows from YouTube, Vimeo, iMovie and Instagram.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten">
           <blockquote>
-            <p>"The landing page was exceptional, we asked for a killer landing page and you truly delivered."</p>
+            <p>&ldquo;You clearly researched, studied and understood our brief and delivered exactly what we asked for.&rdquo;</p>
             <cite>Steve Makris - Co Founder</cite>
           </blockquote>
         </div>
       </div>
-      <div class="browser-section">
-        <div class="browser">
-          <img class="macbook" src="../assets/img/macbook.jpg" alt="">
-          <div class="browser-window">
-            <img src="../assets/img/ret-landing.jpg" alt="">
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Sketching</h3>
+          </div>
+          <div class="content">
+            <p>The next step was to dive into my sketch book and start playing around with some ideas. Sketching is a very low-cost way to try many different solutions to see which one might work.</p> 
+            <p>For me this process is very messy but it allows me to get thoughts out of my head and onto paper and to start piecing together the various elements which make up the functionality.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="figure-img">
+          <figure>
+            <figcaption>They ain't pretty, but they help my process a lot.</figcaption>
+            <img src="../assets/img/ret-sketch.jpg">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Design</h3>
+          </div>
+          <div class="content">
+            <p>The brand colour was very strong so I wanted to use it sparingly to call out important features and for the primary calls to action. The rest of the interface needed to get out of the way and allow the content of the listings, especially the videos, to really stand out.</p>
+          </div>
+        </div>
+      </div>
+      <div class="full dark">
+        <div class="container">
+          <div class="ten">
+            <div class="iphone-section-wrapper">
+              <figure class="iphone-section">
+                <div class="iphone">
+                  <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
+                  <div class="swiper-container iphone-screen">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" style="background:url('../assets/img/ret-new-2.png') no-repeat; background-size: contain;"></div>
+                      <div class="swiper-slide" style="background:url('../assets/img/ret-new-3.png') no-repeat; background-size: contain;"></div>
+                      <div class="swiper-slide" style="background:url('../assets/img/ret-new-1.png') no-repeat; background-size: contain;"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <figcaption>Feed of properties in list view and map view, along with sign in screen.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Video</h3>
+          </div>
+          <div class="content">
+            <p>I wanted to create a different look & feel for the video creation screens. Rather than the light aesthetic, I went for a dark design similar to what you might experience if you were in a darkroom developing film. It helped to create a clear distinction between the content creation experience and the content consumption screens.</p>
+          </div>
+        </div>
+      </div>
+      <div class="full dark">
+        <div class="container">
+          <div class="ten">
+            <div class="iphone-section-wrapper">
+              <figure class="iphone-section">
+                <div class="iphone">
+                  <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
+                  <div class="swiper-container-2 iphone-screen">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" style="background:url('../assets/img/ret-video-1.png') no-repeat; background-size: contain;"></div>
+                      <div class="swiper-slide" style="background:url('../assets/img/ret-video-2.png') no-repeat; background-size: contain;"></div>
+                      <div class="swiper-slide" style="background:url('../assets/img/ret-video-3.png') no-repeat; background-size: contain;"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination-2"></div>
+                </div>
+                <figcaption>Screens for creating a video.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Landing Page</h3>
+          </div>
+          <div class="content">
+            <p>With the new app designs complete and in development, the focus shifted to a web landing page that would help to explain the benefits of the app and showcase its features.</p>
+            <p>I wanted the language of the page to reflect the dual benefits of the app. Not only could you create high quality videos to show off your property, but it also gave you an opportunity to express your personality which is important when looking for someone to share your home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten">
+          <blockquote>
+            <p>&ldquo;The landing page was exceptional, we asked for a killer landing page and you truly delivered.&rdquo;</p>
+            <cite>Steve Makris - Co Founder</cite>
+          </blockquote>
+        </div>
+      </div>
+      <div class="full">
+        <div class="container">
+          <div class="browser-section">
+            <div class="browser">
+              <img class="macbook" src="../assets/img/macbook.jpg" alt="">
+<!--               <div class="browser-window">
+                <img src="../assets/img/ret-landing.jpg" alt="">
+              </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -186,7 +247,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">6 min read</p>
           </div>
         </div>
@@ -199,7 +260,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">4 min read</p>
           </div>
         </div>
@@ -208,9 +269,9 @@
 
     <footer class="section">
       <div class="container">
-      <div class="copyright">
-        <p>&copy; Hamish Irving 2016</p>
-      </div>
+        <div class="copyright">
+          <p>&copy; Hamish Irving 2016</p>
+        </div>
         <ul class="social">
           <li><a href="https://twitter.com/HamishAIrving" target="_blank">
             <svg class="svg" version="1.1" x="0px" y="0px" width="30px" height="24.4px" viewBox="0 0 30 24.4" style="enable-background:new 0 0 30 24.4;" xml:space="preserve">

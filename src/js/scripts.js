@@ -32,13 +32,9 @@ jQuery(document).ready(function($) {
 	  });
 	});
 
-	// Add padding to Home:Proudct Design section if anchor clicked
+	//Add padding to Product Design section when anchor clicked
 	$('#productDesignLink').on('click', function() {
-		$('.product-design').css('padding-top', '90px');
-	});
-
-	$('#productDesignerLink').on('click', function() {
-		$('#productDesigner').css('padding-top', '90px');
+		$('section.product-design').css('padding-top', '90px');
 	});
 
 // End DOM Ready

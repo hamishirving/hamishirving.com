@@ -5,9 +5,11 @@ body {
 }
 
 h1 {
-	font-size: 3em;
-	line-height: 1.25;
-	font-weight: 600;
+
+	a {
+		font-family: $font-secondary;
+		font-weight: 400;
+	}
 
 	@include media($tablet) {
 		font-size: 2.5em;
@@ -21,30 +23,47 @@ h1 {
 
 	// Heading with line
 	&.heading {
+		font-size: 3em;
+		line-height: 1.15;
+		font-weight: 400;
 		padding-bottom: 25px;
-		// margin-bottom: 20px;
-		// text-transform: uppercase;
+		letter-spacing: -.1px;
 		position: relative;
+		font-family: $font-secondary;
 
 		&:after {
 			content: "";
-			width: 40px;
-			height: 2px;
-			background: $color-lightGrey;
+			width: 12%;
+			height: 5px;
+			background: $color-black;
 			position: absolute;
 			left: 0;
 			bottom: 0;
+		}
+
+		&.light {
+			color: $color-white;
+		}
+
+		@include media($tablet) {
+			font-size: 2.5em;
+			line-height: 1.125;
+		}
+		
+		@include media($mobile) {
+			font-size: 2em;
+			line-height: 1.25;
 		}
 	}
 
 	// Case heading
 	&.huge {
-		font-size: 5em;
+		font-size: 4.5em;
 		line-height: 1.15;
 		margin-bottom: 0;
 		margin-top: 3%;
 		padding-bottom: 40px;
-		font-family: $font-primary;
+		font-family: $font-secondary;
 		font-weight: 400;
 
 		@include media($tablet) {
@@ -53,7 +72,7 @@ h1 {
 		}
 		
 		@include media($mobile) {
-			font-size: 3em;
+			font-size: 2.5em;
 			line-height: 1.25;
 		}
 	}
@@ -63,6 +82,18 @@ h2 {
 	font-size: 2.25em;
 	line-height: 1.25;
 	font-weight: 600;
+	position: relative;
+	padding-top: 15px;
+
+	&:after {
+		content: "";
+		width: 12%;
+		height: 5px;
+		background: $color-black;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
 
 	@include media($tablet) {
 		font-size: 2em;
@@ -72,39 +103,27 @@ h2 {
 		font-size: 1.625em;
 		// line-height: 1.153;
 	}
-
-	// Heading with line
-	&.heading {
-		padding-top: 20px;
-		margin-top: 20px;
-		// text-transform: uppercase;
-		position: relative;
-
-		&:after {
-			content: "";
-			width: 40px;
-			height: 2px;
-			background: $color-lightGrey;
-			position: absolute;
-			left: 0;
-			top: 0;
-		}
-	}
 }
 
 h3 {
-	font-size: 1.75em;
-	line-height: 1.25;
-	font-weight: 300;
 
-	@include media($tablet) {
-		font-size: 1.5em;
+	&.section-heading {
+		font-size: em(38);
+		line-height: 1.35;
+		letter-spacing: -1px;
+		margin-top: 0;
+		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
 	}
 
-	@include media($mobile) {
-		font-size: 1.375em;
-		// line-height: 1.136;
-	}
+	// @include media($tablet) {
+	// 	font-size: 1.5em;
+	// }
+
+	// @include media($mobile) {
+	// 	font-size: 1.375em;
+	// 	// line-height: 1.136;
+	// }
 }
 
 h4 {
@@ -128,12 +147,19 @@ p, li {
 	font-family: $font-secondary;
 	color: $color-darkGrey;
 	font-size: em(20);
-	line-height: 1.5em;
+	line-height: 1.75em;
 }
 
-ul {
-	padding-left: 20px;
-	// margin-left: 1em;
+ul, ol {
+	padding-left: 30px;
+	
+	// @include media($tablet) {
+	// 	padding-left: 20px;
+	// }
+}
+
+ul li:not(li a) {
+	font-style: italic;
 }
 
 a {
@@ -144,22 +170,43 @@ a {
 	color: $color-black;
 }
 
+.byline {
+	color: $color-darkGrey;
+	font-family: $font-primary;
+	text-transform: uppercase;
+	list-style: none;
+	font-size: em(16);
+	font-weight: 600;
+	margin: 0 0 1em 0;
+}
+
+.small {
+	font-style: italic;
+	list-style: none;
+	padding-right: 5%;
+	line-height: 1.5;
+}
+
 blockquote {
-	text-align: center;
+	font-size: 1em;
+	margin: 0;
 }
 
 blockquote > p {
-	font-size: em(52);
-	line-height: 1.2;
+	font-size: 3em;
+	line-height: 1.15;
+	letter-spacing: -.1px;
+	margin-top: 0;
+	margin-bottom: .5em;;
 	font-family: $font-secondary;
 	color: $color-black;
 
 	@include media($tablet) {
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 
 	@include media($mobile) {
-		font-size: 1.625em;
+		font-size: 2em;
 	}
 }
 

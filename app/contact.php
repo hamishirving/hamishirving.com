@@ -13,7 +13,7 @@
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro:400,600|Oswald" rel="stylesheet">
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -23,51 +23,47 @@
       <div class="container">
         <div class="brand">
           <a href="/">
-            <svg version="1.1"
-               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-               x="0px" y="0px" width="40px" height="50px" viewBox="0 0 40 50" style="enable-background:new 0 0 40 50;" class="logo" xml:space="preserve">
-            <g>
-              <defs>
-                <path id="SVGID_1_" d="M14.9,19.9h10.2v9.9H14.9V19.9z M25.1,5H35v40h-9.9V5z M5,5h9.9v40H5V5z"/>
-              </defs>
-              <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-              </clipPath>
-              <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
-            </g>
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="nav" transform="translate(-77.000000, -25.000000)" fill="#262C30">
+                        <g id="Combined-Shape">
+                            <path d="M117,70.0018309 C123.072234,65.4407993 127,58.1790892 127,50 C127,36.1928813 115.807119,25 102,25 C88.1928813,25 77,36.1928813 77,50 C77,58.1790892 80.9277665,65.4407993 87,70.0018309 L87,35 L97,35 L97,74.4999094 C98.6155497,74.8278487 100.287671,75 102,75 C103.712329,75 105.38445,74.8278487 107,74.4999094 L107,50 L117,50 L117,70.0018309 Z M97,50 L107,50 L107,60 L97,60 L97,50 Z M107,35 L117,35 L117,45 L107,45 L107,35 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </svg>
-            <!-- <img src="assets/img/logo.svg" height="40px" width="30px" alt="Logo"> -->
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="work" class="link highlight highlight-small">Work</a></li>
-          <li><a href="about" class="link highlight highlight-small">About</a></li>
-          <li><a href="contact" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="work" class="link">Work</a></li>
+          <li><a href="about" class="link">About</a></li>
+          <li><a href="contact" class="link">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <section class="section case first-section">
+    <section class="work-header home">
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Contact</h1>
-          <p>Think you'd like to talk? Great, <a class="link-body highlight highlight-small" href="mailto:hello@hamishirving.com">send me an email.</a></p>
-          <div class="copy-figure4-4">
-            <div class="copy">
-              <p>My clients love working remotely with me, it means I can be more flexible with my time and more responsive to my clients needs.</p>
-              <p>I understand the importance of communication, that's why I'll always get back to you within a few hours, even if only to say I received your message and will respond in more detail when able.</p>
-            </div>
+        <div class="work-header-heading">
+          <blockquote>
+            <h1 class="heading">My clients love working remotely with me, it means I can be more flexible with my time and more responsive to their needs.</h1>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section case">
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Contact</h3>
+          </div>
+          <div class="content">
+            <p>Think you'd like to talk? Great! <a class="link-body highlight highlight-small" href="mailto:hello@hamishirving.com">Send me an email.</a></p>
+            <p>I understand the importance of communication, which is why I'll always get back to you within a few hours, even if only to say that I received your message and will respond in more detail when I can.</p>
             <figure>
               <img src="assets/img/window.jpg">
               <figcaption>Where I do my best thinking.</figcaption>
-            </figure>
-          </div>
-          <div class="img-push">
-            <div class="img-push-copy">
-
-            </div>
-            <figure class="img-push-img img-right">
-
             </figure>
           </div>
         </div>

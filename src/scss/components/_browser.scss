@@ -1,0 +1,31 @@
+.browser-section {
+	text-align: center;
+	width: 100%;
+	margin: 0 0 5% 0;
+
+	.browser {
+		width: 100%;
+		position: relative;
+
+		.macbook {
+			width: 100%;
+		}
+
+		.browser-window {
+			position: absolute;
+			top: 13.9%;
+			left: 50%;
+			height: 72%;
+			width: 44.5%;
+			transform: translateX(-50.4%);
+			background: #fafafa;
+			border-radius: 2px;
+			overflow-y: scroll;
+			overflow-x: hidden;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

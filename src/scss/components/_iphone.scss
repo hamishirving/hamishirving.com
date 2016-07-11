@@ -1,0 +1,83 @@
+.iphone-section-wrapper {
+	@include span-columns(8);
+	@include shift(2);
+
+	@include media($tablet) {
+		@include span-columns(12);
+		@include shift(0);
+	}
+
+	.iphone-section {
+		text-align: center;
+		width: 100%;
+		margin: 7.5% 0;
+		
+		.iphone {
+			width: 100%;
+			position: relative;
+
+			&.five {
+				width: 82.94%;
+				margin-left: auto;
+				margin-right: auto;
+
+				@include media($mobile) {
+					width: 100%;
+				}
+			}
+
+			.iphone-device {
+				width: 100%;
+			}
+
+			.iphone-screen {
+				position: absolute;
+				background: #272E3A;
+				width: 37.1%;
+				height: 67.2%;
+				top: 13.7%;
+				left: 31.8%;
+				overflow: visible;
+
+				@include media($mobile) {
+					height: 62.2%;
+				}
+
+				img {
+					width: 100%;
+				}
+
+				.swiper-wrapper, .swiper-slide {
+					height: 100%;
+				}
+
+				.swiper-slide {
+					transform: scale(.8,.8);
+					opacity: 0.4;
+					transition: all 300ms ease;
+				}
+
+				.swiper-slide-active {
+					opacity: 1;
+					transform: scale(1,1);
+				}
+			}
+
+			.swiper-pagination, .swiper-pagination-2 {
+				position: relative;
+				width: 100%;
+				text-align: center;
+				padding: 10px 0;
+				margin-bottom: 10px;
+
+				.swiper-pagination-bullet {
+					margin: 0 5px;
+				}
+
+				.swiper-pagination-bullet-active {
+					background: $color-black;
+				}
+			}
+		}
+	}
+}

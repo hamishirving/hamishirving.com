@@ -13,7 +13,7 @@
     <link href="../assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro:400,600|Oswald" rel="stylesheet">
 
     <script src="../assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -23,25 +23,21 @@
       <div class="container">
         <div class="brand">
           <a href="/">
-            <svg version="1.1"
-               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-               x="0px" y="0px" width="40px" height="50px" viewBox="0 0 40 50" style="enable-background:new 0 0 40 50;" class="logo" xml:space="preserve">
-            <g>
-              <defs>
-                <path id="SVGID_1_" d="M14.9,19.9h10.2v9.9H14.9V19.9z M25.1,5H35v40h-9.9V5z M5,5h9.9v40H5V5z"/>
-              </defs>
-              <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-              </clipPath>
-              <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
-            </g>
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="nav" transform="translate(-77.000000, -25.000000)" fill="#262C30">
+                        <g id="Combined-Shape">
+                            <path d="M117,70.0018309 C123.072234,65.4407993 127,58.1790892 127,50 C127,36.1928813 115.807119,25 102,25 C88.1928813,25 77,36.1928813 77,50 C77,58.1790892 80.9277665,65.4407993 87,70.0018309 L87,35 L97,35 L97,74.4999094 C98.6155497,74.8278487 100.287671,75 102,75 C103.712329,75 105.38445,74.8278487 107,74.4999094 L107,50 L117,50 L117,70.0018309 Z M97,50 L107,50 L107,60 L97,60 L97,50 Z M107,35 L117,35 L117,45 L107,45 L107,35 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </svg>
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link">Work</a></li>
+          <li><a href="../about" class="link">About</a></li>
+          <li><a href="../contact" class="link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -50,129 +46,159 @@
 
     <section class="section case">
       <div class="container">
-        <div class="case-header">
+        <div class="ten case-header">
           <h1 class="huge">Solving the parking crisis with the sharing economy</h1>
           <ul class="services">
-            <li class="services-heading">Services</li>
+            <li class="byline">Services</li>
             <li class="small">Branding</li>
             <li class="small">Mobile Design</li>
             <li class="small">Web Design</li>
           </ul>
-          <div class="dates">
-            <ul>
-              <li class="services-heading">Dates</li>
-              <li class="date">JUL 2013 - AUG 2015</li>
-            </ul>
-          </div>
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">Introduction</h1>
-          <p><a class="link-body highlight highlight-small" href="http://www.parkhound.com.au" target="_blank">Parkhound</a> is an online car parking Marketplace based in Australia where Sellers make extra cash by listing their spare parking spaces and Buyers find cheap parking options in and around cities and suburbs.</p>
-          <p>The service launched at the end of 2013 and has gained steady traction since, providing a valuable solution to the parking crisis in the country.</p>
-          <figure class="figure9-3">
-            <img src="../assets/img/ph-fine.jpg">
-            <figcaption class="img-push-copy">Finding affordable car parking can be expensive business.</figcaption>
-          </figure>
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">The Problem</h1>
-          <p>Parking marketplaces were not a new idea, there were already implementations both in Australia and internationally. It was a good sign as competition helps validate that there is a market that can sustain a business.</p>
-          <p>We created a MVP using a simple Shopify template which allowed us to upload listings. Meanwhile I designed a landing page for Parkhound to explain the proposition and direct users to the Shopify site.</p>
-          <p>One feature we explored was a place where users could tell their parking horror stories, providing them a way to vent frustration while resonating with the problem we were solving.</p>
-        </div>
-        <div class="contained">
-          <img src="../assets/img/ph-horror-stories.gif" alt="">
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">Branding</h1>
-          <p>The goal was to really stand out from the competition, to create something that was personable and we could use to tell a story.</p>
-          <p>After iterating through a number of parking related symbols, I felt that they were too generic and conceived the idea of using man’s best friend. This symbol helped us create some branded terminology for our users, who we always welcome to the ‘pack’.</p>
-        </div>
-        <div class="contained">
-          <img src="../assets/img/ph-tweet.png" alt="">
+          <ul class="dates">
+            <li class="byline">Dates</li>
+            <li class="small">JUL 2013 - AUG 2015</li>
+          </ul>
         </div>
       </div>
-      <figure class="full-bleed">
-        <img src="../assets/img/ph-brand.jpg" alt="">
-        <figcaption>Some of the elements from the Parkhound Brand Guidelines.</figcaption>
-      </figure>
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Responsive Design</h1>
-          <p>We knew the web app needed to be designed responsively so that it worked seamlessly across all devices. Booking parking spaces for long periods ahead of time translated well to desktop, however we wanted to encourage the behaviour of finding parking spaces in real time when on the move. This required a solution that worked equally well on mobile.</p>
-          <figure class="figure9-3">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">The Challenge</h3>
+          </div>
+          <div class="content">
+            <p><a class="link-body highlight highlight-small" href="http://www.parkhound.com.au" target="_blank">Parkhound</a> is an online car parking Marketplace based in Australia where Sellers make extra cash by listing their spare parking spaces and Buyers find cheap parking options in and around cities and suburbs.</p>
+            <p>The service launched at the end of 2013 and has gained steady traction since, providing a valuable solution to the parking crisis in the country.</p>
+          </div>
+        </div>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ph-responsive.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">MVP</h3>
+          </div>
+          <div class="content">
+            <p>Parking marketplaces were not a new idea, there were already implementations both in Australia and internationally. It was a good sign as competition helps validate that there is a market that can sustain a business.</p>
+            <p>We created a MVP using a simple Shopify template which allowed us to upload listings. Meanwhile I designed a landing page for Parkhound to explain the proposition and direct users to the Shopify site.</p>
+            <p>One feature we explored was a place where users could tell their parking horror stories, providing them a way to vent frustration while resonating with the problem we were solving.</p>
+            <figure>
+              <img src="../assets/img/ph-horror-stories.gif" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Brand</h3>
+          </div>
+          <div class="content">
+            <p>The goal was to really stand out from the competition, to create something that was personable and we could use to tell a story.</p>
+            <p>After iterating through a number of parking related symbols, I felt that they were too generic and conceived the idea of using man’s best friend. This symbol helped us create some branded terminology for our users, who we always welcome to the ‘pack’.</p>
+          </div>
+        </div>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ph-brand.jpg" alt="">
+            <figcaption>Some of the elements from the Parkhound Brand Guidelines.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Responsive Design</h3>
+          </div>
+          <div class="content">
+            <p>We knew the web app needed to be designed responsively so that it worked seamlessly across all devices. Booking parking spaces for long periods ahead of time translated well to desktop, however we wanted to encourage the behaviour of finding parking spaces in real time when on the move. This required a solution that worked equally well on mobile.</p>
+          </div>
+        </div>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ph-wireframes.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="container no-pad">
+        <div class="two">
+          <figure>
+            <img src="../assets/img/ph-macbook.jpg" alt="">
+          </figure>
+          <figure>
             <img src="../assets/img/ph-in-situ.jpg" alt="">
-            <figcaption>It was essential that the service worked seamlessly on mobile.</figcaption>
           </figure>
         </div>
       </div>
       <div class="container">
-        <div class="body-copy">
-          <p>Initially this meant that I designed all screens at Desktop, Tablet and Mobile screen sizes, making sure that content was shifted and prioritised to meet the needs of the user on that device. However, I recognised that this wasn't a very efficient way of communicating designs to our developers. We needed to create components which could be designed once and re-used throughout the site, we needed to create a Style Guide.</p>
-        </div>
-      </div>
-      <figure class="full-bleed">
-        <img src="../assets/img/ph-responsive.jpg" alt="">
-        <figcaption>All screens were designed for mobile, tablet and desktop.</figcaption>
-      </figure>
-      <div class="container">
-        <div class="body-copy">
-          <p>The Style Guide would be a living document, whose HTML structure, class naming conventions and css(sass) styles would be used to define the front-end of the app. It would be a single source of truth where developers could come to pick and choose components to make up the app flows. This way they could spend less time on the design and more on the functionality.</p>
-        </div>
-        <figure class="contained">
-          <img src="../assets/img/ph-style-guide.jpg" alt="">
-          <figcaption>I started developing a Living Style Guide.</figcaption>
-        </figure>
-      </div>
-      <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Mapping the streets</h1>
-          <p>An unprecidented feature to Parkhound is the ability to view Street Parking information in select cities, where you can look up the parking restrictions for specific parking signs ahead of time. This gives users information on when certain streets might be available to park for free, where disabled parking is located and the cost of parking at metered spots.</p>
-          <p>Educating the user about the new feature was critical. When they first enable it on the Search Results page, a popup is displayed explaining the functionality.</p>
-        </div>
-        <figure class="contained">
-          <div class="swiper-container swiper-contained">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide swiper-contained-slide">
-                <img src="../assets/img/ph-demo-slides.jpg" alt="">
-              </div>
-              <div class="swiper-slide swiper-contained-slide">
-                <img src="../assets/img/ph-demo-slides-2.jpg" alt="">
-              </div>
-            </div>
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Style Guide</h3>
           </div>
-          <div class="swiper-pagination"></div>
-          <figcaption>Introduction slides explaining the new functionality.</figcaption>
-        </figure>
-        <div class="body-copy">
-          <h1 class="heading">Going native</h1>
-          <p>It became important early on that we had a presence in the app store. Because the website had been designed to be responsive, we were able to take a hybrid approach and provide some native functionality while we developed a more robust set of API’s on the back-end. This way, any features that we hadn’t yet developed for iOS would call a web view in the app without degrading the user experience.</p>
+          <div class="content">
+            <p>Initially I designed all screens at Desktop, Tablet and Mobile screen sizes, making sure that content was shifted and prioritised to meet the needs of the user on that device. However, I recognised that this wasn't a very efficient way of communicating designs to our developers. We needed to create components which could be designed once and re-used throughout the site, we needed to create a Style Guide.</p>
+            <p>The Style Guide would be a living document, whose HTML structure, class naming conventions and css(scss) styles would be used to define the front-end of the app. It would be a single source of truth where developers could come to pick and choose components to make up the app flows. This way they could spend less time on the design and more on the functionality.</p>
+          </div>
         </div>
-        <div class="iphone-section-wrapper">
-          <figure class="iphone-section">
-            <div class="iphone">
-              <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
-              <div class="swiper-container iphone-screen">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background:url('../assets/img/ph-results-list.jpg') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ph-results-map.jpg') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ph-listing.jpg') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ph-listing-2.jpg') no-repeat; background-size: contain;"></div>
-                  <div class="swiper-slide" style="background:url('../assets/img/ph-enquiry-success.jpg') no-repeat; background-size: contain;"></div>
-                </div>
-              </div>
-              <div class="swiper-pagination-2"></div>
-            </div>
-            <figcaption>Users search for a park in their area, view the details and book.</figcaption>
+      </div>
+      <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/ph-style-guide.jpg" alt="">
           </figure>
         </div>
-        <div class="body-copy">
-          <p>The app is constantly receiving updates and becoming closer to feature parity with the website. The app was featured in the Australian App Store and has received more than 7,000 downloads.</p>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Going Native</h3>
+          </div>
+          <div class="content">
+            <p>It became important early on that we had a presence in the app store. Because the website had been designed to be responsive, we were able to take a hybrid approach and provide some native functionality while we developed a more robust set of API’s on the back-end. This way, any features that we hadn’t yet developed for iOS would call a web view in the app without degrading the user experience.</p>
+          </div>
         </div>
-        <figure class="contained">
-          <img src="../assets/img/ph-featured.jpg" alt="">
-          <figcaption>Best New App</figcaption>
-        </figure>
+      </div>
+      <div class="full dark">
+        <div class="container">
+          <div class="iphone-section-wrapper">
+            <figure class="iphone-section">
+              <div class="iphone five">
+                <img src="../assets/img/iphone6.png" alt="" class="iphone-device">
+                <div class="swiper-container iphone-screen">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background:url('../assets/img/ph-results-list.jpg') no-repeat; background-size: contain;"></div>
+                    <div class="swiper-slide" style="background:url('../assets/img/ph-results-map.jpg') no-repeat; background-size: contain;"></div>
+                    <div class="swiper-slide" style="background:url('../assets/img/ph-listing.jpg') no-repeat; background-size: contain;"></div>
+                    <div class="swiper-slide" style="background:url('../assets/img/ph-listing-2.jpg') no-repeat; background-size: contain;"></div>
+                    <div class="swiper-slide" style="background:url('../assets/img/ph-enquiry-success.jpg') no-repeat; background-size: contain;"></div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <figcaption>Users search for a park in their area, view the details and book.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten no-aside">
+          <div class="content">
+            <p>The app is constantly receiving updates and becoming closer to feature parity with the website. The app was featured in the Australian App Store and has received more than 7,000 downloads.</p>
+            <figure>
+              <img src="../assets/img/ph-featured.jpg" alt="">
+              <figcaption>Best New App</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -187,7 +213,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="real-estate-tube" class="highlight">Use video to sell your property</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">3 min read</p>
           </div>
         </div>
@@ -200,7 +226,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="medopad" class="highlight">Better cancer management with connected devices</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">3 min read</p>
           </div>
         </div>
@@ -244,14 +270,6 @@
       spaceBetween: 20,
       grabCursor: true,
       slideToClickedSlide: true,
-      pagination: '.swiper-pagination-2'
-    });
-    </script>
-    <script>
-    var swiper = new Swiper('.swiper-contained', {
-      speed: 700,
-      grabCursor: true,
-      autoplay: 3000,
       pagination: '.swiper-pagination'
     });
     </script>

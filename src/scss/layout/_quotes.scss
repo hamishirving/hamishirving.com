@@ -31,14 +31,17 @@
 				& > p {
 					margin-top: 0;
 					padding-right: 10%;
+					margin-bottom: 0;
 				}
 
 				h2 {
 					margin-bottom: 10px;
+					margin-top: 15px;
 				}
 
 				.quote-footer {
 					display: inline-block;
+					width: 100%;
 
 					p, a {
 						float: left;
@@ -51,7 +54,7 @@
 
 					p.small {
 						font-size: em(16);
-						margin-right: 20px;
+						// margin-right: 20px;
 						margin-bottom: 0;
 
 						@include media($mobile-sm) {

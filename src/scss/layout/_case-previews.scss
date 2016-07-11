@@ -2,6 +2,21 @@
 	// padding: 5% 0 3.7% 0;
 	background: $color-blueGrey;
 
+	// Case footer styles
+	&.case-footer {
+
+		.container {
+
+			.case-preview {
+				margin-bottom: 0;
+
+				@include media($tablet) {
+					margin-bottom: 3%;
+				}
+			}
+		}
+	}
+
 	.container {
 
 		.case-preview {
@@ -48,24 +63,23 @@
 					color: $color-black;
 				}
 
-				.small, .read-time {
-					font-weight: 600;
-					font-size: em(18);
-					margin-top: 0;
-					margin-right: 30px;
+				.byline {
 					display: inline-block;
-					color: $color-darkGrey;
-					font-family: $font-primary;
-				}
+					margin-right: 30px;
 
-				.small {
-					text-transform: uppercase;
+					@include media($mobile) {
+						margin-right: 20px;
+					}
 				}
 
 				.read-time {
-					color: $color-darkGrey;
+					font-size: em(16);
+					margin-top: 0;
+					margin-right: 30px;
+					display: inline-block;
+					color: $color-mediumGrey;
+					font-family: $font-primary;
 					font-style: italic;
-					font-weight: 400;
 				}
 			}
 		}
@@ -95,6 +109,5 @@
 				@include span-columns(12);
 			}
 		}
-
 	}
 }

@@ -13,7 +13,7 @@
     <link href="../assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro:400,600|Oswald" rel="stylesheet">
 
     <script src="../assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -23,25 +23,21 @@
       <div class="container">
         <div class="brand">
           <a href="/">
-            <svg version="1.1"
-               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-               x="0px" y="0px" width="40px" height="50px" viewBox="0 0 40 50" style="enable-background:new 0 0 40 50;" class="logo" xml:space="preserve">
-            <g>
-              <defs>
-                <path id="SVGID_1_" d="M14.9,19.9h10.2v9.9H14.9V19.9z M25.1,5H35v40h-9.9V5z M5,5h9.9v40H5V5z"/>
-              </defs>
-              <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-              </clipPath>
-              <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
-            </g>
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="nav" transform="translate(-77.000000, -25.000000)" fill="#262C30">
+                        <g id="Combined-Shape">
+                            <path d="M117,70.0018309 C123.072234,65.4407993 127,58.1790892 127,50 C127,36.1928813 115.807119,25 102,25 C88.1928813,25 77,36.1928813 77,50 C77,58.1790892 80.9277665,65.4407993 87,70.0018309 L87,35 L97,35 L97,74.4999094 C98.6155497,74.8278487 100.287671,75 102,75 C103.712329,75 105.38445,74.8278487 107,74.4999094 L107,50 L117,50 L117,70.0018309 Z M97,50 L107,50 L107,60 L97,60 L97,50 Z M107,35 L117,35 L117,45 L107,45 L107,35 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </svg>
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="../work" class="link highlight highlight-small">Work</a></li>
-          <li><a href="../about" class="link highlight highlight-small">About</a></li>
-          <li><a href="../contact" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="../work" class="link">Work</a></li>
+          <li><a href="../about" class="link">About</a></li>
+          <li><a href="../contact" class="link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -50,106 +46,176 @@
 
     <section class="section case">
       <div class="container">
-        <div class="case-header">
-          <h1 class="huge">Better cancer management through connected devices</h1>
+        <div class="ten case-header">
+          <h1 class="huge">Better cancer management with connected devices</h1>
           <ul class="services">
-            <li class="services-heading">Services</li>
+            <li class="byline">Services</li>
             <li class="small">Watch Design</li>
             <li class="small">Mobile Design</li>
           </ul>
-          <div class="dates">
-            <ul>
-              <li class="services-heading">Dates</li>
-              <li class="date">MAY 2015 - JUN 2015</li>
-            </ul>
-          </div>
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">Introduction</h1>
-          <p>I was recommended to Dan the CTO of <a class="link-body highlight highlight-small" href="http://www.medopad.com" target="_blank">Medopad</a> by a developer I had worked with on a previous project.</p>
-          <p>Medopad are doing some really interesting things in healthcare by connecting hospitals and doctors directly to patients through the use of mobile technology.</p>
-          <p>The company has always been quick to adopt new technology and my brief was to create an Apple Watch app to coincide with the first release of the Apple Watch in June 2015.</p>
-          <h1 class="heading">The Problem</h1>
-          <p>The ability to effectively manage cancer treatment relies heavily on strict drug regimens. These drugs can often cause adverse side-effects which result in the patient not adhering to their schedules and missing much needed medication.</p>
-          <p>For patients, communicating these side-effects to doctors is a pain and unless a patient has a direct line of communication to their physician, the lapses in drug adherence can go unnoticed until the next hospital visit.</p>
-          <h1 class="heading">Research</h1>
-          <p>I use both iOS and Android devices in my day to day and I rely on that familiarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each platform. However Apple Watch was a completely new device with no way to get my hands on one pre-release.</p>
-          <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new features and design patterns.</p>
-          <figure class="figure9-3">
-            <img src="../assets/img/medo-apple.jpg">
-            <figcaption>The Apple documentation allowed me to get up to speed with the new technology.</figcaption>
-          </figure>
-          <p>Having got up to speed, I worked with Medopad and their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
-          <ul>
-            <li>Receive real-time alerts to remind patients which medication to take at what time and at what dosage.</li>
-            <li>Mark a medication as taken so their adherence can be measured and reported back to physicians.</li>
-            <li>Report any symptoms they experience after taking their medication.</li>
-            <li>Track their temperature throughout the day and report it back to their physician.</li>
+          <ul class="dates">
+            <li class="byline">Dates</li>
+            <li class="small">MAY 2015 - JUN 2015</li>
           </ul>
         </div>
       </div>
-      <figure class="contained">
-        <img src="../assets/img/medo-flow.jpg" alt="">
-        <figcaption>Illustrating the main Watch app flow.</figcaption>
-      </figure>
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Notifications</h1>
-          <p>Notifications are a powerful feature on the Apple Watch. They allow information to be presented to the user right where they need it.</p>
-          <figure class="figure9-3">
-            <img src="../assets/img/medo-in-situ.jpg" alt="">
-            <figcaption>Notifications are a powerful feature on the Apple Watch.</figcaption>
-          </figure>
-          <p>The user initially receives a vibration to alert them they have a notification. They raise their wrist to view the Short Look and if they keep their wrist raised the notification turns into a Long Look which allows them to interact with it, for example by marking a medication as taken.</p>
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">The Challenge</h3>
+          </div>
+          <div class="content">
+            <p>I was recommended to Dan the CTO of <a class="link-body highlight highlight-small" href="http://www.medopad.com" target="_blank">Medopad</a> by a developer I had worked with on a previous project.</p>
+            <p>Medopad are doing some really interesting things in healthcare by connecting hospitals and doctors directly to patients through the use of mobile technology.</p>
+            <p>The company has always been quick to adopt new technology and my brief was to create an Apple Watch app to coincide with the first release of the Apple Watch in June 2015.</p>
+          </div>
         </div>
       </div>
-      <figure class="contained">
-        <img src="../assets/img/medo-flow2.jpg" alt="">
-        <figcaption>The flow for a user receiving a medication reminder.</figcaption>
-      </figure>
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">Reporting Symptoms</h1>
-          <p>The ability to report any symptoms experienced after taking medication is an important feature of the app. The design allowed for consumers to select from a list of potential symptoms and submit them to their doctor.</p>
-          <div class="copy-figure4-4">
-            <div class="copy">
-              <p>I conceived a design that allowed for three different states:</p>
-              <ul>
-                <li>Initial state which allowed the user to select the symptom.</li>
-                <li>Selected state which asked the user to confirm and submit to their doctor.</li>
-                <li>Confirmed state which showed the user that they had already selected that symptom.</li>
-              </ul>
-            </div>
-            <figure>
-              <div class="watch-section">
-                <div class="watch">
-                  <img class="apple-watch" src="../assets/img/watch-front.jpg" alt="">
-                  <div class="watch-window">
-                    <img src="../assets/img/symptoms.gif" alt="">
-                  </div>
-                </div>
-              </div>
-            </figure>
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">The Problem</h3>
           </div>
-          <h1 class="heading">The Results</h1>
-          <p>The app launch received some very positive feedback from both patients and doctors and was featured on a BBC news report (video length - 6:53 min).</p>
+          <div class="content">
+            <p>The ability to effectively manage cancer treatment relies heavily on strict drug regimens. These drugs can often cause adverse side-effects which result in the patient not adhering to their schedules and missing much needed medication.</p>
+            <p>For patients, communicating these side-effects to doctors is a pain and unless a patient has a direct line of communication to their physician, the lapses in drug adherence can go unnoticed until the next hospital visit.</p>
+          </div>
         </div>
-        <div class="contained">
+      </div>
+      <div class="container">
+        <div class="two">
           <figure>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cfkqd4AJ1ms" frameborder="0" allowfullscreen></iframe>
-            <figcaption>Medopad Watch App on BBC World News.<a class="highlight highlight-small" href="https://www.youtube.com/watch?v=Cfkqd4AJ1ms" target="_blank"> Source</a></figcaption>
+            <img src="../assets/img/medo-watches-1.jpg" alt="">
+          </figure>
+          <figure>
+            <img src="../assets/img/medo-watches-2.jpg" alt="">
           </figure>
         </div>
-        <div class="body-copy">
-          <p>The product continues to be developed and now has an companion iPhone app that mirrors a lot of the Watch apps' functionality.</p>
-          <p>This initial engagement led to an offer to go full-time with Medopad in a Product Management & Design role which I respectfully declined.</p>
-          <div class="figure6-6">
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Research</h3>
+          </div>
+          <div class="content">
+            <p>I use both iOS and Android devices in my day to day and I rely on that familiarity to make sure I am up to date with the current design patterns, navigation structures and interactions of each platform. However Apple Watch was a completely new device with no way to get my hands on one pre-release.</p>
+            <p>A quick visit to the Apple website to read through the Apple Watch documentation allowed me to learn about the new features and design patterns.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="figure-img">
+          <figure>
+            <figcaption>The Apple documentation allowed me to get up to speed with the new technology.</figcaption>
+            <img src="../assets/img/medo-apple.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Scope</h3>
+          </div>
+          <div class="content">
+            <p>Having got up to speed, I worked with Medopad and their Medical Advisors to define the scope of the first version of the app. It would allow patients to do four things:</p>
+            <ul>
+              <li>Receive real-time alerts to remind patients which medication to take at what time and at what dosage.</li>
+              <li>Mark a medication as taken so their adherence can be measured and reported back to physicians.</li>
+              <li>Report any symptoms they experience after taking their medication.</li>
+              <li>Track their temperature throughout the day and report it back to their physician.</li>
+            </ul>
             <figure>
-              <img src="../assets/img/medo-watches-1.jpg" alt="">  
+              <img src="../assets/img/medo-flow.jpg" alt="">
+              <figcaption>The flow for a user receiving a medication reminder.</figcaption>
             </figure>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/medo-flow.jpg" alt="">
+            <figcaption>The main Watch app flow.</figcaption>
+          </figure>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Alerts</h3>
+          </div>
+          <div class="content">
+            <p>Notifications are a powerful feature on the Apple Watch. They allow information to be presented to the user right where they need it.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="figure-img">
+          <figure>
+            <figcaption>Notifications are a powerful feature on the Apple Watch.</figcaption>
+            <img src="../assets/img/medo-in-situ.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten no-aside">
+          <div class="content">
+            <p>The user initially receives a vibration to alert them they have a notification. They raise their wrist to view the Short Look and if they keep their wrist raised the notification turns into a Long Look which allows them to interact with it, for example by marking a medication as taken.</p>
             <figure>
-              <img src="../assets/img/medo-watches-2.jpg" alt="">  
+              <img src="../assets/img/medo-flow2.jpg" alt="">
+              <figcaption>The flow for a user receiving a medication reminder.</figcaption>
             </figure>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="full">
+        <div class="container">
+          <figure>
+            <img src="../assets/img/medo-flow2.jpg" alt="">
+            <figcaption>The flow for a user receiving a medication reminder.</figcaption>
+          </figure>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Reporting Symptoms</h3>
+          </div>
+          <div class="content">
+            <p>The ability to report any symptoms experienced after taking medication is an important feature of the app. The design allowed for consumers to select from a list of potential symptoms and submit them to their doctor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="two">
+          <figure>
+            <div class="watch-section">
+              <div class="watch">
+                <img class="apple-watch" src="../assets/img/watch-front.jpg" alt="">
+                <div class="watch-window">
+                  <img src="../assets/img/symptoms.gif" alt="">
+                </div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <img src="../assets/img/medo-icons.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">The Results</h3>
+          </div>
+          <div class="content">
+            <p>The app launch received some very positive feedback from both patients and doctors and was featured on a BBC news report (video length - 6:53 min).</p>
+            <figure>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Cfkqd4AJ1ms" frameborder="0" allowfullscreen></iframe>
+              <figcaption>Medopad Watch App on BBC World News.<a class="highlight highlight-small" href="https://www.youtube.com/watch?v=Cfkqd4AJ1ms" target="_blank"> Source</a></figcaption>
+            </figure>
+            <p>The product continues to be developed and now has an companion iPhone app that mirrors a lot of the Watch apps' functionality.</p>
+            <p>This initial engagement led to an offer to go full-time with Medopad in a Product Management & Design role which I respectfully declined.</p>
           </div>
         </div>
       </div>
@@ -166,7 +232,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="parkhound" class="highlight">Solving the parking crisis</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">4 min read</p>
           </div>
         </div>
@@ -179,7 +245,7 @@
           </a>
           <div class="case-preview-text">
             <h1 class="heading"><a href="jio-health" class="highlight">Connecting physicians and patients for better health</a></h1>
-            <p class="small">Case Study</p>
+            <p class="byline">Case Study</p>
             <p class="read-time">6 min read</p>
           </div>
         </div>

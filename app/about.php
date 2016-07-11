@@ -13,7 +13,7 @@
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i|Source+Serif+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro:400,600|Oswald" rel="stylesheet">
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
@@ -23,83 +23,104 @@
       <div class="container">
         <div class="brand">
           <a href="/">
-            <svg version="1.1"
-               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-               x="0px" y="0px" width="40px" height="50px" viewBox="0 0 40 50" style="enable-background:new 0 0 40 50;" class="logo" xml:space="preserve">
-            <g>
-              <defs>
-                <path id="SVGID_1_" d="M14.9,19.9h10.2v9.9H14.9V19.9z M25.1,5H35v40h-9.9V5z M5,5h9.9v40H5V5z"/>
-              </defs>
-              <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-              </clipPath>
-              <rect style="clip-path:url(#SVGID_2_);" width="40" height="50"/>
-            </g>
+            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="nav" transform="translate(-77.000000, -25.000000)" fill="#262C30">
+                        <g id="Combined-Shape">
+                            <path d="M117,70.0018309 C123.072234,65.4407993 127,58.1790892 127,50 C127,36.1928813 115.807119,25 102,25 C88.1928813,25 77,36.1928813 77,50 C77,58.1790892 80.9277665,65.4407993 87,70.0018309 L87,35 L97,35 L97,74.4999094 C98.6155497,74.8278487 100.287671,75 102,75 C103.712329,75 105.38445,74.8278487 107,74.4999094 L107,50 L117,50 L117,70.0018309 Z M97,50 L107,50 L107,60 L97,60 L97,50 Z M107,35 L117,35 L117,45 L107,45 L107,35 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </svg>
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="work" class="link highlight highlight-small">Work</a></li>
-          <li><a href="about" class="link highlight highlight-small">About</a></li>
-          <li><a href="contact" class="link highlight highlight-small">Contact</a></li>
+          <li><a href="work" class="link">Work</a></li>
+          <li><a href="about" class="link">About</a></li>
+          <li><a href="contact" class="link">Contact</a></li>
         </ul>
       </div>
     </nav>
-    
-    <section class="section case first-section">
+
+    <section class="work-header home">
       <div class="container">
-        <div class="body-copy">
-          <h1 class="heading">About</h1>
-          <p>I've worked with many startups & founders just like you to bring their ideas to life. You may not have had a lot of experience building products before, that's where I can help.</p>
-          <div class="copy-figure4-4">
-            <div class="copy">
-              <p>Being a designer means that I will always be a voice for the user and consider their perspectives first. This will help you achieve two things:
-              <ul>
-                <li>Create a product that users love and want to tell their friends about.</li>
-                <li>Build a sustainable business so you can continue to create a product that users love.</li>
-              </ul>
-            </div>
+        <div class="work-header-heading">
+          <blockquote>
+            <h1 class="heading">&ldquo;I'm grateful for Hamish's contributions to our team, most noteworthy of which is the establishment of design as a core part of our organization's geneaology.&rdquo;</h1>
+            <cite>Raghu Rai - CEO & Founder</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section case">
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">About</h3>
+          </div>
+          <div class="content">
+            <p>I've worked with many startups & founders just like you to bring their ideas to life. You may not have had a lot of experience building products before, that's where I can help.</p>
+            <p>Being a designer means that I will always be a voice for the user and consider their perspectives first. This will help you achieve two things:
+            <ul>
+              <li>Create a product that users love and want to tell their friends about.</li>
+              <li>Build a sustainable business so you can continue to create a product that users love.</li>
+            </ul>
             <figure>
-              <img src="assets/img/me.jpg">
+              <img src="assets/img/me.jpg" alt="">
               <figcaption>Concentration face.</figcaption>
             </figure>
           </div>
         </div>
-        <div class="body-copy">
-          <h1 class="heading">My Values</h1>
-          <ul>
-            <li>I believe in the intersection of user needs and business case. Good design not only solves a users' problem, it creates a sustainable business as well.</li>
-            <li>I believe in starting narrow first. It is a lot easier to explore a solution for a narrowly defined audience, then broaden after gaining initial traction.</li>
-            <li>I believe in making educated assumptions, arriving at the quickest way to test that assumption then validating that idea through talking to real users.</li>
-            <li>I believe in constant iteration and that design is never finished.</li>
-            <li>I believe that true failure only manifests if you fail and don't learn anything from it.</li>
-            <li>I believe that design is a continual learning process. Learning about the problems users face, learning new techniques to arrive at better outcomes, learning new tools to communicate design intentions, always learning.</li>
-          </ul>
-        </div>
-        <div class="body-copy">
-          <h1 class="heading">Personal</h1>
-          <p>Originally from New Zealand, I moved to the UK with the intention of staying for two years. Seven years later and I am happily settled in Cambridge with my wife and child on the way.</p>
-          <div class="copy-figure4-4">
-            <div class="copy">
-              <p>Back in New Zealand, the national sport is undoubtedly Rugby Union. I was brought up to love the game and am lucky enough to play it from time to time.</p>
-              <p>I currently play semi-professionally for a club in Bishops Stortford. It's a fun way to keep fit & healthy and a good way to let off steam after a long day.</p>
-            </div>
-            <figure>
-              <img src="assets/img/rugby.jpg">
-              <figcaption>Colour coordination is ALWAYS important.</figcaption>
-            </figure>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">My Values</h3>
+          </div>
+          <div class="content">
+            <p>These are some principles I like to keep in mind when working through projects:</p>
+            <ul>
+              <li>I believe in the intersection of user needs and business case. Good design not only solves a users' problem, it creates a sustainable business as well.</li>
+              <li>I believe in starting narrow first. It is a lot easier to explore a solution for a narrowly defined audience, then broaden after gaining initial traction.</li>
+              <li>I believe in making educated assumptions, arriving at the quickest way to test that assumption then validating that idea through talking to real users.</li>
+              <li>I believe in constant iteration and that design is never finished.</li>
+              <li>I believe that true failure only manifests if you fail and don't learn anything from it.</li>
+              <li>I believe that design is a continual learning process. Learning about the problems users face, learning new techniques to arrive at better outcomes, learning new tools to communicate design intentions, always learning.</li>
+            </ul>
           </div>
         </div>
-        <div class="body-copy">
-          <div class="copy-figure4-4">
-            <figure>
-              <img src="assets/img/clover.jpg">
-              <figcaption>It's my birthday.</figcaption>
-            </figure>
-            <div class="copy">
-              <p>In between Skype meetings and chat threads, working from home can sometimes get a little lonely. Thankfully I have a trusty work colleague in Clover, our Miniature Schnauzer.</p>
-              <p>Clover is great at making sure I don't work too hard by getting me out of my chair - as long as it results in food or walkies. This is Clover on her 2nd birthday. She got a cake with dog treats. A little bit ridiculous I know...</p>
-            </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Personal</h3>
+          </div>
+          <div class="content">
+            <p>Originally from New Zealand, I moved to the UK with the intention of staying for two years. Seven years later and I am happily settled in Cambridge with my wife and child on the way.</p>
+            <p>Back in New Zealand, the national sport is undoubtedly Rugby Union. I was brought up to love the game and am lucky enough to play it from time to time.</p>
+            <p>I currently play semi-professionally for a club in Bishops Stortford. It's a fun way to keep fit & healthy and a good way to let off steam after a long day.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="two">
+          <figure>
+            <img src="../assets/img/rugby.jpg" alt="">
+          </figure>
+          <figure>
+            <img src="../assets/img/clover.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ten aside-left">
+          <div class="left">
+            <h3 class="section-heading">Remote</h3>
+          </div>
+          <div class="content">
+            <p>In between Skype meetings and chat threads, working from home can sometimes get a little lonely. Thankfully I have a trusty work colleague in Clover, our Miniature Schnauzer.</p>
+            <p>Clover is great at making sure I don't work too hard by getting me out of my chair - as long as it results in food or walkies. That's Clover on her 2nd birthday. She got a cake with dog treats. A little bit ridiculous I know...</p>
           </div>
         </div>
       </div>

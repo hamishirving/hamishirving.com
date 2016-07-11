@@ -179,7 +179,7 @@
             <h3 class="section-heading">What's in a name?</h3>
           </div>
           <div class="content">
-            <p>Our industry has so many titles and roles, it can make it very difficult when looking for a partner to lead design on your project. TLDR - <a class="link-body highlight highlight-small" href="#productDesigner" id="productDesignerLink">Skip to my definition of Product Design.</a></p>
+            <p>Our industry has so many titles and roles, it can make it very difficult when looking for a partner to lead design on your project. TLDR - <a class="link-body highlight highlight-small" href="#productDesignerLink" id="productDesigner">Skip to my definition of Product Design.</a></p>
           </div>
         </div>
       </div>
@@ -206,7 +206,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container" id="productDesignerLink">
         <div class="ten aside-left">
           <div class="left">
             <h3 class="section-heading">Product Design?</h3>
@@ -282,7 +282,7 @@
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
+        ga('create','UA-79360355-1');ga('send','pageview');
     </script>
 
   </body>

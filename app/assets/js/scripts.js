@@ -45,6 +45,11 @@ jQuery(document).ready(function($) {
 		$('section.product-design').css('padding-top', '90px');
 	});
 
+	$('#productDesigner').on('click', function() {
+		$('#productDesignerLink').css('padding-top', '90px');
+	});
+
+
 // End DOM Ready
 });
 
